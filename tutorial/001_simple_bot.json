@@ -1,0 +1,151 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2019-12-06T10:35:50.509Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Simple bot",
+        "de": "Einfacher Bot"
+      },
+      "author": "Wanderer",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Hey! This is the simplest bot you can build!",
+        "de": "Hey! Das ist der einfachste Bot, den du bauen kannst."
+      },
+      "_id": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 292,
+      "_y": 97
+    },
+    {
+      "message": {
+        "en": "Just right click on a node and add a new message.",
+        "de": "Klicke mit der rechten Maustaste auf einen Knoten, um eine neue nachricht einzufügen."
+      },
+      "_id": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 81,
+      "_y": 327
+    },
+    {
+      "message": {
+        "en": "Than double click on the new message and enter a text.",
+        "de": "Doppelklicke dann auf die neue Nachricht und gibt einen Text ein."
+      },
+      "_id": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 387,
+      "_y": 378
+    },
+    {
+      "message": {
+        "en": "You can even add more messages.",
+        "de": "Du kannst auch mehr Nachrichten hinzufügen."
+      },
+      "_id": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 300,
+      "_y": 503
+    },
+    {
+      "message": {
+        "en": "Click on the chat button in the upper right corner to start the chat preview.",
+        "de": "Wenn du fertig bist, kannst du oben rechts auf das Chat-Symbol klicken, um die Chat-Vorschau zu starten."
+      },
+      "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 530,
+      "_y": 605
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "ba346f58-5297-4a09-909f-4876db03ced0",
+      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_to": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "7d866d2a-bf75-457d-9384-65ac1b8299cc",
+      "_from": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_to": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "f389351b-110a-4e5d-830c-1c09535787a6",
+      "_from": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_to": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "9c535f9b-88a5-4931-bc79-352927aca40f",
+      "_from": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_to": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "89493304-4d1d-4b5d-9f4d-e1b8da9dae38",
+      "_from": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_to": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_collection": "leadsTo"
+    }
+  ]
+}
