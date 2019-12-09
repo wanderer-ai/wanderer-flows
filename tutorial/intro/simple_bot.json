@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-06T10:35:50.509Z",
+  "time": "2019-12-09T09:56:03.578Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -33,8 +33,8 @@
     },
     {
       "message": {
-        "en": "Just right click on a node and add a new message.",
-        "de": "Klicke mit der rechten Maustaste auf einen Knoten, um eine neue nachricht einzufügen."
+        "en": "Just hold down the right mouse key on a node and add a new message.",
+        "de": "Halte die rechte Maustaste über einem Knoten gedrückt, um eine neue Nachricht einzufügen."
       },
       "_id": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
       "_collection": "message",
@@ -44,7 +44,7 @@
     },
     {
       "message": {
-        "en": "Than double click on the new message and enter a text.",
+        "en": "Double click than on the new message and enter a text.",
         "de": "Doppelklicke dann auf die neue Nachricht und gibt einen Text ein."
       },
       "_id": "3e2ca128-927c-42de-a4fa-041e4e972505",
@@ -55,7 +55,7 @@
     },
     {
       "message": {
-        "en": "You can even add more messages.",
+        "en": "You can also add more messages.",
         "de": "Du kannst auch mehr Nachrichten hinzufügen."
       },
       "_id": "73db0c74-6c50-4da4-beb1-a607c2149539",
@@ -74,6 +74,18 @@
       "_origin": false,
       "_x": 530,
       "_y": 605
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "68f8c75d-6ccc-4750-a880-46747803eec9",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 827,
+      "_y": 754
     }
   ],
   "edges": [
@@ -145,6 +157,20 @@
       "_id": "89493304-4d1d-4b5d-9f4d-e1b8da9dae38",
       "_from": "73db0c74-6c50-4da4-beb1-a607c2149539",
       "_to": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bcb10160-934a-4959-a74b-a2b3305eb097",
+      "_from": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_to": "68f8c75d-6ccc-4750-a880-46747803eec9",
       "_collection": "leadsTo"
     }
   ]
