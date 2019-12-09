@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-09T09:56:03.578Z",
+  "time": "2019-12-09T10:26:43.537Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -33,8 +33,8 @@
     },
     {
       "message": {
-        "en": "Just hold down the right mouse key on a node and add a new message.",
-        "de": "Halte die rechte Maustaste über einem Knoten gedrückt, um eine neue Nachricht einzufügen."
+        "en": "Just hold down the right mouse key on the last node in this chain and add a new message.",
+        "de": "Halte die rechte Maustaste über dem letzten Knoten in dieser Kette gedrückt, um eine neue Nachricht einzufügen."
       },
       "_id": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
       "_collection": "message",
@@ -61,8 +61,8 @@
       "_id": "73db0c74-6c50-4da4-beb1-a607c2149539",
       "_collection": "message",
       "_origin": false,
-      "_x": 300,
-      "_y": 503
+      "_x": 306,
+      "_y": 554
     },
     {
       "message": {
@@ -72,11 +72,11 @@
       "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
       "_collection": "message",
       "_origin": false,
-      "_x": 530,
-      "_y": 605
+      "_x": 545,
+      "_y": 643
     },
     {
-      "url": "",
+      "url": "https://github.com/wanderer-ai/wanderer-flows/blob/master/tutorial/intro/questions_and_suggestions.json",
       "label": {
         "de": "anzeigen",
         "en": "show"
@@ -84,8 +84,33 @@
       "_id": "68f8c75d-6ccc-4750-a880-46747803eec9",
       "_collection": "jump",
       "_origin": false,
-      "_x": 827,
-      "_y": 754
+      "_x": -1124,
+      "_y": 1002
+    },
+    {
+      "question": {
+        "en": "Continue to the next tutorial?",
+        "de": "Weiter zum nächsten Tutorial?"
+      },
+      "_id": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -1025,
+      "_y": 643
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -1105,
+      "_y": 802
     }
   ],
   "edges": [
@@ -164,12 +189,33 @@
       "priority": 10,
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "finished",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "bcb10160-934a-4959-a74b-a2b3305eb097",
-      "_from": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_id": "77e40d66-621c-47e8-ad3b-8a1b593610ec",
+      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 10,
+      "_id": "0ed8f398-7928-4a6a-93fc-f3855899ec50",
+      "_from": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_to": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2928844a-6145-4a22-b64f-2a77b89442fd",
+      "_from": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
       "_to": "68f8c75d-6ccc-4750-a880-46747803eec9",
       "_collection": "leadsTo"
     }

@@ -115,7 +115,7 @@
       "_y": 1245.425236439477
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/simple_bot.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
       "label": {
         "de": "anzeigen",
         "en": "show"
