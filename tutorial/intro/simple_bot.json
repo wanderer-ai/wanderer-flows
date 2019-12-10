@@ -116,7 +116,7 @@
   "edges": [
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -130,7 +130,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -144,7 +144,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -158,7 +158,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -172,7 +172,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -186,7 +186,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": "finished",
@@ -199,7 +199,7 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "0ed8f398-7928-4a6a-93fc-f3855899ec50",
       "_from": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
       "_to": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
@@ -207,7 +207,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",

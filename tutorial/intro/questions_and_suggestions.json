@@ -202,7 +202,7 @@
   "edges": [
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -216,7 +216,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -229,7 +229,7 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "ad32be8b-21dd-4b7f-9c51-8b82b4787a13",
       "_from": "80119779-55bc-4945-84d6-561aacf021c9",
       "_to": "f6b24007-3863-4060-83bf-92841a0a742a",
@@ -244,7 +244,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": "answered",
@@ -257,14 +257,14 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "49823500-18aa-45ef-b76b-3bc8b4c48c57",
       "_from": "99a6587b-2e01-4bfb-9bc6-52578049c553",
       "_to": "f82a1cbb-c3d7-4df8-85ba-bd479fe944fa",
       "_collection": "isAnswerableBy"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "d57db5d1-6ec6-4122-8b12-b1921e8bc12d",
       "_from": "99a6587b-2e01-4bfb-9bc6-52578049c553",
       "_to": "e2263f62-78db-4f69-b729-94e77aaef4eb",
@@ -272,7 +272,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -286,7 +286,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -300,7 +300,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -314,7 +314,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -328,7 +328,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -342,7 +342,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -356,7 +356,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -370,7 +370,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",

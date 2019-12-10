@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-09T11:29:58.189Z",
+  "time": "2019-12-10T13:25:11.491Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -77,31 +77,6 @@
       "_origin": false,
       "_x": 359.14619288216085,
       "_y": 852.562538004749
-    },
-    {
-      "suggestion": {
-        "de": "Nein! Ich brauche mehr Zeit!",
-        "en": "No I need more time!"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "f222c9f1-907e-4bf8-a166-33d66b974b85",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": -53,
-      "_y": 522
-    },
-    {
-      "message": {
-        "en": "ok^^",
-        "de": "ok^^"
-      },
-      "_id": "f114202f-76fc-4d83-9c2f-08a0bda0c4a8",
-      "_collection": "message",
-      "_origin": false,
-      "_x": -167,
-      "_y": 627
     },
     {
       "question": {
@@ -194,8 +169,8 @@
       "_id": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_collection": "question",
       "_origin": false,
-      "_x": 1629.6687664323074,
-      "_y": 1510.4471776920705
+      "_x": 1666.6687664323074,
+      "_y": 1543.4471776920705
     },
     {
       "suggestion": {
@@ -208,8 +183,8 @@
       "_id": "2d57006c-5412-49ff-b82f-f6d63814a59e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1745.070424678844,
-      "_y": 1609.0481104557473
+      "_x": 1954.070424678844,
+      "_y": 1789.0481104557473
     },
     {
       "suggestion": {
@@ -222,16 +197,16 @@
       "_id": "0fa8adf2-8530-4610-bc69-3bed50514614",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1563.46223708657,
-      "_y": 1661.0507014659609
+      "_x": 1772.46223708657,
+      "_y": 1841.0507014659609
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/simple_bot.json",
       "_id": "6157fb1d-a53f-4393-868c-f74d4febbd54",
       "_collection": "jump",
       "_origin": false,
-      "_x": 1973.8760730811089,
-      "_y": 1701.8477995345218
+      "_x": 2182.876073081109,
+      "_y": 1881.8477995345218
     },
     {
       "message": {
@@ -241,14 +216,61 @@
       "_id": "18ac152b-2491-4e10-96b7-8b958e17e639",
       "_collection": "message",
       "_origin": false,
-      "_x": 1518.255966841854,
-      "_y": 1773.85324065597
+      "_x": 1727.255966841854,
+      "_y": 1953.85324065597
+    },
+    {
+      "question": {
+        "en": "Ready for some more information?",
+        "de": "Bist du bereit für noch mehr Informationen?"
+      },
+      "_id": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 1081.0585060318626,
+      "_y": 1636.4471776920705
+    },
+    {
+      "suggestion": {
+        "de": "Klar!",
+        "en": "Sure!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1044.0585060318626,
+      "_y": 1781.4471776920705
+    },
+    {
+      "message": {
+        "en": "Use the mouse wheel to zoom in or out of the map.",
+        "de": "Benutze das Mausrad, um in die Karte hinein oder heraus zu zoomen."
+      },
+      "_id": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1104.0585060318626,
+      "_y": 1950.4471776920705
+    },
+    {
+      "message": {
+        "en": "Puh! Please repeat the question by clicking on the circle arrow nearby to reload the question if you are ready.",
+        "de": "Puh! Bitte wiederhole die Frage, indem du auf den Kreispfeil in der Nähe der Frage klickst, um die Frage erneut zu laden, wenn du bereit bist."
+      },
+      "_id": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1784.255966841854,
+      "_y": 2242.85324065597
     }
   ],
   "edges": [
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -262,7 +284,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -276,7 +298,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -289,7 +311,7 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "08302c9e-7250-4eeb-bc48-ad29090a2053",
       "_from": "7cfb3ccb-a741-4a5f-9aed-2ce8fc3e867a",
       "_to": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
@@ -297,7 +319,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -310,29 +332,8 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
-      "_id": "d302cf43-7bd9-4e68-814d-df8d29459cb4",
-      "_from": "7cfb3ccb-a741-4a5f-9aed-2ce8fc3e867a",
-      "_to": "f222c9f1-907e-4bf8-a166-33d66b974b85",
-      "_collection": "isAnswerableBy"
-    },
-    {
       "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "53cb7042-309e-4611-a30e-840dcda9885b",
-      "_from": "f222c9f1-907e-4bf8-a166-33d66b974b85",
-      "_to": "f114202f-76fc-4d83-9c2f-08a0bda0c4a8",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -345,14 +346,14 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "dc4d9d9a-4d08-48bd-bb00-90788c58baa4",
       "_from": "cbaf79bf-f60e-4953-b4f8-668300093eba",
       "_to": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
       "_collection": "isAnswerableBy"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "f208d502-bf48-4c0c-ba63-8da54904d5db",
       "_from": "cbaf79bf-f60e-4953-b4f8-668300093eba",
       "_to": "d667a38e-16ef-4046-bae7-d4b77acf416a",
@@ -360,7 +361,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -374,7 +375,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -388,7 +389,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -402,7 +403,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -416,7 +417,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "",
       "condition": false,
@@ -429,28 +430,14 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "b1dc0384-7bdb-4938-8464-df5a95a04c6d",
-      "_from": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
-      "_to": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
-      "_collection": "leadsTo"
-    },
-    {
-      "priority": 10,
+      "priority": 50,
       "_id": "bd70b191-a4da-4bd0-96e7-aec45a16bb36",
       "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_to": "2d57006c-5412-49ff-b82f-f6d63814a59e",
       "_collection": "isAnswerableBy"
     },
     {
-      "priority": 10,
+      "priority": 50,
       "_id": "0f4d9c54-c694-4868-9adc-566df7e60954",
       "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_to": "0fa8adf2-8530-4610-bc69-3bed50514614",
@@ -458,7 +445,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -472,7 +459,7 @@
     },
     {
       "type": "or",
-      "priority": 10,
+      "priority": 50,
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -482,6 +469,69 @@
       "_id": "84c484a5-d978-4698-8438-115d93125a11",
       "_from": "0fa8adf2-8530-4610-bc69-3bed50514614",
       "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bc64afbf-a07f-486c-9306-a53d8ba5cea3",
+      "_from": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
+      "_to": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "bbc14b73-02ec-4664-b226-9d0d2a0117e0",
+      "_from": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_to": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4a7dc2b4-aa6b-4ae4-9efd-83c920f26cf3",
+      "_from": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_to": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "68a7c8c2-b758-4008-83e2-29c06f6faf9f",
+      "_from": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_to": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "112aafa5-f82c-460e-90d8-4244083f2cd6",
+      "_from": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_to": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
       "_collection": "leadsTo"
     }
   ]
