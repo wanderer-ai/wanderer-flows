@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-09T10:26:43.537Z",
+  "time": "2019-12-10T14:08:34.795Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -66,8 +66,8 @@
     },
     {
       "message": {
-        "en": "Click on the chat button in the upper right corner to start the chat preview.",
-        "de": "Wenn du fertig bist, kannst du oben rechts auf das Chat-Symbol klicken, um die Chat-Vorschau zu starten."
+        "en": "When you're done, just restart the next question by clicking on the repeat symbol on the question.",
+        "de": "Wenn du fertig bist, starte einfach die nächste frage neu, indem du auf das Wiederhol-Symbol an der Frage klickst."
       },
       "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
       "_collection": "message",

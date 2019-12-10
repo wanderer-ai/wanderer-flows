@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-09T10:50:49.581Z",
+  "time": "2019-12-10T14:26:37.360Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -132,7 +132,7 @@
       "_y": 1891.8341495146112
     },
     {
-      "url": "",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/creating_edges.json",
       "label": {
         "de": "Klicke hier, um zum nächsten Tutorial zu gelangen",
         "en": "Click here to get to the next tutorial"
@@ -145,8 +145,8 @@
     },
     {
       "message": {
-        "en": "Here is a question:",
-        "de": "Hier ist eine Frage:"
+        "en": "Please answer the following example question:",
+        "de": "Bitte beantworte die folgende Beispiel-Frage:"
       },
       "_id": "cb625e51-9bfb-42a6-98bc-a65d8ad56cc9",
       "_collection": "message",
@@ -162,8 +162,8 @@
       "_id": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
       "_collection": "message",
       "_origin": false,
-      "_x": -238.03846407264123,
-      "_y": 917.7119367773979
+      "_x": -243.03846407264123,
+      "_y": 844.7119367773979
     },
     {
       "message": {
@@ -173,8 +173,8 @@
       "_id": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
       "_collection": "message",
       "_origin": false,
-      "_x": -550.0542692349425,
-      "_y": 1295.3242699860132
+      "_x": -718.439805814876,
+      "_y": 1439.5443529153774
     },
     {
       "message": {
@@ -197,6 +197,17 @@
       "_origin": false,
       "_x": 783.8033164930731,
       "_y": 969.8046119981797
+    },
+    {
+      "message": {
+        "en": "Alternatively, you can also repeat the question with the repeat button next to the question.",
+        "de": "Alternativ kannst du die Frage auch mit dem Wiederholen-Button neben der Frage wiederholen."
+      },
+      "_id": "fb6c4e88-272f-4258-9424-ee07b5190f61",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -490.0384640726413,
+      "_y": 1090.711936777398
     }
   ],
   "edges": [
@@ -229,14 +240,14 @@
       "_collection": "leadsTo"
     },
     {
-      "priority": 50,
+      "priority": "37",
       "_id": "ad32be8b-21dd-4b7f-9c51-8b82b4787a13",
       "_from": "80119779-55bc-4945-84d6-561aacf021c9",
       "_to": "f6b24007-3863-4060-83bf-92841a0a742a",
       "_collection": "isAnswerableBy"
     },
     {
-      "priority": "19",
+      "priority": "52",
       "_id": "750fea66-ef84-4c07-aa50-cb9fc8fcad7a",
       "_from": "80119779-55bc-4945-84d6-561aacf021c9",
       "_to": "f3852606-ade0-4ea5-bbcd-ddcc4a97d561",
@@ -244,7 +255,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "25",
       "name": "",
       "expose": "",
       "condition": "answered",
@@ -335,20 +346,6 @@
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "c2bdeb12-2c70-4dcb-adc0-a74119a9e06f",
-      "_from": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
-      "_to": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "",
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
       "_id": "bb36a8df-dffe-406d-90a8-08d21c71c988",
       "_from": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
       "_to": "99a6587b-2e01-4bfb-9bc6-52578049c553",
@@ -380,6 +377,34 @@
       "_id": "475ec143-e69d-402d-a6c8-3638bb1c0747",
       "_from": "f3852606-ade0-4ea5-bbcd-ddcc4a97d561",
       "_to": "98b83c24-0ca0-4f9a-9ee6-2f5a77bf4fbf",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "9a8aa15d-4bd9-4f8d-ab98-843eeb696fe5",
+      "_from": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
+      "_to": "fb6c4e88-272f-4258-9424-ee07b5190f61",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "8fce3562-c8b9-431a-bc12-a67a522a5bb8",
+      "_from": "fb6c4e88-272f-4258-9424-ee07b5190f61",
+      "_to": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
       "_collection": "leadsTo"
     }
   ]

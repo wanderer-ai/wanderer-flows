@@ -1,0 +1,76 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2019-12-10T14:58:12.555Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "3165c9c2-476c-400c-b4ec-0b3687e27a32",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Graph Traversal",
+        "de": "Graph Traversal"
+      },
+      "author": "Wanderer",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "To understand how the Wanderer flow works its important to understand Graph Traversal.",
+        "de": "Um zu verstehen, wie der Wanderer Flow funktioniert, ist es wichtig, dass du verstehst, was Graph Traversal ist."
+      },
+      "_id": "29251f5b-8830-4d02-9242-4b5c654362ab",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 303,
+      "_y": 54
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Einige Dinge werden dir sonst im Verlauf des Tutorials komisch vorkommen."
+      },
+      "_id": "b15aa3a0-44c4-493e-9fd4-1c072e024ab1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 400,
+      "_y": 201
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "5f70ae1b-8e80-43a0-9293-a610c2a7d8fc",
+      "_from": "3165c9c2-476c-400c-b4ec-0b3687e27a32",
+      "_to": "29251f5b-8830-4d02-9242-4b5c654362ab",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "36867691-d0e3-4caa-b7ce-c61f2cde2e1f",
+      "_from": "29251f5b-8830-4d02-9242-4b5c654362ab",
+      "_to": "b15aa3a0-44c4-493e-9fd4-1c072e024ab1",
+      "_collection": "leadsTo"
+    }
+  ]
+}

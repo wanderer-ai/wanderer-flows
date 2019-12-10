@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T13:25:11.491Z",
+  "time": "2019-12-10T14:04:57.280Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -153,7 +153,7 @@
     {
       "message": {
         "en": "Now you can easily drag them around together.",
-        "de": "Jetzt können Sie sie einfach zusammen an einen neuen Ort verschieben."
+        "de": "Jetzt kannst du sie einfach zusammen an einen neuen Ort verschieben."
       },
       "_id": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
       "_collection": "message",

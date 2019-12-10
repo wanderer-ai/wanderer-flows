@@ -1,0 +1,290 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2019-12-10T15:11:01.647Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "e9a42100-9a13-4ee5-a421-3a25993992b5",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Multiple outgoing edges",
+        "de": "Mehrfach ausgehende Edges"
+      },
+      "author": "Wanderer",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "In Wanderer it is possible that a node has several outgoing edges.",
+        "de": "In Wanderer ist es möglich, dass ein Knoten mehrere ausgehende Edges hat."
+      },
+      "_id": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -10,
+      "_y": 334
+    },
+    {
+      "message": {
+        "en": "For example this message.",
+        "de": "Zum Beispiel diese Nachricht."
+      },
+      "_id": "a7574d55-2a27-49fa-867a-8097d1b02e1e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -237,
+      "_y": 378
+    },
+    {
+      "message": {
+        "en": "This message for example.",
+        "de": "Diese Nachricht zum Beispiel."
+      },
+      "_id": "e91c70cc-aef3-483f-90c5-e7dfd0762b03",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -55,
+      "_y": 528
+    },
+    {
+      "message": {
+        "en": "This message is such an example.",
+        "de": "Diese Nachricht ist so ein Beispiel."
+      },
+      "_id": "c783bf02-6dab-4ac9-b5d1-dca865321d48",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 235,
+      "_y": 349
+    },
+    {
+      "message": {
+        "en": "The meaning will not open up to you now but that will be important later.",
+        "de": "Der Sinn wird sich dir jetzt noch nicht erschließen aber das wird später noch wichtig sein."
+      },
+      "_id": "c95adafc-400c-4acc-b7ce-95b2aa7bcfe6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 256,
+      "_y": 561
+    },
+    {
+      "question": {
+        "en": "Is that clear :-) ?",
+        "de": "Klar soweit :-) ?"
+      },
+      "_id": "17034317-52ba-4135-9ced-d12a55635d09",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 442,
+      "_y": 704
+    },
+    {
+      "suggestion": {
+        "de": "ja",
+        "en": "yes"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "99508516-6e75-46f7-8175-5406d70a090a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 382,
+      "_y": 855
+    },
+    {
+      "message": {
+        "en": "If you want, you can control which edge is followed first by raising its priority. Double click on the Edge and use the slider. Restart the chat afterwards.",
+        "de": "Wenn du möchtest, kannst du steuern, welcher Edge zuerst gefolgt wird, indem du ihre Priorität erhöhst. Doppelklicke dafür auf die Edge und nutze den Schieberegler. Starte den Chat danach neu."
+      },
+      "_id": "66c45336-cd2e-44ca-b5ce-c97337eab9ad",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 618.0387529121116,
+      "_y": 995.4417197380378
+    },
+    {
+      "question": {
+        "en": "Ready for the next tutorial?",
+        "de": "Bereit für das nächste tutorial?"
+      },
+      "_id": "e7e3f230-57f1-439b-828d-0a125a974d84",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 501.42718739599604,
+      "_y": 1202.0840652387717
+    },
+    {
+      "suggestion": {
+        "de": "Ja, ich bin bereit.",
+        "en": "Sure, I'am ready."
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "8eb8621d-d728-4eda-9993-c92323054bd5",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 629.90937534668,
+      "_y": 1308.9432841447779
+    },
+    {
+      "url": "",
+      "_id": "7b4d0f97-a022-4873-a14c-1f64ec24ced8",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 726.90937534668,
+      "_y": 1407.9432841447779
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "15277050-8aa3-445b-9502-dc54f0b70a23",
+      "_from": "e9a42100-9a13-4ee5-a421-3a25993992b5",
+      "_to": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "8773d9b8-16bd-4a88-937a-58c1f2deb5d6",
+      "_from": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_to": "a7574d55-2a27-49fa-867a-8097d1b02e1e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e9c07e29-357c-4496-a337-61ff6b3f9fba",
+      "_from": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_to": "e91c70cc-aef3-483f-90c5-e7dfd0762b03",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "b7c6c99a-ff43-46b5-a5ea-2fdd828b5bec",
+      "_from": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_to": "c783bf02-6dab-4ac9-b5d1-dca865321d48",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "12",
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4891e213-6c33-4b25-8c0c-55c5fce9521c",
+      "_from": "b138149c-39ff-4713-948d-9097ca1a326e",
+      "_to": "c95adafc-400c-4acc-b7ce-95b2aa7bcfe6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a6b518b6-db30-4522-b1e7-1f9aae7b767b",
+      "_from": "c95adafc-400c-4acc-b7ce-95b2aa7bcfe6",
+      "_to": "17034317-52ba-4135-9ced-d12a55635d09",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "ff9f7a73-6c3a-4889-bdca-fa2d48949518",
+      "_from": "17034317-52ba-4135-9ced-d12a55635d09",
+      "_to": "99508516-6e75-46f7-8175-5406d70a090a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4960d4fd-5acf-46a1-9266-509cf00af8ca",
+      "_from": "99508516-6e75-46f7-8175-5406d70a090a",
+      "_to": "66c45336-cd2e-44ca-b5ce-c97337eab9ad",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "8eb191f3-519e-414d-87fc-43c4fefcff6d",
+      "_from": "66c45336-cd2e-44ca-b5ce-c97337eab9ad",
+      "_to": "e7e3f230-57f1-439b-828d-0a125a974d84",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "a2029209-02e5-4df6-a948-c02ae2882442",
+      "_from": "e7e3f230-57f1-439b-828d-0a125a974d84",
+      "_to": "8eb8621d-d728-4eda-9993-c92323054bd5",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2abbc8ee-6e55-4f78-baa1-15cc72ebb972",
+      "_from": "8eb8621d-d728-4eda-9993-c92323054bd5",
+      "_to": "7b4d0f97-a022-4873-a14c-1f64ec24ced8",
+      "_collection": "leadsTo"
+    }
+  ]
+}
