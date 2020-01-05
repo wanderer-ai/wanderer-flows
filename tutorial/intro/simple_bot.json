@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T14:08:34.795Z",
+  "time": "2019-12-10T16:11:49.224Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -67,7 +67,7 @@
     {
       "message": {
         "en": "When you're done, just restart the next question by clicking on the repeat symbol on the question.",
-        "de": "Wenn du fertig bist, starte einfach die nächste frage neu, indem du auf das Wiederhol-Symbol an der Frage klickst."
+        "de": "Wenn du fertig bist, starte einfach die nächste Frage neu, indem du auf das Wiederholen-Symbol an der Frage klickst."
       },
       "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
       "_collection": "message",
@@ -76,7 +76,7 @@
       "_y": 643
     },
     {
-      "url": "https://github.com/wanderer-ai/wanderer-flows/blob/master/tutorial/intro/questions_and_suggestions.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/questions_and_suggestions.json",
       "label": {
         "de": "anzeigen",
         "en": "show"
