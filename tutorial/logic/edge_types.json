@@ -1,0 +1,289 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-09-15T19:22:45.206Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "bc9ec9e6-09d0-49f0-9334-f98a1e5820d2",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Edge types",
+        "de": "Edge-Typen"
+      },
+      "author": "Unknown",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Hi! Edges give you the opportunity to connect nodes with each other.",
+        "de": "Hi! Edges geben dir die Möglichkeit  Knoten miteinander zu verbinden."
+      },
+      "_id": "aca3ffca-8601-4f24-8c9a-0f262efc192a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -180.0000000000001,
+      "_y": 301.00000000000006
+    },
+    {
+      "message": {
+        "en": "There are basically three different types of edges.",
+        "de": "Dabei gibt es grundsätzlich drei verschiedene Arten von Edges."
+      },
+      "_id": "8fc49fab-c2f6-45ac-a561-fd2a398f6c22",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 194.00000000000003,
+      "_y": 412.00000000000006
+    },
+    {
+      "question": {
+        "en": "Which edge type would you like to learn more about?",
+        "de": "Über welche Edge möchtest du mehr erfahren?"
+      },
+      "_id": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 487.0000000000001,
+      "_y": 490
+    },
+    {
+      "suggestion": {
+        "de": "Standard-Edges",
+        "en": "Default edges"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "cbc3f987-e2c5-4046-acbb-bba08f2545b2",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 284,
+      "_y": 653
+    },
+    {
+      "suggestion": {
+        "de": "Benötigte Edges",
+        "en": "Required edges"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "1833f4ed-c195-4f6b-9762-8b7171283615",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 451.00000000000006,
+      "_y": 799.0000000000001
+    },
+    {
+      "suggestion": {
+        "de": "Verbotene Edges",
+        "en": "Forbidden edges"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "8171323a-e441-4c8c-a940-5b34d4d9d4e2",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 612.0000000000001,
+      "_y": 706.0000000000001
+    },
+    {
+      "suggestion": {
+        "de": "Weiter zum nächsten Tutorial",
+        "en": "Move on to the next tutorial"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "5d23676e-ee57-4d1d-80e8-172755df21bc",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 772.0000000000002,
+      "_y": 570.9999999999999
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "76e5251f-1165-485a-89dc-5e33a13e3d4e",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 88.99999999999999,
+      "_y": 704.0000000000003
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "ee3448c7-976a-4829-bf71-7735d77b9c3a",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 797.0000000000002,
+      "_y": 879.0000000000002
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "d63f8ab7-4b7f-4692-bfb8-b33fd7564133",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 381.0000000000001,
+      "_y": 979.0000000000003
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "1795c607-7bce-4dd4-b867-67edd4b6484e",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 1006.0000000000005,
+      "_y": 609.0000000000001
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a2c6ff91-ec1d-4c1d-9a78-6f02c11cc671",
+      "_from": "bc9ec9e6-09d0-49f0-9334-f98a1e5820d2",
+      "_to": "aca3ffca-8601-4f24-8c9a-0f262efc192a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "46ac7a18-7100-423e-ab27-f364511911f5",
+      "_from": "aca3ffca-8601-4f24-8c9a-0f262efc192a",
+      "_to": "8fc49fab-c2f6-45ac-a561-fd2a398f6c22",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "dd27f9fc-cbba-4a05-b4e8-5303427ba52f",
+      "_from": "8fc49fab-c2f6-45ac-a561-fd2a398f6c22",
+      "_to": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "ca64f8a2-fb7c-450a-b0b5-ec11b08fc039",
+      "_from": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_to": "cbc3f987-e2c5-4046-acbb-bba08f2545b2",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "a811cad4-6b41-44b7-9baf-3ff17843ce16",
+      "_from": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_to": "1833f4ed-c195-4f6b-9762-8b7171283615",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "c255ba8d-7a48-4656-ba49-0c357d9bdcc4",
+      "_from": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_to": "8171323a-e441-4c8c-a940-5b34d4d9d4e2",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "ab35a8ad-0634-426b-bd24-6be835572d7d",
+      "_from": "e6be5de6-210e-446e-88e4-60a4a17afa8c",
+      "_to": "5d23676e-ee57-4d1d-80e8-172755df21bc",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "3e4a8d7b-3c5e-4fa6-b2c3-b09db6a43b90",
+      "_from": "cbc3f987-e2c5-4046-acbb-bba08f2545b2",
+      "_to": "76e5251f-1165-485a-89dc-5e33a13e3d4e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "0f1fdb85-d2bd-49a6-8ca2-649ac2a12f2c",
+      "_from": "1833f4ed-c195-4f6b-9762-8b7171283615",
+      "_to": "d63f8ab7-4b7f-4692-bfb8-b33fd7564133",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a15236eb-5429-423f-8053-35c38d3db264",
+      "_from": "8171323a-e441-4c8c-a940-5b34d4d9d4e2",
+      "_to": "ee3448c7-976a-4829-bf71-7735d77b9c3a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e80ebf96-5204-45a5-a205-062645e107a1",
+      "_from": "5d23676e-ee57-4d1d-80e8-172755df21bc",
+      "_to": "1795c607-7bce-4dd4-b867-67edd4b6484e",
+      "_collection": "leadsTo"
+    }
+  ]
+}

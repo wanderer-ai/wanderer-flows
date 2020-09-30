@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T15:11:01.647Z",
+  "time": "2020-09-15T19:53:04.333Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -33,19 +33,19 @@
     },
     {
       "message": {
-        "en": "For example this message.",
-        "de": "Zum Beispiel diese Nachricht."
+        "en": "For example to this message.",
+        "de": "Zum Beispiel zu diese Nachricht."
       },
       "_id": "a7574d55-2a27-49fa-867a-8097d1b02e1e",
       "_collection": "message",
       "_origin": false,
-      "_x": -237,
-      "_y": 378
+      "_x": -269,
+      "_y": 354
     },
     {
       "message": {
-        "en": "This message for example.",
-        "de": "Diese Nachricht zum Beispiel."
+        "en": "Or to this message for example.",
+        "de": "Oder zu diese Nachricht zum Beispiel."
       },
       "_id": "e91c70cc-aef3-483f-90c5-e7dfd0762b03",
       "_collection": "message",
@@ -55,8 +55,8 @@
     },
     {
       "message": {
-        "en": "This message is such an example.",
-        "de": "Diese Nachricht ist so ein Beispiel."
+        "en": "Or to there.",
+        "de": "Oder nach hier."
       },
       "_id": "c783bf02-6dab-4ac9-b5d1-dca865321d48",
       "_collection": "message",

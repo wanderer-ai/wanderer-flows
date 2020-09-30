@@ -1,0 +1,358 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-09-15T19:13:25.212Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "eb6e0b1b-4e51-4f98-a5c2-5be0fe35ec4a",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Variables",
+        "de": "Variablen"
+      },
+      "author": "Unknown",
+      "license": "MIT"
+    },
+    {
+      "question": {
+        "en": "New question",
+        "de": "Bitte sag mir, wie du heißt, damit ich dich besser ansprechen kann."
+      },
+      "_id": "61bba17c-64ab-4fdd-bb28-194f76e0ea3e",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -619.4808255935327,
+      "_y": 204.109538857274
+    },
+    {
+      "suggestion": {
+        "de": "",
+        "en": "Suggestion"
+      },
+      "type": "text",
+      "name": "",
+      "priority": 50,
+      "_id": "2f94a7c7-dd52-471f-ae94-7c1ca14f8318",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -350.5678346263089,
+      "_y": 392.87337633831936
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Hallo {{name}}! Wie du siehst nutze ich eine Edge, um die Information aus der Antwort an diesen Knoten zu leiten."
+      },
+      "_id": "4806230c-8da5-465d-a175-a6b6ccf55904",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 112.05133921146802,
+      "_y": 610.9163834756151
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Du kannst auf alle Daten, die im Verlauf des Chats anfallen zugreifen und diese weiter verarbeiten."
+      },
+      "_id": "700bfe35-6585-483d-aa1b-8d5d2e79a245",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 192.03479149596367,
+      "_y": -252.04185040979013
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Jede Edge kann immer nur eine Information transportieren. Du kannst der Edge einen Namen geben."
+      },
+      "_id": "bdbcf8a2-b616-4f38-8f9d-64e52f4f37e3",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 509.64043013160654,
+      "_y": 539.9738990328161
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Am Zielknoten kannst du diesen Namen innerhalb von geschweiften Klammern nutzen und so ausgeben."
+      },
+      "_id": "97b402e2-8425-4a5d-ada1-d504b37a6967",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 806.0455139404456,
+      "_y": 329.0455658883051
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Damit die Informationen aus einem Knoten in einem anderen verfügbar sind, musst du diese jeweils durch eine Edge dorthin transportieren."
+      },
+      "_id": "00b0c4e6-497c-4a40-87bf-0a706e383bcd",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -198.7937593227603,
+      "_y": -381.20965607280243
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Es ist nicht möglich einfach global auf alle Informationen zuzugreifen. Das dient der Übersichtlichkeit."
+      },
+      "_id": "2649e9bf-fde4-41f6-9d0c-eb98c5f2295b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -579.2272558131259,
+      "_y": -150.14959711469277
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "{{name}}, damit die Information auch in diesem Knoten verfügbar ist, sende ich diese auch hier her."
+      },
+      "_id": "5809086c-ade9-4500-b596-dd3b411e0e4b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 776.5052094595907,
+      "_y": -26.576464205491387
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Du erkennst außerdem, dass drei der Edges gelb sind. Das bedeutet, dass deren Zielknoten erst geladen wird, wenn beide Edges bereits durchlaufen wurden."
+      },
+      "_id": "ee55e2a7-2457-4b46-b141-53fdc2119d68",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1073.080539203135,
+      "_y": -216.55646398406077
+    },
+    {
+      "question": {
+        "en": "New question",
+        "de": "Bereit für das nächste Tutorial?"
+      },
+      "_id": "b2995c3f-f5b7-4fbf-9456-d3a56d465bb4",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 1313.112227071054,
+      "_y": -517.7499041525573
+    },
+    {
+      "suggestion": {
+        "de": "Los gehts!",
+        "en": "Suggestion"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "3d7c4e98-fc3e-4de0-8301-6ac8abe5fcdb",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1466.4111928341683,
+      "_y": -619.864706782033
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "19111f5e-3cb0-41f8-aadf-56063000cb2f",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 1723.8781102222351,
+      "_y": -753.911811126534
+    }
+  ],
+  "edges": [
+    {
+      "priority": 25,
+      "_id": "278100b2-df3a-4779-a73e-3f435b9a669a",
+      "_from": "61bba17c-64ab-4fdd-bb28-194f76e0ea3e",
+      "_to": "2f94a7c7-dd52-471f-ae94-7c1ca14f8318",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "name",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a3219844-a3fb-481b-9fc0-1c7f46216af0",
+      "_from": "2f94a7c7-dd52-471f-ae94-7c1ca14f8318",
+      "_to": "4806230c-8da5-465d-a175-a6b6ccf55904",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "1678a83d-cbfb-44a7-96ed-835044ab4960",
+      "_from": "eb6e0b1b-4e51-4f98-a5c2-5be0fe35ec4a",
+      "_to": "700bfe35-6585-483d-aa1b-8d5d2e79a245",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "d2330fd2-c2ee-4eab-9943-524d742a2a54",
+      "_from": "4806230c-8da5-465d-a175-a6b6ccf55904",
+      "_to": "bdbcf8a2-b616-4f38-8f9d-64e52f4f37e3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "87a3459d-6edf-4032-ae75-19e180a37c96",
+      "_from": "bdbcf8a2-b616-4f38-8f9d-64e52f4f37e3",
+      "_to": "97b402e2-8425-4a5d-ada1-d504b37a6967",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "ab3a6a17-9161-4f49-9744-b84eb33850ae",
+      "_from": "700bfe35-6585-483d-aa1b-8d5d2e79a245",
+      "_to": "00b0c4e6-497c-4a40-87bf-0a706e383bcd",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "51af0de0-a155-4275-83cf-f0121723db33",
+      "_from": "00b0c4e6-497c-4a40-87bf-0a706e383bcd",
+      "_to": "2649e9bf-fde4-41f6-9d0c-eb98c5f2295b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2090462c-4a13-414c-bc98-44ee26b73354",
+      "_from": "2649e9bf-fde4-41f6-9d0c-eb98c5f2295b",
+      "_to": "61bba17c-64ab-4fdd-bb28-194f76e0ea3e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "8235fa34-74ce-404e-aac9-e20f6f3bd438",
+      "_from": "97b402e2-8425-4a5d-ada1-d504b37a6967",
+      "_to": "5809086c-ade9-4500-b596-dd3b411e0e4b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "name",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "41ce545e-92b6-470c-9486-8730c446388e",
+      "_from": "2f94a7c7-dd52-471f-ae94-7c1ca14f8318",
+      "_to": "5809086c-ade9-4500-b596-dd3b411e0e4b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "9e965fd1-bd27-4eb1-aadc-72a1d47249ab",
+      "_from": "5809086c-ade9-4500-b596-dd3b411e0e4b",
+      "_to": "ee55e2a7-2457-4b46-b141-53fdc2119d68",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "f96390c3-e048-45d9-8913-2786439bc9ae",
+      "_from": "ee55e2a7-2457-4b46-b141-53fdc2119d68",
+      "_to": "b2995c3f-f5b7-4fbf-9456-d3a56d465bb4",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "3b770a42-ed00-4a4f-aef3-fec5376e7439",
+      "_from": "b2995c3f-f5b7-4fbf-9456-d3a56d465bb4",
+      "_to": "3d7c4e98-fc3e-4de0-8301-6ac8abe5fcdb",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "b10367d4-b2e9-4256-9cc1-06db4e372e82",
+      "_from": "3d7c4e98-fc3e-4de0-8301-6ac8abe5fcdb",
+      "_to": "19111f5e-3cb0-41f8-aadf-56063000cb2f",
+      "_collection": "leadsTo"
+    }
+  ]
+}

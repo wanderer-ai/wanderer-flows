@@ -1,0 +1,173 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-09-15T19:27:14.270Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "8bb0a101-a429-4a9d-8f2f-4c59a8bd0594",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Default edges",
+        "de": "Standard-Edges"
+      },
+      "author": "Unknown",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "You can see these edges almost everywhere.",
+        "de": "Diese Edges siehst du quasi überall."
+      },
+      "_id": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -221,
+      "_y": 239
+    },
+    {
+      "message": {
+        "en": "They are gray and just lead from one node to another.",
+        "de": "Sie sind Grau und leiten einfach von einem Knoten auf einen anderen weiter."
+      },
+      "_id": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 38,
+      "_y": 413
+    },
+    {
+      "message": {
+        "en": "You can change the type of edge at any time. To do this, double-click on an Edge and select the type.",
+        "de": "Du kannst den Typ einer Edge zu jeder Zeit ändern. Klicke dazu doppelt auf eine Edge und wähle den Typ aus."
+      },
+      "_id": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 302,
+      "_y": 419
+    },
+    {
+      "question": {
+        "en": "Back to the edge types",
+        "de": "Zurück zu den Edge-Typen"
+      },
+      "_id": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 654,
+      "_y": 344
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 746,
+      "_y": 470
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "Edge-Typen",
+        "en": "Edge types"
+      },
+      "_id": "6c332f1d-fabb-47f4-9996-cc1d5d7cc7e3",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 766,
+      "_y": 633
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e19f631f-6c99-4ff6-9e55-bf34fd1eb362",
+      "_from": "8bb0a101-a429-4a9d-8f2f-4c59a8bd0594",
+      "_to": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4f121c1b-9378-4bdd-924b-22acb1f7b2b4",
+      "_from": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_to": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "eb1687f0-7ae0-4c76-a95d-eedcb3b64e71",
+      "_from": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_to": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bfc9481f-175f-4420-b4d7-939aa8c8be7e",
+      "_from": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_to": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "de73dbb4-c876-4eee-887f-299df7cf7397",
+      "_from": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_to": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a1599701-63cb-4757-9422-7893a631ea30",
+      "_from": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_to": "6c332f1d-fabb-47f4-9996-cc1d5d7cc7e3",
+      "_collection": "leadsTo"
+    }
+  ]
+}

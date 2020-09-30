@@ -1,0 +1,477 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-09-15T19:37:11.343Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "8bb0a101-a429-4a9d-8f2f-4c59a8bd0594",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Required edges",
+        "de": "Benötigte-Edges"
+      },
+      "author": "Unknown",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Required edges are shown in yellow.",
+        "de": "Benötigte Edges werden Gelb dargestellt."
+      },
+      "_id": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -221,
+      "_y": 239
+    },
+    {
+      "message": {
+        "en": "Edit an Edge and select the type \"required\" to activate this mode.",
+        "de": "Bearbeite eine Edge und wähle den Typ \"required\" aus, um diesen Modus zu aktivieren."
+      },
+      "_id": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 38,
+      "_y": 413
+    },
+    {
+      "message": {
+        "en": "A node to which one or more required edges point will only be entered when all required edges have already been passed.",
+        "de": "Ein Knoten, auf den ein oder mehrere benötigte Edges zeigen, wird erst dann betreten, wenn alle benötigten Edges bereits durchlaufen wurden."
+      },
+      "_id": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 367.7309644108044,
+      "_y": 442.6631471878896
+    },
+    {
+      "question": {
+        "en": "You cannot continue here until you have selected all the answers.",
+        "de": "Hier geht es erst weiter, wenn du alle Antworten auswählst."
+      },
+      "_id": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 643.4830456942714,
+      "_y": 345.31461928821614
+    },
+    {
+      "suggestion": {
+        "de": "Erste Antwort",
+        "en": "First Suggestion"
+      },
+      "type": "checkbox",
+      "name": "",
+      "priority": 50,
+      "_id": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 688.1567513184922,
+      "_y": 546.247918716533
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "Edge-Typen",
+        "en": "Edge types"
+      },
+      "_id": "6c332f1d-fabb-47f4-9996-cc1d5d7cc7e3",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 542.5147210032653,
+      "_y": 1617.6498468738496
+    },
+    {
+      "suggestion": {
+        "de": "Zweite Antwort",
+        "en": "Second Suggestion"
+      },
+      "type": "checkbox",
+      "name": "",
+      "priority": 50,
+      "_id": "fc86680a-713c-4721-ab51-d7beeade250a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 817.6186801401009,
+      "_y": 498.1917765811814
+    },
+    {
+      "message": {
+        "en": "Fine! You chose both answers.",
+        "de": "Prima! Du hast beide Antworten gewählt."
+      },
+      "_id": "cceefb56-988d-4fb6-98ef-21f951dfa9d3",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 818.224568541407,
+      "_y": 702.5975632674383
+    },
+    {
+      "message": {
+        "en": "The same can of course also be done with two or more questions.",
+        "de": "Das gleiche geht natürlich auch mit zwei oder mehreren Fragen."
+      },
+      "_id": "760ccf56-dddb-4a71-8668-c48f4605bc38",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 522.0411170940934,
+      "_y": 768.878273944197
+    },
+    {
+      "question": {
+        "en": "Please choose A to continue!",
+        "de": "Bitte wähle A, um weiter zu kommen!"
+      },
+      "_id": "4e073c11-ae4a-4296-bf55-f74da5bfd735",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 259.35238642861407,
+      "_y": 842.5414211320866
+    },
+    {
+      "suggestion": {
+        "de": "B",
+        "en": "B"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "be52ff46-1a4e-4779-a443-04a5c75181d6",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 116.21563533155269,
+      "_y": 912.9121825556545
+    },
+    {
+      "suggestion": {
+        "de": "A",
+        "en": "A"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "cdbfa44c-37b8-4daf-b477-fe8fe7c74689",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 299.22842707034755,
+      "_y": 987.3846698135945
+    },
+    {
+      "question": {
+        "en": "Please choose C to continue!",
+        "de": "Bitte wähle C, um weiter zu kommen!"
+      },
+      "_id": "59d0e136-2323-4452-90a8-08b907e043a9",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 609.8504571641438,
+      "_y": 1019.2056849712078
+    },
+    {
+      "suggestion": {
+        "de": "D",
+        "en": "D"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "90ea3139-4d48-4295-b342-40f1ba59147d",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 734.1206094045713,
+      "_y": 1143.846598635203
+    },
+    {
+      "suggestion": {
+        "de": "C",
+        "en": "C"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "6654e8bc-e4a5-44e4-89cb-f0c04072035b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 468.34294464351456,
+      "_y": 1111.2056849712078
+    },
+    {
+      "message": {
+        "en": "Excellent! You chose A and C!",
+        "de": "Super! Du hast A und C gewählt!"
+      },
+      "_id": "01ca9b32-bbf0-4237-a6bf-e729437a28e9",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 219.4179703490653,
+      "_y": 1255.229035146334
+    },
+    {
+      "question": {
+        "en": "Zurück zu den edge types?",
+        "de": "Zurück zu den Edge-Typen?"
+      },
+      "_id": "953e1fa0-9302-4426-81c0-7138d8717e89",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 141.75370650994395,
+      "_y": 1442.48862895043
+    },
+    {
+      "suggestion": {
+        "de": "Los gehts!",
+        "en": "Here we go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "f173c747-70ac-4499-852c-2de7e98e34da",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 127.76426494627525,
+      "_y": 1572.814923326209
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e19f631f-6c99-4ff6-9e55-bf34fd1eb362",
+      "_from": "8bb0a101-a429-4a9d-8f2f-4c59a8bd0594",
+      "_to": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4f121c1b-9378-4bdd-924b-22acb1f7b2b4",
+      "_from": "2f8101af-0495-4109-86a4-1ec394320ac2",
+      "_to": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "eb1687f0-7ae0-4c76-a95d-eedcb3b64e71",
+      "_from": "36c9a7fa-76df-411b-89e0-ba874c55b905",
+      "_to": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bfc9481f-175f-4420-b4d7-939aa8c8be7e",
+      "_from": "b571c058-63d6-4067-9cb7-ec9c7caa20bc",
+      "_to": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "de73dbb4-c876-4eee-887f-299df7cf7397",
+      "_from": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_to": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "5810751c-7ae1-4226-9e4f-a4a0a34b6f9a",
+      "_from": "4953ac62-a582-447f-a907-d87de54f040f",
+      "_to": "fc86680a-713c-4721-ab51-d7beeade250a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bdef78d4-fe0b-445f-b85d-c252e37f6df2",
+      "_from": "fc86680a-713c-4721-ab51-d7beeade250a",
+      "_to": "cceefb56-988d-4fb6-98ef-21f951dfa9d3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "75f144e4-8ac4-45ef-87ed-2fd4ec82f8c4",
+      "_from": "b4f78b7e-3260-445c-8832-093279c4459a",
+      "_to": "cceefb56-988d-4fb6-98ef-21f951dfa9d3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e10ae1f5-88ee-484d-9f4c-3c04ac4e8cc5",
+      "_from": "cceefb56-988d-4fb6-98ef-21f951dfa9d3",
+      "_to": "760ccf56-dddb-4a71-8668-c48f4605bc38",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "aad3ea7e-cca6-4d0f-8f48-3841e4da1758",
+      "_from": "760ccf56-dddb-4a71-8668-c48f4605bc38",
+      "_to": "4e073c11-ae4a-4296-bf55-f74da5bfd735",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "dc842e3c-be16-4e41-9a5b-f3e94eac6549",
+      "_from": "4e073c11-ae4a-4296-bf55-f74da5bfd735",
+      "_to": "be52ff46-1a4e-4779-a443-04a5c75181d6",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "ddea7f18-4370-48de-8ab8-26c9959b7eef",
+      "_from": "4e073c11-ae4a-4296-bf55-f74da5bfd735",
+      "_to": "cdbfa44c-37b8-4daf-b477-fe8fe7c74689",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "a4e497fb-3a37-47a9-b3f5-fc7d79b69477",
+      "_from": "760ccf56-dddb-4a71-8668-c48f4605bc38",
+      "_to": "59d0e136-2323-4452-90a8-08b907e043a9",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "5e4302f0-f707-44f1-9882-eab3fbf3810f",
+      "_from": "59d0e136-2323-4452-90a8-08b907e043a9",
+      "_to": "90ea3139-4d48-4295-b342-40f1ba59147d",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 25,
+      "_id": "2ecae033-91d8-45a0-a62a-dca309082b36",
+      "_from": "59d0e136-2323-4452-90a8-08b907e043a9",
+      "_to": "6654e8bc-e4a5-44e4-89cb-f0c04072035b",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "199e79f2-b300-47ed-b500-c7aeb5f568d7",
+      "_from": "cdbfa44c-37b8-4daf-b477-fe8fe7c74689",
+      "_to": "01ca9b32-bbf0-4237-a6bf-e729437a28e9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2cf5e210-822d-4362-a85d-2bb150501ba2",
+      "_from": "6654e8bc-e4a5-44e4-89cb-f0c04072035b",
+      "_to": "01ca9b32-bbf0-4237-a6bf-e729437a28e9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "304fa9b3-a728-4685-aa82-44d373f8bf90",
+      "_from": "01ca9b32-bbf0-4237-a6bf-e729437a28e9",
+      "_to": "953e1fa0-9302-4426-81c0-7138d8717e89",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 25,
+      "_id": "f42f6a25-1914-4c38-a31e-1119a4486a95",
+      "_from": "953e1fa0-9302-4426-81c0-7138d8717e89",
+      "_to": "f173c747-70ac-4499-852c-2de7e98e34da",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "8051b968-4d48-46e4-80a8-a60c53113d4a",
+      "_from": "f173c747-70ac-4499-852c-2de7e98e34da",
+      "_to": "6c332f1d-fabb-47f4-9996-cc1d5d7cc7e3",
+      "_collection": "leadsTo"
+    }
+  ]
+}
