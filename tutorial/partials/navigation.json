@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-02T20:40:58.751Z",
+  "time": "2020-10-02T20:49:02.338Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -93,8 +93,8 @@
       "_id": "b062c758-3e56-44bb-ae5d-9f98975034fd",
       "_collection": "question",
       "_origin": false,
-      "_x": -378.96692149515144,
-      "_y": 935.8775378846119,
+      "_x": -360.30129765506695,
+      "_y": 1205.4921044636103,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -108,8 +108,8 @@
       "_id": "ce2c8f18-d0ad-46ae-be67-0bf0461ba55e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -484.46692149515167,
-      "_y": 947.2525378846119,
+      "_x": -465.8012976550672,
+      "_y": 1216.8671044636103,
       "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
     },
     {
@@ -123,8 +123,8 @@
       "_id": "9b3dc486-56f4-46b7-9d70-4b468279f4ec",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -278.46692149515127,
-      "_y": 947.0025378846119,
+      "_x": -259.8012976550668,
+      "_y": 1216.6171044636103,
       "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
     },
     {
@@ -181,14 +181,14 @@
     },
     {
       "message": {
-        "en": "I changed the language for you.",
-        "de": "Ich habe die Sprache für dich gewechselt."
+        "en": "Please choose your language.",
+        "de": "Bitte wähle deine Sprache."
       },
       "_id": "ed0790c9-7855-4281-ab61-23db82c55dd0",
       "_collection": "message",
       "_origin": false,
-      "_x": -361.89825841069336,
-      "_y": 1153.489644608947,
+      "_x": -189.7597274410252,
+      "_y": 856.9136213720487,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     }
   ],
@@ -221,21 +221,6 @@
       "_id": "7e105eff-9b74-4e76-a145-03f24a4ca5ed",
       "_from": "c29f177a-20a9-4485-95d8-badc40e42add",
       "_to": "6e51f5bc-eb6c-43aa-ac0b-0b56c3755786",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "0c8bdc17-755f-46fc-94ea-7b432799e02c",
-      "_from": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
-      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
       "_collection": "leadsTo"
     },
     {
@@ -332,14 +317,14 @@
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
+      "expose": "value",
       "method": false,
-      "condition": false,
+      "condition": "answered",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "b070d504-29b6-412c-bcfe-0bb53e123521",
-      "_from": "c383289a-3e6d-4b04-88e7-172039244e0a",
+      "_id": "0e8bdd76-ac4e-4dca-acb1-023f3f3f81c9",
+      "_from": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
       "_to": "ed0790c9-7855-4281-ab61-23db82c55dd0",
       "_collection": "leadsTo"
     },
@@ -349,13 +334,13 @@
       "name": "",
       "expose": "",
       "method": false,
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "e40c6013-0e35-41dc-9828-12ddb6632eb3",
-      "_from": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
-      "_to": "ed0790c9-7855-4281-ab61-23db82c55dd0",
+      "_id": "ef7eea7c-b355-48d4-bf8a-608d12398fee",
+      "_from": "ed0790c9-7855-4281-ab61-23db82c55dd0",
+      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
       "_collection": "leadsTo"
     }
   ]
