@@ -1,11 +1,11 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T13:20:09.168Z",
+  "time": "2020-10-02T20:03:46.328Z",
   "vertices": [
     {
       "_collection": "flow",
-      "_id": "0fb4b7a3-eb51-4f82-b043-b0754705b55f",
+      "_id": "5234a93f-24c6-42b7-8923-0268e19e5b46",
       "_origin": true,
       "_x": 0,
       "_y": 0,
@@ -14,295 +14,298 @@
         "de"
       ],
       "topic": {
-        "en": "Welcome!",
+        "en": "Welcome",
         "de": "Willkommen"
       },
-      "author": "Wanderer",
+      "author": "Wanderer.ai",
       "license": "MIT"
     },
     {
       "message": {
-        "en": "Hey! My name is Wanderer. And this is the conversation builder.",
-        "de": "Hey! Mein Name ist Wanderer. Und das ist der Conversation Builder."
+        "en": "Hi! 👋 My name is Wanderer.ai",
+        "de": "Hi! 👋 Mein Name ist Wanderer.ai"
       },
-      "_id": "fb6c064f-ed9a-418f-b523-204e0782c41a",
+      "_id": "ea900e19-cf32-4ee0-bf05-b54314367aca",
       "_collection": "message",
       "_origin": false,
-      "_x": 289.20937945697204,
-      "_y": 68.39673532713128
+      "_x": 349,
+      "_y": 165,
+      "_parent": false
     },
     {
       "message": {
-        "en": "Before we start, you should choose your language.",
-        "de": "Bevor wir starten, solltest du deine Sprache wählen."
+        "en": "You are currently in the tutorial",
+        "de": "Du befindest dich gerade im Tutorial"
       },
-      "_id": "584771d9-68aa-4e29-983f-5479620ba8ed",
+      "_id": "c2aa7d39-0503-4450-b945-b06ab813601e",
       "_collection": "message",
       "_origin": false,
-      "_x": 432.14014941575067,
-      "_y": 397.283102984071
+      "_x": 152.51934665474585,
+      "_y": 297.8880563484968,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "I will now show you the features of the Conversation Builder.",
+        "de": "Ich werde dir jetzt die Funktionen des Conversation Builders zeigen."
+      },
+      "_id": "80c1a009-fb38-46c3-a03f-c47f1a9eb97a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 382.59646554464314,
+      "_y": 481.49116149108403,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Ready?",
+        "de": "Bereit?"
+      },
+      "_id": "ac561f39-3941-4058-bc27-58b36cedab35",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 138.68955492120256,
+      "_y": 590.3970028545883,
+      "_parent": false
     },
     {
       "question": {
-        "en": "Which language do you prefer?",
-        "de": "Welche Sprache bevorzugst du?"
+        "en": "Are you ready?",
+        "de": "Bist du bereit?"
       },
-      "_id": "5c9bd28b-54c3-4860-af50-920d3bde5053",
+      "_id": "2d7e9068-b251-4a1f-b10f-d74a4c7d718f",
       "_collection": "question",
       "_origin": false,
-      "_x": 312.98740309365775,
-      "_y": 605.7846404373647
+      "_x": 420.7750141608603,
+      "_y": 889.8451615371995,
+      "_parent": false
     },
     {
       "suggestion": {
-        "de": "Englisch",
-        "en": "English"
+        "de": "Ja klar!",
+        "en": "Yeah sure!"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "cea221e4-3ec0-4727-85c9-2fcf83ad48c1",
+      "_id": "28a7a1ff-9b7b-457c-a025-e1dc960e9fbf",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 107.98740309365775,
-      "_y": 654.7846404373647
-    },
-    {
-      "suggestion": {
-        "de": "Deutsch",
-        "en": "German"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "98f5bff8-1787-49da-a3f2-96ece52a1b07",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 213.98740309365775,
-      "_y": 751.7846404373647
+      "_x": 420.7750141608603,
+      "_y": 901.0951615371995,
+      "_parent": "2d7e9068-b251-4a1f-b10f-d74a4c7d718f"
     },
     {
       "message": {
-        "en": "OK! Lets go.",
-        "de": "Alles klar! Lass uns starten."
+        "en": "You can restart the current chat at any time! Just use the \"restart\" button below.",
+        "de": "Du kannst den Chat zu jeder Zeit einfach neu starten. Nutze dafür einfach den \"Zurücksetzen\" Button."
       },
-      "_id": "2a8d8b98-82af-40fd-b1c4-2f2a84b27cd5",
+      "_id": "8713e143-400c-4fe6-a1e9-769743bc6933",
       "_collection": "message",
       "_origin": false,
-      "_x": 548.9874030936576,
-      "_y": 778.7846404373647
+      "_x": 253.28883506048314,
+      "_y": 1363.2270053376772,
+      "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
+      "message": {
+        "en": "Also you can switch to the tutorial overview at any time.",
+        "de": "Du kannst auch jederzeit zur Tutorial-Übersicht wechseln."
+      },
+      "_id": "d1009cd8-35f0-4dd1-9747-f2c4c02296b1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 51.05325127408739,
+      "_y": 1569.0830946009949,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "I just activated the navigation for you.",
+        "de": "Ich habe gerade die Navigation für dich aktiviert."
+      },
+      "_id": "c836a299-a712-4845-9027-22c0df41d19a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 104.53734912366085,
+      "_y": 1007.0618055232197,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "If you want, you can choose your language there.",
+        "de": "Wenn du möchtest, kannst du dort deine Sprache wählen."
+      },
+      "_id": "823f5665-3234-4bc1-910b-4a324d30c606",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -81.3553462221372,
+      "_y": 1190.8727377720645,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
       "label": {
-        "de": "anzeigen",
-        "en": "show"
+        "de": "Navigation",
+        "en": "Navigation"
       },
-      "_id": "8034c907-51b2-4942-9a63-82b5c876c9ec",
-      "_collection": "jump",
+      "_id": "1c5b939c-e9f0-4c81-91db-ffd27afd712c",
+      "_collection": "import",
       "_origin": false,
-      "_x": 930.9874030936576,
-      "_y": 1144.7846404373645
-    },
-    {
-      "switchToLanguage": "en",
-      "_id": "d6a61934-1830-4375-9cfa-f5007f904925",
-      "_collection": "language",
-      "_origin": false,
-      "_x": -59.01259690634225,
-      "_y": 798.7846404373654
-    },
-    {
-      "switchToLanguage": "de",
-      "_id": "7409c79c-c58a-40ed-a0a9-d764b5466b48",
-      "_collection": "language",
-      "_origin": false,
-      "_x": 196.98740309365775,
-      "_y": 957.7846404373652
-    },
-    {
-      "question": {
-        "en": "You can now jump to your first tutorial. Ready?",
-        "de": "Du kannst nun zu deinem ersten Tutorial springen. Bereit?"
-      },
-      "_id": "7453e1d8-7204-40fb-a7fb-df2d62db46a4",
-      "_collection": "question",
-      "_origin": false,
-      "_x": 770.9874030936576,
-      "_y": 803.7846404373649
-    },
-    {
-      "suggestion": {
-        "de": "Los!",
-        "en": "Let's go!"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "d542a88f-27ca-439f-a77e-57caba53521a",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 881.9874030936576,
-      "_y": 926.7846404373645
-    },
-    {
-      "message": {
-        "en": "I will guide you through my functions.",
-        "de": "Ich werde dich durch meine Funktionen führen."
-      },
-      "_id": "662f1ebc-ada8-432d-8347-c357fb4e16fd",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 539.7382599105545,
-      "_y": 189.42925482900534
+      "_x": 1720.265941957039,
+      "_y": 889.9394511266534,
+      "_parent": false
     }
   ],
   "edges": [
     {
       "type": "or",
-      "priority": 50,
+      "priority": 10,
       "name": "",
       "expose": "",
+      "method": false,
       "condition": false,
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "c13271ad-5b7c-4912-a1b7-f3cd58607e50",
-      "_from": "0fb4b7a3-eb51-4f82-b043-b0754705b55f",
-      "_to": "fb6c064f-ed9a-418f-b523-204e0782c41a",
+      "_id": "974c9a75-ebaf-4fc3-b0b1-55b630f0e26e",
+      "_from": "5234a93f-24c6-42b7-8923-0268e19e5b46",
+      "_to": "ea900e19-cf32-4ee0-bf05-b54314367aca",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": 10,
       "name": "",
       "expose": "",
-      "condition": false,
+      "method": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "c7197bf4-2cf2-459b-91cf-273b2cc252ec",
-      "_from": "584771d9-68aa-4e29-983f-5479620ba8ed",
-      "_to": "5c9bd28b-54c3-4860-af50-920d3bde5053",
+      "_id": "fccb0e30-ec27-4022-8a0a-4acd8f17ad40",
+      "_from": "ea900e19-cf32-4ee0-bf05-b54314367aca",
+      "_to": "c2aa7d39-0503-4450-b945-b06ab813601e",
       "_collection": "leadsTo"
     },
     {
-      "priority": "14",
-      "_id": "8eb4ae24-d833-4acb-9a70-b72dca387264",
-      "_from": "5c9bd28b-54c3-4860-af50-920d3bde5053",
-      "_to": "cea221e4-3ec0-4727-85c9-2fcf83ad48c1",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "priority": "15",
-      "_id": "e257898a-e5f1-425c-88a5-32440a3d7f7f",
-      "_from": "5c9bd28b-54c3-4860-af50-920d3bde5053",
-      "_to": "98f5bff8-1787-49da-a3f2-96ece52a1b07",
-      "_collection": "isAnswerableBy"
-    },
-    {
       "type": "or",
-      "priority": 50,
+      "priority": 10,
       "name": "",
       "expose": "",
-      "condition": "answered",
+      "method": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "a45f722d-3a58-4129-92a1-da70ef413b37",
-      "_from": "5c9bd28b-54c3-4860-af50-920d3bde5053",
-      "_to": "2a8d8b98-82af-40fd-b1c4-2f2a84b27cd5",
+      "_id": "ce7db0fd-2047-4536-868c-339960bf2a56",
+      "_from": "c2aa7d39-0503-4450-b945-b06ab813601e",
+      "_to": "80c1a009-fb38-46c3-a03f-c47f1a9eb97a",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4165c3aa-8032-43ac-bc22-22f5ff318b41",
+      "_from": "80c1a009-fb38-46c3-a03f-c47f1a9eb97a",
+      "_to": "ac561f39-3941-4058-bc27-58b36cedab35",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "ba0d4f47-b0d2-415a-b162-b0f254c71c7c",
+      "_from": "ac561f39-3941-4058-bc27-58b36cedab35",
+      "_to": "2d7e9068-b251-4a1f-b10f-d74a4c7d718f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "d1145043-e556-457c-b151-a00bb720f667",
+      "_from": "8713e143-400c-4fe6-a1e9-769743bc6933",
+      "_to": "d1009cd8-35f0-4dd1-9747-f2c4c02296b1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
       "name": "",
       "expose": "value",
+      "method": false,
       "condition": "answered",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "51a5733a-1072-4653-ab18-83a2b685fe11",
-      "_from": "cea221e4-3ec0-4727-85c9-2fcf83ad48c1",
-      "_to": "d6a61934-1830-4375-9cfa-f5007f904925",
+      "_id": "01cb0155-f43b-4d3e-991d-ac2d54f5bfff",
+      "_from": "28a7a1ff-9b7b-457c-a025-e1dc960e9fbf",
+      "_to": "c836a299-a712-4845-9027-22c0df41d19a",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "c24ff95a-cbd7-4203-bb42-ad4ae9c99c1a",
+      "_from": "c836a299-a712-4845-9027-22c0df41d19a",
+      "_to": "823f5665-3234-4bc1-910b-4a324d30c606",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2cc3ea84-8fc7-46cc-9e02-bb89ac709675",
+      "_from": "823f5665-3234-4bc1-910b-4a324d30c606",
+      "_to": "8713e143-400c-4fe6-a1e9-769743bc6933",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "24",
       "name": "",
       "expose": "value",
+      "method": false,
       "condition": "answered",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
-      "_id": "aa19a108-c67f-4790-bd51-c93232e6f804",
-      "_from": "98f5bff8-1787-49da-a3f2-96ece52a1b07",
-      "_to": "7409c79c-c58a-40ed-a0a9-d764b5466b48",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "",
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "cbb2c0be-937e-458d-a4a8-db60c266576b",
-      "_from": "2a8d8b98-82af-40fd-b1c4-2f2a84b27cd5",
-      "_to": "7453e1d8-7204-40fb-a7fb-df2d62db46a4",
-      "_collection": "leadsTo"
-    },
-    {
-      "priority": 50,
-      "_id": "545cd8e3-9914-42b6-bd2e-8e5519bd9317",
-      "_from": "7453e1d8-7204-40fb-a7fb-df2d62db46a4",
-      "_to": "d542a88f-27ca-439f-a77e-57caba53521a",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "value",
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "0cb979fb-995d-41d8-b0fc-8d0a4c5dcb42",
-      "_from": "d542a88f-27ca-439f-a77e-57caba53521a",
-      "_to": "8034c907-51b2-4942-9a63-82b5c876c9ec",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "",
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "de72119f-46a2-4c04-aae9-0bab812c1e39",
-      "_from": "fb6c064f-ed9a-418f-b523-204e0782c41a",
-      "_to": "662f1ebc-ada8-432d-8347-c357fb4e16fd",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "",
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "c1150018-0788-42f1-90f7-53923b56f774",
-      "_from": "662f1ebc-ada8-432d-8347-c357fb4e16fd",
-      "_to": "584771d9-68aa-4e29-983f-5479620ba8ed",
+      "_id": "3047ac31-4211-436f-8630-3e3f98509286",
+      "_from": "28a7a1ff-9b7b-457c-a025-e1dc960e9fbf",
+      "_to": "1c5b939c-e9f0-4c81-91db-ffd27afd712c",
       "_collection": "leadsTo"
     }
   ]

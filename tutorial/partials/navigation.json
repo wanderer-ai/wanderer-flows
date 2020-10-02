@@ -1,0 +1,308 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-10-02T13:51:05.200Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "b6c2bd9f-8343-4c77-8bde-6bb8f8b44316",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Navigation",
+        "de": "Navigation"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT"
+    },
+    {
+      "question": {
+        "en": "",
+        "de": ""
+      },
+      "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -59.546871872513165,
+      "_y": -655.392322660429,
+      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+    },
+    {
+      "suggestion": {
+        "de": "Zurücksetzen",
+        "en": "Restart"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "c29f177a-20a9-4485-95d8-badc40e42add",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -231.79687187251315,
+      "_y": -689.329822660429,
+      "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
+    },
+    {
+      "suggestion": {
+        "de": "Übersicht",
+        "en": "Overview"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 101.20312812748685,
+      "_y": -693.579822660429,
+      "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
+    },
+    {
+      "suggestion": {
+        "de": "Sprache",
+        "en": "Language"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -69.79687187251307,
+      "_y": -594.704822660429,
+      "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
+    },
+    {
+      "_id": "6e51f5bc-eb6c-43aa-ac0b-0b56c3755786",
+      "_collection": "reset",
+      "_origin": false,
+      "_x": -763.1628262108612,
+      "_y": -672.9492567624161,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Which language do you prefer",
+        "de": "Welche Sprache bevorzugst du?"
+      },
+      "_id": "b062c758-3e56-44bb-ae5d-9f98975034fd",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 74.98454481815726,
+      "_y": -1077.5228921568814,
+      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+    },
+    {
+      "suggestion": {
+        "de": "English",
+        "en": "English"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "ce2c8f18-d0ad-46ae-be67-0bf0461ba55e",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -30.51545518184262,
+      "_y": -1066.1478921568814,
+      "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
+    },
+    {
+      "suggestion": {
+        "de": "Deutsch",
+        "en": "Deutsch"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "9b3dc486-56f4-46b7-9d70-4b468279f4ec",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 175.48454481815713,
+      "_y": -1066.3978921568814,
+      "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
+    },
+    {
+      "switchToLanguage": "en",
+      "_id": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
+      "_collection": "language",
+      "_origin": false,
+      "_x": -451.9641898243003,
+      "_y": -1482.2441366275677,
+      "_parent": false
+    },
+    {
+      "switchToLanguage": "de",
+      "_id": "c383289a-3e6d-4b04-88e7-172039244e0a",
+      "_collection": "language",
+      "_origin": false,
+      "_x": 577.7756058639914,
+      "_y": -1087.463218029055,
+      "_parent": false
+    },
+    {
+      "url": "",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "135be434-f87d-487a-82c6-08d197dfe359",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 521.3326050675339,
+      "_y": -615.5177408960083,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "I hope you understand me better now.",
+        "de": "Ich hoffe du verstehst mich nun besser."
+      },
+      "_id": "e9344cac-0fe9-4714-9e63-bec492453deb",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -409.5098366922195,
+      "_y": -1064.4444125641487,
+      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+    },
+    {
+      "title": {
+        "en": "New section",
+        "de": "Neue Section"
+      },
+      "_id": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "_collection": "section",
+      "_origin": false,
+      "_x": 33.59664571763372,
+      "_y": -1037.3638574086553,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "778a9219-4f9e-4492-8c19-572563a5dd33",
+      "_from": "b6c2bd9f-8343-4c77-8bde-6bb8f8b44316",
+      "_to": "726cb723-b5d6-400b-8637-0955bcedc90b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "7e105eff-9b74-4e76-a145-03f24a4ca5ed",
+      "_from": "c29f177a-20a9-4485-95d8-badc40e42add",
+      "_to": "6e51f5bc-eb6c-43aa-ac0b-0b56c3755786",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "0c8bdc17-755f-46fc-94ea-7b432799e02c",
+      "_from": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
+      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e42a6290-fd00-4216-aa78-3bd82eabe411",
+      "_from": "ce2c8f18-d0ad-46ae-be67-0bf0461ba55e",
+      "_to": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "0f10a2e6-c0fe-44b4-8174-9c724a809abe",
+      "_from": "9b3dc486-56f4-46b7-9d70-4b468279f4ec",
+      "_to": "c383289a-3e6d-4b04-88e7-172039244e0a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "f704a44d-b41d-464b-8e20-a41c5f362d71",
+      "_from": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
+      "_to": "135be434-f87d-487a-82c6-08d197dfe359",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "answered",
+      "method": false,
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "cff30ee9-6469-41e8-bc75-27343b00266c",
+      "_from": "b062c758-3e56-44bb-ae5d-9f98975034fd",
+      "_to": "e9344cac-0fe9-4714-9e63-bec492453deb",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": "reset",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "55263edc-70b7-48ac-85d7-ea957ffe29a8",
+      "_from": "e9344cac-0fe9-4714-9e63-bec492453deb",
+      "_to": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "_collection": "leadsTo"
+    }
+  ]
+}

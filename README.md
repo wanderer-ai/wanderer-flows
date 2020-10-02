@@ -1,1 +1,1 @@
-This repository is a collection of all wanderer sample flows
+# This repository is a collection of Wanderer.ai sample flows
