@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-02T20:28:10.108Z",
+  "time": "2020-10-05T12:48:30.312Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -29,8 +29,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 216.81403525683768,
-      "_y": 221.12041641603247,
-      "_parent": false
+      "_y": 221.12041641603247
     },
     {
       "message": {
@@ -41,8 +40,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 417.2546989649392,
-      "_y": 355.6708082389943,
-      "_parent": false
+      "_y": 355.6708082389943
     },
     {
       "message": {
@@ -53,8 +51,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 179.21638798418078,
-      "_y": 549.1258206929214,
-      "_parent": false
+      "_y": 549.1258206929214
     },
     {
       "message": {
@@ -65,8 +62,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 300.8442924025115,
-      "_y": 1844.3966392445889,
-      "_parent": false
+      "_y": 1844.3966392445889
     },
     {
       "message": {
@@ -77,8 +73,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 60.02656775845696,
-      "_y": 2076.929490237605,
-      "_parent": false
+      "_y": 2076.929490237605
     },
     {
       "message": {
@@ -89,8 +84,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 356.9780549302373,
-      "_y": 1354.9217387705942,
-      "_parent": false
+      "_y": 1354.9217387705942
     },
     {
       "message": {
@@ -101,8 +95,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 34.973061786789515,
-      "_y": 1559.3777143774048,
-      "_parent": false
+      "_y": 1559.3777143774048
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
@@ -114,8 +107,7 @@
       "_collection": "import",
       "_origin": false,
       "_x": -2971.733341221154,
-      "_y": -1456.1097883414786,
-      "_parent": false
+      "_y": -1456.1097883414786
     },
     {
       "message": {
@@ -126,8 +118,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 406.45174108067084,
-      "_y": 715.7746279682939,
-      "_parent": false
+      "_y": 715.7746279682939
     },
     {
       "question": {
@@ -138,8 +129,7 @@
       "_collection": "question",
       "_origin": false,
       "_x": -443.8596116513346,
-      "_y": 899.1497217677656,
-      "_parent": false
+      "_y": 899.1497217677656
     },
     {
       "suggestion": {
@@ -148,13 +138,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "40",
       "_id": "3eb9aa79-8138-4e67-a31e-962e0747d40c",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -548.219814638571,
-      "_y": 906.9463461085195,
-      "_parent": "c0c3ba23-db3b-4526-9e4d-1fc10671541e"
+      "_x": -528.5013768265591,
+      "_y": 915.7100962471915
     },
     {
       "suggestion": {
@@ -168,8 +157,7 @@
       "_collection": "suggestion",
       "_origin": false,
       "_x": -349.35862757010426,
-      "_y": 907.2802848230077,
-      "_parent": "c0c3ba23-db3b-4526-9e4d-1fc10671541e"
+      "_y": 907.2802848230077
     },
     {
       "switchToLanguage": "de",
@@ -177,8 +165,7 @@
       "_collection": "language",
       "_origin": false,
       "_x": -835.2198146385718,
-      "_y": 1015.9463461085196,
-      "_parent": false
+      "_y": 1015.9463461085196
     },
     {
       "switchToLanguage": "en",
@@ -186,8 +173,7 @@
       "_collection": "language",
       "_origin": false,
       "_x": -598.3586275701049,
-      "_y": 1162.2802848230078,
-      "_parent": false
+      "_y": 1162.2802848230078
     },
     {
       "message": {
@@ -198,8 +184,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 87.23484857193802,
-      "_y": 1115.8422237091731,
-      "_parent": false
+      "_y": 1115.8422237091731
     },
     {
       "question": {
@@ -210,8 +195,7 @@
       "_collection": "question",
       "_origin": false,
       "_x": 32.0153537443571,
-      "_y": 2442.117561055226,
-      "_parent": false
+      "_y": 2442.117561055226
     },
     {
       "suggestion": {
@@ -225,8 +209,7 @@
       "_collection": "suggestion",
       "_origin": false,
       "_x": 32.0153537443571,
-      "_y": 2453.367561055226,
-      "_parent": "613c27ba-6472-4702-ab1d-c9118ab8b89d"
+      "_y": 2453.367561055226
     },
     {
       "message": {
@@ -237,8 +220,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 237.39514936957175,
-      "_y": 2242.6993155604755,
-      "_parent": false
+      "_y": 2242.6993155604755
     },
     {
       "url": "",
@@ -247,8 +229,7 @@
       "_collection": "jump",
       "_origin": false,
       "_x": 479.95335275385537,
-      "_y": 2684.264106990825,
-      "_parent": false
+      "_y": 2684.264106990825
     }
   ],
   "edges": [
@@ -491,6 +472,18 @@
       "_from": "652293fb-f2ce-42bb-b870-52a5d0a4f92d",
       "_to": "fcc3965f-ea16-4fd9-adcb-ec68578384a7",
       "_collection": "leadsTo"
+    },
+    {
+      "_id": "73809ed4-6c8f-4f7e-bc31-52e8cf8c27a0",
+      "_from": "c0c3ba23-db3b-4526-9e4d-1fc10671541e",
+      "_to": "8c933433-27ec-4445-b6be-932b5be78c40",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "2e7b433b-7d38-46fb-8de9-52d456be8ff7",
+      "_from": "c0c3ba23-db3b-4526-9e4d-1fc10671541e",
+      "_to": "3eb9aa79-8138-4e67-a31e-962e0747d40c",
+      "_collection": "isAnswerableBy"
     }
   ]
 }
