@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-05T12:48:30.312Z",
+  "time": "2020-10-06T14:07:47.493Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -194,8 +194,8 @@
       "_id": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
       "_collection": "question",
       "_origin": false,
-      "_x": 32.0153537443571,
-      "_y": 2442.117561055226
+      "_x": 72.08529944850119,
+      "_y": 2466.1595284777122
     },
     {
       "suggestion": {
@@ -208,8 +208,8 @@
       "_id": "652293fb-f2ce-42bb-b870-52a5d0a4f92d",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 32.0153537443571,
-      "_y": 2453.367561055226
+      "_x": 72.08529944850119,
+      "_y": 2477.4095284777122
     },
     {
       "message": {
@@ -483,6 +483,12 @@
       "_id": "2e7b433b-7d38-46fb-8de9-52d456be8ff7",
       "_from": "c0c3ba23-db3b-4526-9e4d-1fc10671541e",
       "_to": "3eb9aa79-8138-4e67-a31e-962e0747d40c",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "f74dcecf-10d9-45ee-b6fd-9588065bd439",
+      "_from": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
+      "_to": "652293fb-f2ce-42bb-b870-52a5d0a4f92d",
       "_collection": "isAnswerableBy"
     }
   ]
