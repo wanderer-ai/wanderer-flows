@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T14:00:56.689Z",
+  "time": "2020-10-07T14:07:44.832Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -326,7 +326,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/simple_bot.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/simple_bot.json",
       "label": "",
       "_id": "90a77c4a-63ca-45f6-851a-e848305065f7",
       "_collection": "jump",
@@ -336,17 +336,17 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/welcome.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/welcome.json",
       "label": "",
       "_id": "a119e0df-7c00-423d-afa3-d21f5fcd06f8",
       "_collection": "jump",
       "_origin": false,
-      "_x": 295.3167718215817,
-      "_y": -2236.3550701119516,
+      "_x": 392.5985991495721,
+      "_y": -2227.152735094439,
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/save_and_restore.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/save_and_restore.json",
       "label": "",
       "_id": "01dfe290-61f3-4b18-9856-e07b153050af",
       "_collection": "jump",
@@ -356,7 +356,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/pan_and_drag.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
       "label": "",
       "_id": "17b76299-8da3-44ff-a761-b022e6d1031a",
       "_collection": "jump",
@@ -366,7 +366,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/feedback.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/feedback.json",
       "label": "",
       "_id": "a94f3054-e630-4eaf-b20d-cb5fd7735187",
       "_collection": "jump",
@@ -376,7 +376,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/create_edges.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_edges.json",
       "label": "",
       "_id": "acb55b72-f2d3-4760-8d78-ed6a74d53a76",
       "_collection": "jump",
@@ -386,7 +386,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/questions_and_suggestions.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/questions_and_suggestions.json",
       "label": "",
       "_id": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
       "_collection": "jump",
