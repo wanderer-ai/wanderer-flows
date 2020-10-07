@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T12:35:55.261Z",
+  "time": "2020-10-07T12:53:27.428Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -17,7 +17,7 @@
         "en": "Pan and Drag",
         "de": "Pan and Drag"
       },
-      "author": "Wanderer",
+      "author": "Wanderer.ai",
       "license": "MIT"
     },
     {
@@ -205,8 +205,8 @@
       "_id": "6157fb1d-a53f-4393-868c-f74d4febbd54",
       "_collection": "jump",
       "_origin": false,
-      "_x": 2182.876073081109,
-      "_y": 1881.8477995345218
+      "_x": 2447.114550012542,
+      "_y": 1947.578763945326
     },
     {
       "message": {
@@ -216,8 +216,8 @@
       "_id": "18ac152b-2491-4e10-96b7-8b958e17e639",
       "_collection": "message",
       "_origin": false,
-      "_x": 1727.255966841854,
-      "_y": 1953.85324065597
+      "_x": 1548.0174936268895,
+      "_y": 1049.3268281576068
     },
     {
       "question": {
@@ -257,14 +257,14 @@
     },
     {
       "message": {
-        "en": "Puh! Please repeat the question by clicking on the circle arrow nearby to reload the question if you are ready.",
-        "de": "Puh! Bitte wiederhole die Frage, indem du auf den Kreispfeil in der Nähe der Frage klickst, um die Frage erneut zu laden, wenn du bereit bist."
+        "en": "Please repeat the question by clicking on the circle arrow nearby your answer to reload the question if you are ready.",
+        "de": "Bitte wiederhole die Frage, indem du auf den Kreispfeil neben deiner Antwort klickst, um die Frage erneut zu laden, wenn du bereit bist."
       },
       "_id": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
       "_collection": "message",
       "_origin": false,
-      "_x": 1908.106662762953,
-      "_y": 2286.0569717912367
+      "_x": 1845.1201867585928,
+      "_y": 1367.8908367338104
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
@@ -280,7 +280,7 @@
   "edges": [
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": false,
@@ -294,7 +294,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -308,7 +308,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -329,7 +329,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -343,7 +343,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -371,7 +371,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -385,7 +385,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -399,7 +399,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -413,7 +413,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -427,7 +427,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -455,7 +455,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -469,21 +469,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "value",
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "84c484a5-d978-4698-8438-115d93125a11",
-      "_from": "0fa8adf2-8530-4610-bc69-3bed50514614",
-      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -504,7 +490,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -518,7 +504,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "sent",
@@ -532,20 +518,6 @@
     },
     {
       "type": "or",
-      "priority": 50,
-      "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "112aafa5-f82c-460e-90d8-4244083f2cd6",
-      "_from": "18ac152b-2491-4e10-96b7-8b958e17e639",
-      "_to": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
       "priority": 10,
       "name": "",
       "expose": "",
@@ -554,6 +526,42 @@
       "_id": "82185d7a-9ff0-4d2c-a7ea-837b26f07b33",
       "_from": "f905bc45-0309-4889-a74d-ea0506cd9509",
       "_to": "308aae91-fefc-4f8a-8392-df99376a631c",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "349766c7-c446-483d-939a-30e7dd625adc",
+      "_from": "0fa8adf2-8530-4610-bc69-3bed50514614",
+      "_to": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "55bd15f9-fd80-4cce-aab6-b5d11b56ae12",
+      "_from": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
+      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "2cc5395a-c3b4-4351-951d-9845ffb817e7",
+      "_from": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
+      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
       "_collection": "leadsTo"
     }
   ]

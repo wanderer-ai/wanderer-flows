@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T14:26:37.360Z",
+  "time": "2020-10-07T13:00:11.948Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -17,7 +17,7 @@
         "en": "Questions and Suggestions",
         "de": "Fragen und Antworten"
       },
-      "author": "Wanderer",
+      "author": "Wanderer.ai",
       "license": "MIT"
     },
     {
@@ -28,8 +28,8 @@
       "_id": "21dc27a2-d802-4429-8fc0-e5fc2921867f",
       "_collection": "message",
       "_origin": false,
-      "_x": 286,
-      "_y": 98
+      "_x": 406,
+      "_y": 80
     },
     {
       "message": {
@@ -50,8 +50,8 @@
       "_id": "80119779-55bc-4945-84d6-561aacf021c9",
       "_collection": "question",
       "_origin": false,
-      "_x": 571.6011918646982,
-      "_y": 693.6009327636767
+      "_x": 604.3511918646982,
+      "_y": 802.6009327636767
     },
     {
       "suggestion": {
@@ -64,7 +64,7 @@
       "_id": "f6b24007-3863-4060-83bf-92841a0a742a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 481.6011918646982,
+      "_x": 502.6011918646982,
       "_y": 819.6009327636767
     },
     {
@@ -78,7 +78,7 @@
       "_id": "f3852606-ade0-4ea5-bbcd-ddcc4a97d561",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 668.6011918646982,
+      "_x": 689.6011918646982,
       "_y": 807.6009327636767
     },
     {
@@ -132,16 +132,13 @@
       "_y": 1891.8341495146112
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/creating_edges.json",
-      "label": {
-        "de": "Klicke hier, um zum nächsten Tutorial zu gelangen",
-        "en": "Click here to get to the next tutorial"
-      },
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_edges.json",
+      "label": "Jump",
       "_id": "d18f9d06-2e2e-4cef-bedb-8dadf6d53205",
       "_collection": "jump",
       "_origin": false,
-      "_x": -579.4283456517335,
-      "_y": 2119.0336831327727
+      "_x": -406.42834565173337,
+      "_y": 2196.0336831327727
     },
     {
       "message": {
@@ -151,8 +148,8 @@
       "_id": "cb625e51-9bfb-42a6-98bc-a65d8ad56cc9",
       "_collection": "message",
       "_origin": false,
-      "_x": 684.7973571695825,
-      "_y": 388.993781575488
+      "_x": 743.7973571695825,
+      "_y": 491.993781575488
     },
     {
       "message": {
@@ -184,8 +181,8 @@
       "_id": "332f9a58-bab4-4247-81b8-fd7cd6f44235",
       "_collection": "message",
       "_origin": false,
-      "_x": -1033.8380360299311,
-      "_y": 2022.8359632217607
+      "_x": -1078.8380360299311,
+      "_y": 2180.8359632217607
     },
     {
       "message": {
@@ -195,25 +192,35 @@
       "_id": "98b83c24-0ca0-4f9a-9ee6-2f5a77bf4fbf",
       "_collection": "message",
       "_origin": false,
-      "_x": 783.8033164930731,
-      "_y": 969.8046119981797
+      "_x": 893.8033164930731,
+      "_y": 1085.8046119981798
     },
     {
       "message": {
-        "en": "Alternatively, you can also repeat the question with the repeat button next to the question.",
-        "de": "Alternativ kannst du die Frage auch mit dem Wiederholen-Button neben der Frage wiederholen."
+        "en": "Alternatively, you can also repeat the question with the repeat button next to your last answer.",
+        "de": "Alternativ kannst du die Frage auch mit dem Wiederholen-Button neben der Antwort wiederholen."
       },
       "_id": "fb6c4e88-272f-4258-9424-ee07b5190f61",
       "_collection": "message",
       "_origin": false,
       "_x": -490.0384640726413,
       "_y": 1090.711936777398
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "7f315ed0-adb5-4e4f-8b3a-7a21b3843444",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -3339.3474803013455,
+      "_y": -1758.4780930478312,
+      "_parent": false
     }
   ],
   "edges": [
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": false,
@@ -227,10 +234,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -255,7 +262,7 @@
     },
     {
       "type": "or",
-      "priority": "25",
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": "answered",
@@ -283,7 +290,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -297,10 +304,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -311,10 +318,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -325,10 +332,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -339,10 +346,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -353,7 +360,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -367,7 +374,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -381,10 +388,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -395,16 +402,28 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
       "_id": "8fce3562-c8b9-431a-bc12-a67a522a5bb8",
       "_from": "fb6c4e88-272f-4258-9424-ee07b5190f61",
       "_to": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "f3f4064a-0f30-43a3-b486-811fded5b48b",
+      "_from": "1933f35a-1094-480d-9615-cfb54ff5e519",
+      "_to": "7f315ed0-adb5-4e4f-8b3a-7a21b3843444",
       "_collection": "leadsTo"
     }
   ]

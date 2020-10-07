@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2019-12-10T14:47:29.546Z",
+  "time": "2020-10-07T13:19:01.868Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -28,8 +28,8 @@
       "_id": "bee55b8b-5afa-4502-b9d5-822083e8ea66",
       "_collection": "message",
       "_origin": false,
-      "_x": -259.8105383095035,
-      "_y": -149.13035138445358
+      "_x": -638.3691229152928,
+      "_y": -779.7037209235687
     },
     {
       "message": {
@@ -39,8 +39,8 @@
       "_id": "5a4be482-46e4-4e33-9943-bcc239ac6a4f",
       "_collection": "message",
       "_origin": false,
-      "_x": -547.6562540601998,
-      "_y": 48.73128766484833
+      "_x": -1083.3809355543938,
+      "_y": -413.3346894076039
     },
     {
       "message": {
@@ -50,30 +50,30 @@
       "_id": "f6ece555-c770-4ced-8d1f-7cd6929c8f2d",
       "_collection": "message",
       "_origin": false,
-      "_x": -656.2581459997228,
-      "_y": 354.6276964907075
+      "_x": -1299.4902199605797,
+      "_y": 229.84840418781283
     },
     {
       "message": {
-        "en": "Create a new edge from the last message to the question to complete the flow.",
-        "de": "Erstelle eine neue Edge von der letzten Nachricht zu der Frage, um den Ablauf zu vervollständigen."
+        "en": "Create a new edge from the last message to the next one to complete the flow.",
+        "de": "Erstelle eine neue Edge von der letzten Nachricht zu der nächsten, um den Flow zu vervollständigen."
       },
       "_id": "04e29e8a-4c78-4205-9bb2-f160d06f144e",
       "_collection": "message",
       "_origin": false,
-      "_x": -504.72915125342996,
-      "_y": 596.9587910215708
+      "_x": -1160.5462567506322,
+      "_y": 866.4453819925204
     },
     {
       "message": {
-        "en": "Select this message on the map. Then hold Ctrl and click on the question too. Now both nodes are selected. Now click on the link tool (yellow button), which has now appeared in the toolbar.",
-        "de": "Wähle dafür diese Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die Frage. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches nun in der Toolbar erschienen ist."
+        "en": "Select this message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has now appeared in the toolbar.",
+        "de": "Wähle dafür diese Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches nun in der Toolbar erschienen ist."
       },
       "_id": "6087053c-2f18-45f7-9402-ffba1c2658cd",
       "_collection": "message",
       "_origin": false,
-      "_x": -87.13047133476032,
-      "_y": 626.1716844754148
+      "_x": -757.2224456885519,
+      "_y": 1238.879152040161
     },
     {
       "question": {
@@ -83,8 +83,8 @@
       "_id": "d0bad614-4eba-46e5-9099-34b47dcc9141",
       "_collection": "question",
       "_origin": false,
-      "_x": 421.8338068964081,
-      "_y": 625.2512686702278
+      "_x": 980.2488837785444,
+      "_y": 1009.4845649007202
     },
     {
       "suggestion": {
@@ -97,8 +97,8 @@
       "_id": "489da84d-47d6-486e-86b5-03b214b561cb",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 345.16954305728694,
-      "_y": 746.4091366399516
+      "_x": 980.2488837785444,
+      "_y": 1020.7345649007203
     },
     {
       "message": {
@@ -108,19 +108,19 @@
       "_id": "484b8453-f60e-4aa3-8025-3cfa9e3cae3d",
       "_collection": "message",
       "_origin": false,
-      "_x": 607.4185784250514,
-      "_y": 744.3635529409313
+      "_x": 1396.053082261484,
+      "_y": 675.9731372076417
     },
     {
       "message": {
-        "en": "Repeat the test and choose the question first so you can see what I mean.",
-        "de": "Wiederhole den Test und wähle zuerst die Frage aus, damit du siehst, was ich meine."
+        "en": "Repeat the test and choose the other message first so you can see what I mean.",
+        "de": "Wiederhole den Test und wähle zuerst die andere Nachricht aus, damit du siehst, was ich meine."
       },
       "_id": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
       "_collection": "message",
       "_origin": false,
-      "_x": 866.6114716574642,
-      "_y": 564.0467003502521
+      "_x": 1298.8306077889629,
+      "_y": 76.3848057375828
     },
     {
       "question": {
@@ -130,8 +130,8 @@
       "_id": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
       "_collection": "question",
       "_origin": false,
-      "_x": 1228.6592886589478,
-      "_y": 726.845481983971
+      "_x": 1141.1355174121286,
+      "_y": -358.03810910897187
     },
     {
       "suggestion": {
@@ -144,22 +144,56 @@
       "_id": "ea8d96e0-9769-4426-882e-72066ca3b069",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1278.8838572003547,
-      "_y": 881.7787814122878
+      "_x": 1141.1355174121286,
+      "_y": -346.78810910897187
     },
     {
-      "url": "",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/save_and_restore.json",
       "_id": "2d3fc520-6a0c-4ccf-978d-096809143b3c",
       "_collection": "jump",
       "_origin": false,
-      "_x": 1470.4803038165608,
-      "_y": 1028.655938705253
+      "_x": 862.6657470944587,
+      "_y": -638.277661481318
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "2965e58b-c599-4011-9053-7690609d3ac2",
+      "_collection": "import",
+      "_origin": false,
+      "_x": 3391.3275925771104,
+      "_y": -5502.276728647531,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Cool! Done!",
+        "de": "Cool! Geschafft!"
+      },
+      "_id": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 254.68905449680477,
+      "_y": 1291.8847737020055,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "By the way: You can simply delete the edge you just created. To do this, select it and click on the trash icon at the top of the toolbar.",
+        "de": "Übrigens: Du kannst die eben erstellte Edge auch einfach wieder löschen. Wähle sie dafür aus und klicke auf den Mülleimer oben in der Toolbar."
+      },
+      "_id": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1785.8361434348017,
+      "_y": -148.40943947501341,
+      "_parent": false
     }
   ],
   "edges": [
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
       "condition": false,
@@ -173,10 +207,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -187,10 +221,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -201,10 +235,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -215,10 +249,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -236,7 +270,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -250,10 +284,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -264,10 +298,10 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "",
-      "condition": false,
+      "condition": "sent",
       "compareVariable": false,
       "compareCondition": "==",
       "compareValue": "",
@@ -285,7 +319,7 @@
     },
     {
       "type": "or",
-      "priority": 50,
+      "priority": "10",
       "name": "",
       "expose": "value",
       "condition": "answered",
@@ -295,6 +329,54 @@
       "_id": "1d5aa96f-2d56-4326-a734-f89a3f4f0801",
       "_from": "ea8d96e0-9769-4426-882e-72066ca3b069",
       "_to": "2d3fc520-6a0c-4ccf-978d-096809143b3c",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "16883a5b-aa1e-4cdc-a0ef-daab5e9dff06",
+      "_from": "d8a08cbb-e3be-44d4-ae42-c6290a3dd503",
+      "_to": "2965e58b-c599-4011-9053-7690609d3ac2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "729efe1a-2bf7-499e-9a7d-d5603f02047d",
+      "_from": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
+      "_to": "d0bad614-4eba-46e5-9099-34b47dcc9141",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "a581c935-5ec9-4e83-a54d-6b45503c1d52",
+      "_from": "6087053c-2f18-45f7-9402-ffba1c2658cd",
+      "_to": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "b6efc390-f76e-4a2f-8b0a-5165fcafa604",
+      "_from": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
+      "_to": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
       "_collection": "leadsTo"
     }
   ]

@@ -1,0 +1,168 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-10-07T13:44:02.780Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "8f192650-1d04-4690-9464-f6aff31771f6",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Feedback",
+        "de": "Neuer Chat-Flow"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Thanks for participating!",
+        "de": "Danke, dass du mitgemacht hast!"
+      },
+      "_id": "2684610d-0c96-479f-8664-816d612c3efa",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 261,
+      "_y": 291,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Unfortunately, the tutorial is now over.",
+        "de": "Das Tutorial ist nun leider schon vorbei."
+      },
+      "_id": "3da00ed1-6596-434d-be59-d743b00bb312",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -149,
+      "_y": 414,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "That was just a little introduction. There is still a lot to do!",
+        "de": "Das war lediglich eine kleine Einführung. Es gibt noch jede Menge zu tun!"
+      },
+      "_id": "27446bcb-7c3a-4737-9026-eb32c22e1ef4",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 282,
+      "_y": 601.0000000000001,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "If you want you can send me feedback to info@steampixel.de or write to me on Twitter @wanderer_ai.",
+        "de": "Wenn du möchtest kannst du mir Feedback an info@steampixel.de senden oder mir auf Twitter @wanderer_ai schreiben."
+      },
+      "_id": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -55.58905788909464,
+      "_y": 727.0313878073424,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Thank you! See you soon!",
+        "de": "Danke und bis bald!"
+      },
+      "_id": "6401b6bb-7647-46ab-9bb4-a255dfdeb9a4",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 257.64452305337034,
+      "_y": 914.2788350408762,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "1b45997f-ef60-42de-9c61-c5da4edd5750",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -4426.653845796443,
+      "_y": -3165.5068662890126,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "2cd34f9b-1114-46e1-bb3d-41004a650ef3",
+      "_from": "8f192650-1d04-4690-9464-f6aff31771f6",
+      "_to": "2684610d-0c96-479f-8664-816d612c3efa",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "62ccc6c9-11a2-44fa-9491-ffd7d4b2d1bb",
+      "_from": "2684610d-0c96-479f-8664-816d612c3efa",
+      "_to": "3da00ed1-6596-434d-be59-d743b00bb312",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "1cf27dc5-020a-413a-8b88-7bc146391978",
+      "_from": "3da00ed1-6596-434d-be59-d743b00bb312",
+      "_to": "27446bcb-7c3a-4737-9026-eb32c22e1ef4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "82bd578c-058b-4d51-9226-7c6ef5675b9c",
+      "_from": "27446bcb-7c3a-4737-9026-eb32c22e1ef4",
+      "_to": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "1a6411e8-ea0b-4f12-a604-4dbc76dc48f7",
+      "_from": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
+      "_to": "6401b6bb-7647-46ab-9bb4-a255dfdeb9a4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "1cabac79-0375-4917-a4be-4965d5e37e0b",
+      "_from": "8f192650-1d04-4690-9464-f6aff31771f6",
+      "_to": "1b45997f-ef60-42de-9c61-c5da4edd5750",
+      "_collection": "leadsTo"
+    }
+  ]
+}

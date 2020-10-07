@@ -1,0 +1,313 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-10-07T13:36:00.583Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "8af8340d-b8d3-4cd2-b1b4-920b5a4db891",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Save and Restore",
+        "de": "Speichern und Wiederherstellen"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Hey! Now I'm going to show you how to save and reload your flows.",
+        "de": "Hey! Jetzt werde ich dir zeigen, wie du deine Flows speichern und wieder laden kannst."
+      },
+      "_id": "12e1bd42-eb02-4183-a7dd-91f583f27e4d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 347,
+      "_y": 387,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "There is a disk icon at the top in the toolbar. Click on it to see the different options.",
+        "de": "Oben in der Toolbar befindet sich ein Disk-Icon. Klicke darauf, um die verschiedenen Optionen zu sehen."
+      },
+      "_id": "6185eed0-4460-45d2-9be8-b9f7f62446d6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 74.7001469735503,
+      "_y": 655.4327726738483,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "There you can download your current flow to your device.",
+        "de": "Du kannst deinen Flow dort auf deinem Gerät speichern."
+      },
+      "_id": "77439551-9a3b-4654-b538-9b9e6d8b5e50",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 471.3145529903364,
+      "_y": 859.8380583346835,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Use the \"Restore from file\" button to restore your flow.",
+        "de": "Nutze den \"Restore from file\" Button, um deinen Flow wiederherzustellen."
+      },
+      "_id": "c2e492e1-d54f-4515-a634-640104dafa06",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 16.89216666209318,
+      "_y": 1014.0425148722506,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "Import",
+      "_id": "028583f9-9fe0-4ae5-9eb3-33c366f8798e",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -2987.7695980358385,
+      "_y": -2742.995755844225,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/feedback.json",
+      "label": "",
+      "_id": "6195657b-0300-4be6-8a75-ed131221e4de",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 678.6701991145601,
+      "_y": 2024.1833267611737,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Ready for the next tutorial?",
+        "de": "Bereit für das nächste Tutorial?"
+      },
+      "_id": "da0a92e7-112d-472d-af1a-592c7bd5dc1a",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 577.7525751232911,
+      "_y": 1300.1266606097497,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Let's go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "59",
+      "_id": "a487cb32-d61f-4a22-985b-8d29acff7b98",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 659.1276940430997,
+      "_y": 1497.0569308927297,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Wait! Why dont you save my flows?"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "50",
+      "_id": "b484233c-9ad8-4b82-bac1-9735943c17f3",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 464.80181164171836,
+      "_y": 1364.5184465619473,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Because its your data!",
+        "de": "Weil es deine Daten sind!"
+      },
+      "_id": "783ee92c-1714-4310-8531-f94c27c5871e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -16.793249155768223,
+      "_y": 1368.7200475305187,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Continue?",
+        "de": "Weiter?"
+      },
+      "_id": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -13.29562755194037,
+      "_y": 1838.9564205351392,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Let's go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -13.29562755194037,
+      "_y": 1850.2064205351392,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "5448766d-3048-4110-9bb8-9da8a6f9e361",
+      "_from": "8af8340d-b8d3-4cd2-b1b4-920b5a4db891",
+      "_to": "12e1bd42-eb02-4183-a7dd-91f583f27e4d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "a863fa3d-c974-4848-8e70-53a68b5a827b",
+      "_from": "12e1bd42-eb02-4183-a7dd-91f583f27e4d",
+      "_to": "6185eed0-4460-45d2-9be8-b9f7f62446d6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "c18b5f90-f1bc-4a78-a51c-9d21a4665fcd",
+      "_from": "6185eed0-4460-45d2-9be8-b9f7f62446d6",
+      "_to": "77439551-9a3b-4654-b538-9b9e6d8b5e50",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "63c25126-a7eb-4abd-afc8-27cde726eb42",
+      "_from": "77439551-9a3b-4654-b538-9b9e6d8b5e50",
+      "_to": "c2e492e1-d54f-4515-a634-640104dafa06",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "02483651-1775-487c-a3f1-9462f135d476",
+      "_from": "8af8340d-b8d3-4cd2-b1b4-920b5a4db891",
+      "_to": "028583f9-9fe0-4ae5-9eb3-33c366f8798e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "8f8ee937-1314-44f7-9491-5666e50616b0",
+      "_from": "c2e492e1-d54f-4515-a634-640104dafa06",
+      "_to": "da0a92e7-112d-472d-af1a-592c7bd5dc1a",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "62a374fc-e6f0-4177-a8d6-d3fef2a4fb87",
+      "_from": "da0a92e7-112d-472d-af1a-592c7bd5dc1a",
+      "_to": "a487cb32-d61f-4a22-985b-8d29acff7b98",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "e3e5cbcf-4d1f-48e2-b285-1d08c40aef46",
+      "_from": "a487cb32-d61f-4a22-985b-8d29acff7b98",
+      "_to": "6195657b-0300-4be6-8a75-ed131221e4de",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "60df0710-2ffe-440c-b81d-cf38e2692242",
+      "_from": "da0a92e7-112d-472d-af1a-592c7bd5dc1a",
+      "_to": "b484233c-9ad8-4b82-bac1-9735943c17f3",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "b6326a71-f6c8-43f3-9a93-8e9ee9096d98",
+      "_from": "b484233c-9ad8-4b82-bac1-9735943c17f3",
+      "_to": "783ee92c-1714-4310-8531-f94c27c5871e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "fc24ed1b-0374-47fd-b11b-4bc7780a67e3",
+      "_from": "783ee92c-1714-4310-8531-f94c27c5871e",
+      "_to": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "3c5afd6a-3e2e-48f0-8d69-607a2132f43c",
+      "_from": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
+      "_to": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "7c513bb7-7bed-431c-8b7c-7d642763a955",
+      "_from": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
+      "_to": "6195657b-0300-4be6-8a75-ed131221e4de",
+      "_collection": "leadsTo"
+    }
+  ]
+}
