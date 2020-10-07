@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T14:12:37.923Z",
+  "time": "2020-10-07T14:24:09.535Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -168,18 +168,6 @@
       "_x": -892.2926924867054,
       "_y": -1573.305872872655,
       "_parent": false
-    },
-    {
-      "message": {
-        "en": "Please choose your language.",
-        "de": "Bitte wähle deine Sprache."
-      },
-      "_id": "ed0790c9-7855-4281-ab61-23db82c55dd0",
-      "_collection": "message",
-      "_origin": false,
-      "_x": -703.3700506133573,
-      "_y": -1387.9131066246853,
-      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
       "question": {
@@ -476,36 +464,6 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "0e8bdd76-ac4e-4dca-acb1-023f3f3f81c9",
-      "_from": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
-      "_to": "ed0790c9-7855-4281-ab61-23db82c55dd0",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "ef7eea7c-b355-48d4-bf8a-608d12398fee",
-      "_from": "ed0790c9-7855-4281-ab61-23db82c55dd0",
-      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
-      "_collection": "leadsTo"
-    },
-    {
       "_id": "a2a5fd11-6f0a-4586-9ada-7086823ca5d7",
       "_from": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_to": "c29f177a-20a9-4485-95d8-badc40e42add",
@@ -533,12 +491,6 @@
       "_id": "fbe439f5-4144-4a55-a486-e828d2ac55c4",
       "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
       "_to": "e9344cac-0fe9-4714-9e63-bec492453deb",
-      "_collection": "watch"
-    },
-    {
-      "_id": "5ab973f0-50bc-4ad6-8a5c-788e5383a8a7",
-      "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
-      "_to": "ed0790c9-7855-4281-ab61-23db82c55dd0",
       "_collection": "watch"
     },
     {
@@ -731,12 +683,24 @@
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "answered",
+      "expose": "value",
       "method": false,
       "condition": "answered",
-      "_id": "23b0d11d-9df9-457d-ad01-4d6c7cf6f0d7",
-      "_from": "726cb723-b5d6-400b-8637-0955bcedc90b",
+      "_id": "42561d39-03b2-4684-8e96-3d4b40c2b23e",
+      "_from": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
       "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "04d53a84-bb83-42b6-8307-08f859a99b39",
+      "_from": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
+      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
       "_collection": "leadsTo"
     }
   ]
