@@ -1,0 +1,245 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-10-07T12:38:37.680Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Simple bot",
+        "de": "Einfacher Bot"
+      },
+      "author": "Wanderer",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Hey! This is the simplest bot you can build!",
+        "de": "Hey! Das ist der einfachste Bot, den du bauen kannst."
+      },
+      "_id": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 292,
+      "_y": 97
+    },
+    {
+      "message": {
+        "en": "Just hold down the right mouse key on the last node in this chain and add a new message.",
+        "de": "Halte die rechte Maustaste über dem letzten Knoten in dieser Kette gedrückt, um eine neue Nachricht einzufügen."
+      },
+      "_id": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 83.62923857643217,
+      "_y": 400.6186801401009
+    },
+    {
+      "message": {
+        "en": "Double click than on the new message and enter a text.",
+        "de": "Doppelklicke dann auf die neue Nachricht und gibt einen Text ein."
+      },
+      "_id": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 563.1589846209556,
+      "_y": 381.94385786464824
+    },
+    {
+      "message": {
+        "en": "You can also add more messages.",
+        "de": "Du kannst auch mehr Nachrichten hinzufügen."
+      },
+      "_id": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 270.5052792181657,
+      "_y": 676.259593804096
+    },
+    {
+      "message": {
+        "en": "When you're done, just restart the next question by clicking on the repeat symbol on the question.",
+        "de": "Wenn du fertig bist, starte einfach die nächste Frage neu, indem du auf das Wiederholen-Symbol an der Frage klickst."
+      },
+      "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 678.0415815198216,
+      "_y": 847.8261233134814
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/questions_and_suggestions.json",
+      "label": {
+        "de": "anzeigen",
+        "en": "show"
+      },
+      "_id": "68f8c75d-6ccc-4750-a880-46747803eec9",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": -1170.011675087563,
+      "_y": 1038.8093400700507
+    },
+    {
+      "question": {
+        "en": "Continue to the next tutorial?",
+        "de": "Weiter zum nächsten Tutorial?"
+      },
+      "_id": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -1025,
+      "_y": 643
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -1105,
+      "_y": 802
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "d46387dd-f20f-49d1-8169-21b87b84664b",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -2755.375327529234,
+      "_y": -2763.2630432585306,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "ba346f58-5297-4a09-909f-4876db03ced0",
+      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_to": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "7d866d2a-bf75-457d-9384-65ac1b8299cc",
+      "_from": "e8b45388-fa67-4b14-984a-8227abb87735",
+      "_to": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "f389351b-110a-4e5d-830c-1c09535787a6",
+      "_from": "467c4e5c-618c-41e7-bb0a-d0932431f1b1",
+      "_to": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "9c535f9b-88a5-4931-bc79-352927aca40f",
+      "_from": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_to": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "89493304-4d1d-4b5d-9f4d-e1b8da9dae38",
+      "_from": "73db0c74-6c50-4da4-beb1-a607c2149539",
+      "_to": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "finished",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "77e40d66-621c-47e8-ad3b-8a1b593610ec",
+      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "0ed8f398-7928-4a6a-93fc-f3855899ec50",
+      "_from": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "_to": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2928844a-6145-4a22-b64f-2a77b89442fd",
+      "_from": "f6d2a558-8d58-4d36-9ba5-3c567c62ef34",
+      "_to": "68f8c75d-6ccc-4750-a880-46747803eec9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "d0a4a89f-311c-4e62-a7c1-016b369fbe0b",
+      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
+      "_to": "d46387dd-f20f-49d1-8169-21b87b84664b",
+      "_collection": "leadsTo"
+    }
+  ]
+}

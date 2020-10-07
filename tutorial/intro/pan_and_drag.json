@@ -1,0 +1,560 @@
+{
+  "wanderer": "web-wanderer",
+  "version": "1.0.0",
+  "time": "2020-10-07T12:35:55.261Z",
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "f905bc45-0309-4889-a74d-ea0506cd9509",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Pan and Drag",
+        "de": "Pan and Drag"
+      },
+      "author": "Wanderer",
+      "license": "MIT"
+    },
+    {
+      "message": {
+        "en": "Now I'll briefly explain a few basics to this software.",
+        "de": "Jetzt werde ich dir kurz ein paar Basics zu dieser Software erklären."
+      },
+      "_id": "35587a4d-4f03-45da-9157-9a7156d26a0e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 371,
+      "_y": 140
+    },
+    {
+      "message": {
+        "en": "Hold down your left mouse button somewhere on the map to pan the view.",
+        "de": "Halte die linke Maustaste irgendwo auf der Karte gedrückt, um die Ansicht zu verschieben."
+      },
+      "_id": "1d3483c5-74ea-4862-aa0d-047e08cf694a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 517.259593804096,
+      "_y": 362.6853807117839
+    },
+    {
+      "question": {
+        "en": "Finished?",
+        "de": "Fertig?"
+      },
+      "_id": "7cfb3ccb-a741-4a5f-9aed-2ce8fc3e867a",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 56.779227270891994,
+      "_y": 579.543413713019
+    },
+    {
+      "suggestion": {
+        "de": "Zeig mir mehr!",
+        "en": "Show me more!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 56.779227270891994,
+      "_y": 590.793413713019
+    },
+    {
+      "message": {
+        "en": "Hold down the left mouse button on a node to move it.",
+        "de": "Halte die linke Maustaste auf einem Knoten gedrückt, um diesen zu verschieben."
+      },
+      "_id": "6c3a42c0-3577-4ba7-992e-3355f3063f61",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 8.901366863329459,
+      "_y": 882.8539824171884
+    },
+    {
+      "question": {
+        "en": "Finished?",
+        "de": "Fertig?"
+      },
+      "_id": "cbaf79bf-f60e-4953-b4f8-668300093eba",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 547.9737222977712,
+      "_y": 852.0375821574103
+    },
+    {
+      "suggestion": {
+        "de": "Klar!",
+        "en": "Sure!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 423.26874755816175,
+      "_y": 913.4895772352745
+    },
+    {
+      "suggestion": {
+        "de": "Was ist eine Maus?",
+        "en": "What is a mouse?"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "d667a38e-16ef-4046-bae7-d4b77acf416a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 610.6786970373809,
+      "_y": 813.0855870795459
+    },
+    {
+      "message": {
+        "en": "Cool!",
+        "de": "Cool!"
+      },
+      "_id": "4181c4bf-0e30-4bb5-9910-9a0d86bbc10f",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 691.5154874085117,
+      "_y": 1175.3641306855418
+    },
+    {
+      "message": {
+        "en": "Are you kidding me?",
+        "de": "Verarschst du mich?"
+      },
+      "_id": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1049.416982636012,
+      "_y": 1018.7548029547875
+    },
+    {
+      "message": {
+        "en": "Hold down the CTRL key to select multiple nodes at the same time.",
+        "de": "Halte die STRG-Taste gedrückt, um mehrere Knoten gleichzeitig auszuwählen."
+      },
+      "_id": "b4763e79-3093-4b57-9799-308e907c8ec9",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1075.0512512032656,
+      "_y": 1315.8454676253295
+    },
+    {
+      "message": {
+        "en": "Now you can easily drag them around together.",
+        "de": "Jetzt kannst du sie einfach zusammen an einen neuen Ort verschieben."
+      },
+      "_id": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1073.9589797572978,
+      "_y": 1546.5762567878874
+    },
+    {
+      "question": {
+        "en": "Are you ready for the next tutorial?",
+        "de": "Bist du bereit für das nächste Tutorial?"
+      },
+      "_id": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 1666.6687664323074,
+      "_y": 1543.4471776920705
+    },
+    {
+      "suggestion": {
+        "de": "Ja klar!",
+        "en": "Yes, sure."
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "2d57006c-5412-49ff-b82f-f6d63814a59e",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1954.070424678844,
+      "_y": 1789.0481104557473
+    },
+    {
+      "suggestion": {
+        "de": "Ich habe nichts kapiert!",
+        "en": "I did not get it!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "0fa8adf2-8530-4610-bc69-3bed50514614",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1772.46223708657,
+      "_y": 1841.0507014659609
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/simple_bot.json",
+      "_id": "6157fb1d-a53f-4393-868c-f74d4febbd54",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 2182.876073081109,
+      "_y": 1881.8477995345218
+    },
+    {
+      "message": {
+        "en": "🤦",
+        "de": "🤦"
+      },
+      "_id": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1727.255966841854,
+      "_y": 1953.85324065597
+    },
+    {
+      "question": {
+        "en": "Ready for some more information?",
+        "de": "Bist du bereit für noch mehr Informationen?"
+      },
+      "_id": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 581.7785828845041,
+      "_y": 1755.7959339803147
+    },
+    {
+      "suggestion": {
+        "de": "Klar!",
+        "en": "Sure!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 581.7785828845041,
+      "_y": 1767.0459339803147
+    },
+    {
+      "message": {
+        "en": "Use the mouse wheel to zoom in or out of the map.",
+        "de": "Benutze das Mausrad, um in die Karte hinein oder heraus zu zoomen."
+      },
+      "_id": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1121.3399984859695,
+      "_y": 2257.193668752467
+    },
+    {
+      "message": {
+        "en": "Puh! Please repeat the question by clicking on the circle arrow nearby to reload the question if you are ready.",
+        "de": "Puh! Bitte wiederhole die Frage, indem du auf den Kreispfeil in der Nähe der Frage klickst, um die Frage erneut zu laden, wenn du bereit bist."
+      },
+      "_id": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1908.106662762953,
+      "_y": 2286.0569717912367
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "308aae91-fefc-4f8a-8392-df99376a631c",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -4040.0289104542235,
+      "_y": -3108.9341782010056,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": false,
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "808edd01-0164-43ab-8d76-a152f9bd9127",
+      "_from": "f905bc45-0309-4889-a74d-ea0506cd9509",
+      "_to": "35587a4d-4f03-45da-9157-9a7156d26a0e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "92886518-9c9f-45e6-8085-10de0c70a89e",
+      "_from": "35587a4d-4f03-45da-9157-9a7156d26a0e",
+      "_to": "1d3483c5-74ea-4862-aa0d-047e08cf694a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "2961905f-b15d-4eee-b6fe-4f2113cb449f",
+      "_from": "1d3483c5-74ea-4862-aa0d-047e08cf694a",
+      "_to": "7cfb3ccb-a741-4a5f-9aed-2ce8fc3e867a",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "08302c9e-7250-4eeb-bc48-ad29090a2053",
+      "_from": "7cfb3ccb-a741-4a5f-9aed-2ce8fc3e867a",
+      "_to": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4c0d0875-5887-406b-812a-c34555190ce1",
+      "_from": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
+      "_to": "6c3a42c0-3577-4ba7-992e-3355f3063f61",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "66fee415-ab89-436e-a09a-c0a851392b57",
+      "_from": "6c3a42c0-3577-4ba7-992e-3355f3063f61",
+      "_to": "cbaf79bf-f60e-4953-b4f8-668300093eba",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "dc4d9d9a-4d08-48bd-bb00-90788c58baa4",
+      "_from": "cbaf79bf-f60e-4953-b4f8-668300093eba",
+      "_to": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 50,
+      "_id": "f208d502-bf48-4c0c-ba63-8da54904d5db",
+      "_from": "cbaf79bf-f60e-4953-b4f8-668300093eba",
+      "_to": "d667a38e-16ef-4046-bae7-d4b77acf416a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "e48ce5ec-89eb-40bf-be3e-ce449a647d1b",
+      "_from": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
+      "_to": "4181c4bf-0e30-4bb5-9910-9a0d86bbc10f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "58ba0839-f9cc-4371-8785-768df251b2a5",
+      "_from": "d667a38e-16ef-4046-bae7-d4b77acf416a",
+      "_to": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "44effb64-800d-4ded-8c86-654c4650d15f",
+      "_from": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
+      "_to": "b4763e79-3093-4b57-9799-308e907c8ec9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "25712519-0c4a-4b28-a6f6-5ce097eca169",
+      "_from": "4181c4bf-0e30-4bb5-9910-9a0d86bbc10f",
+      "_to": "b4763e79-3093-4b57-9799-308e907c8ec9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "92c6f306-4611-4e81-973d-f8195e942a36",
+      "_from": "b4763e79-3093-4b57-9799-308e907c8ec9",
+      "_to": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "bd70b191-a4da-4bd0-96e7-aec45a16bb36",
+      "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
+      "_to": "2d57006c-5412-49ff-b82f-f6d63814a59e",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "priority": 50,
+      "_id": "0f4d9c54-c694-4868-9adc-566df7e60954",
+      "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
+      "_to": "0fa8adf2-8530-4610-bc69-3bed50514614",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "de9f3c6d-d038-4a6c-a022-308a33fb08ab",
+      "_from": "2d57006c-5412-49ff-b82f-f6d63814a59e",
+      "_to": "6157fb1d-a53f-4393-868c-f74d4febbd54",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "84c484a5-d978-4698-8438-115d93125a11",
+      "_from": "0fa8adf2-8530-4610-bc69-3bed50514614",
+      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "bc64afbf-a07f-486c-9306-a53d8ba5cea3",
+      "_from": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
+      "_to": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_collection": "leadsTo"
+    },
+    {
+      "priority": 50,
+      "_id": "bbc14b73-02ec-4664-b226-9d0d2a0117e0",
+      "_from": "0f289aef-7009-402f-ad5f-9d0e1977a334",
+      "_to": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "value",
+      "condition": "answered",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "4a7dc2b4-aa6b-4ae4-9efd-83c920f26cf3",
+      "_from": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
+      "_to": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "68a7c8c2-b758-4008-83e2-29c06f6faf9f",
+      "_from": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
+      "_to": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 50,
+      "name": "",
+      "expose": "",
+      "condition": "sent",
+      "compareVariable": false,
+      "compareCondition": "==",
+      "compareValue": "",
+      "_id": "112aafa5-f82c-460e-90d8-4244083f2cd6",
+      "_from": "18ac152b-2491-4e10-96b7-8b958e17e639",
+      "_to": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "82185d7a-9ff0-4d2c-a7ea-837b26f07b33",
+      "_from": "f905bc45-0309-4889-a74d-ea0506cd9509",
+      "_to": "308aae91-fefc-4f8a-8392-df99376a631c",
+      "_collection": "leadsTo"
+    }
+  ]
+}

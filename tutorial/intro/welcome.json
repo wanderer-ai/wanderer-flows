@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-06T14:07:47.493Z",
+  "time": "2020-10-07T12:35:06.295Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -223,7 +223,7 @@
       "_y": 2242.6993155604755
     },
     {
-      "url": "",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
       "label": "",
       "_id": "fcc3965f-ea16-4fd9-adcb-ec68578384a7",
       "_collection": "jump",
