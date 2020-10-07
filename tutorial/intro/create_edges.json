@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T13:19:01.868Z",
+  "time": "2020-10-07T14:10:54.828Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -353,18 +353,6 @@
       "_id": "729efe1a-2bf7-499e-9a7d-d5603f02047d",
       "_from": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
       "_to": "d0bad614-4eba-46e5-9099-34b47dcc9141",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "a581c935-5ec9-4e83-a54d-6b45503c1d52",
-      "_from": "6087053c-2f18-45f7-9402-ffba1c2658cd",
-      "_to": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
       "_collection": "leadsTo"
     },
     {

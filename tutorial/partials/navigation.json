@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T14:07:44.832Z",
+  "time": "2020-10-07T14:12:37.923Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -194,18 +194,6 @@
       "_parent": false
     },
     {
-      "message": {
-        "en": "What topic are you interested in?",
-        "de": "Welches Thema interessiert dich?"
-      },
-      "_id": "90eb5c84-e981-4f98-a97d-9d933582f043",
-      "_collection": "message",
-      "_origin": false,
-      "_x": -167.799871219485,
-      "_y": -1679.2990946062102,
-      "_parent": false
-    },
-    {
       "suggestion": {
         "de": "Start",
         "en": "Start"
@@ -351,8 +339,8 @@
       "_id": "01dfe290-61f3-4b18-9856-e07b153050af",
       "_collection": "jump",
       "_origin": false,
-      "_x": 34.79147970713055,
-      "_y": -1822.9860316864754,
+      "_x": 7.5280024543073,
+      "_y": -1870.6971168789162,
       "_parent": false
     },
     {
@@ -590,40 +578,10 @@
       "_collection": "watch"
     },
     {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "4b50439c-b9f4-48a2-9a45-1a987d9c2e87",
-      "_from": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
-      "_to": "90eb5c84-e981-4f98-a97d-9d933582f043",
-      "_collection": "leadsTo"
-    },
-    {
-      "_id": "21584e82-f619-47ed-9165-56b16ef3f5ec",
-      "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
-      "_to": "90eb5c84-e981-4f98-a97d-9d933582f043",
-      "_collection": "watch"
-    },
-    {
       "_id": "2c73fbba-3169-40e5-b94b-dec74a787714",
       "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
       "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
       "_collection": "watch"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "3d0e16cc-ff5f-45f8-a1df-553e3edf8a4a",
-      "_from": "90eb5c84-e981-4f98-a97d-9d933582f043",
-      "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
-      "_collection": "leadsTo"
     },
     {
       "_id": "2ae47fa0-547d-4d4b-a6ed-12a7879d3424",
@@ -767,6 +725,18 @@
       "_id": "f7fa7a36-40bd-4627-a960-88f4b05ad5b6",
       "_from": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
       "_to": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "answered",
+      "method": false,
+      "condition": "answered",
+      "_id": "23b0d11d-9df9-457d-ad01-4d6c7cf6f0d7",
+      "_from": "726cb723-b5d6-400b-8637-0955bcedc90b",
+      "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
       "_collection": "leadsTo"
     }
   ]
