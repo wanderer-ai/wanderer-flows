@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-06T14:31:32.469Z",
+  "time": "2020-10-07T14:00:56.689Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -28,8 +28,8 @@
       "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_collection": "question",
       "_origin": false,
-      "_x": -650.488622857759,
-      "_y": 1393.958685381065,
+      "_x": -691.9173796681822,
+      "_y": -1782.54632847982,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -43,8 +43,8 @@
       "_id": "c29f177a-20a9-4485-95d8-badc40e42add",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -801.2386228577591,
-      "_y": 1360.021185381065,
+      "_x": -851.4173796681823,
+      "_y": -1816.48382847982,
       "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
     },
     {
@@ -58,8 +58,8 @@
       "_id": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -468.2386228577588,
-      "_y": 1355.771185381065,
+      "_x": -518.4173796681821,
+      "_y": -1820.73382847982,
       "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
     },
     {
@@ -73,16 +73,16 @@
       "_id": "c668bd1f-a5bf-4499-b632-13ee2355ec5c",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -639.2386228577592,
-      "_y": 1454.646185381065,
+      "_x": -689.4173796681825,
+      "_y": -1721.85882847982,
       "_parent": "726cb723-b5d6-400b-8637-0955bcedc90b"
     },
     {
       "_id": "6e51f5bc-eb6c-43aa-ac0b-0b56c3755786",
       "_collection": "reset",
       "_origin": false,
-      "_x": -875.0112783898574,
-      "_y": 517.7680810247261,
+      "_x": -925.1900352002806,
+      "_y": -2658.736932836159,
       "_parent": false
     },
     {
@@ -93,8 +93,8 @@
       "_id": "b062c758-3e56-44bb-ae5d-9f98975034fd",
       "_collection": "question",
       "_origin": false,
-      "_x": -849.9329297478838,
-      "_y": 2254.262802200157,
+      "_x": -900.1116865583067,
+      "_y": -922.2422116607277,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -108,8 +108,8 @@
       "_id": "ce2c8f18-d0ad-46ae-be67-0bf0461ba55e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -1059.555273548041,
-      "_y": 2297.190027594144,
+      "_x": -1109.7340303584638,
+      "_y": -879.3149862667406,
       "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
     },
     {
@@ -123,8 +123,8 @@
       "_id": "9b3dc486-56f4-46b7-9d70-4b468279f4ec",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -645.3105859477266,
-      "_y": 2233.8355768061697,
+      "_x": -695.4893427581496,
+      "_y": -942.6694370547148,
       "_parent": "b062c758-3e56-44bb-ae5d-9f98975034fd"
     },
     {
@@ -132,8 +132,8 @@
       "_id": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
       "_collection": "language",
       "_origin": false,
-      "_x": -1792.0455743696139,
-      "_y": 2711.1302009517335,
+      "_x": -1842.2243311800376,
+      "_y": -465.3748129091507,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -141,18 +141,8 @@
       "_id": "c383289a-3e6d-4b04-88e7-172039244e0a",
       "_collection": "language",
       "_origin": false,
-      "_x": 99.57882407808285,
-      "_y": 2646.66118133967,
-      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
-    },
-    {
-      "url": "",
-      "label": "",
-      "_id": "135be434-f87d-487a-82c6-08d197dfe359",
-      "_collection": "jump",
-      "_origin": false,
-      "_x": 274.05595041871106,
-      "_y": 1043.3120550707508,
+      "_x": -657.2665993990072,
+      "_y": -523.1771658545479,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -163,8 +153,8 @@
       "_id": "e9344cac-0fe9-4714-9e63-bec492453deb",
       "_collection": "message",
       "_origin": false,
-      "_x": -1506.6656366238412,
-      "_y": 1394.3133586828028,
+      "_x": -1556.844393434265,
+      "_y": -1782.191655178082,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -175,8 +165,8 @@
       "_id": "fc221def-5a49-4f50-b383-0d53c5802927",
       "_collection": "section",
       "_origin": false,
-      "_x": -786.9948119754514,
-      "_y": 1603.1991409882298,
+      "_x": -892.2926924867054,
+      "_y": -1573.305872872655,
       "_parent": false
     },
     {
@@ -187,9 +177,223 @@
       "_id": "ed0790c9-7855-4281-ab61-23db82c55dd0",
       "_collection": "message",
       "_origin": false,
-      "_x": -653.1912938029341,
-      "_y": 1788.5919072361996,
+      "_x": -703.3700506133573,
+      "_y": -1387.9131066246853,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+    },
+    {
+      "question": {
+        "en": "Please choose the topic",
+        "de": "Bitte wähle das Thema."
+      },
+      "_id": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 565.3421450268252,
+      "_y": -1763.2052292766261,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "What topic are you interested in?",
+        "de": "Welches Thema interessiert dich?"
+      },
+      "_id": "90eb5c84-e981-4f98-a97d-9d933582f043",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -167.799871219485,
+      "_y": -1679.2990946062102,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Start",
+        "en": "Start"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "f18254be-c7cc-4d2d-95ca-f75b77fe58c6",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 478.97525228394124,
+      "_y": -1953.8698635158032,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Ein einfacher Bot",
+        "en": "Simple Bot"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "ce5dd19b-b9ba-4be6-ac1b-d626bf8e0837",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 739.4833388319605,
+      "_y": -1932.6370636530712,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Fragen und Antworten",
+        "en": "Questions and Suggestions"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 840.5896769574523,
+      "_y": -1799.4918601814154,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Pan and Drag",
+        "en": "Pan and Drag"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "e0302ed8-6527-4f88-b98b-249941d8e89b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 435.670964859142,
+      "_y": -1567.8392564947874,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Edges einfügen",
+        "en": "Create Edges"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "2ab49e8a-9fbd-4262-a6f9-bc3b633f99b8",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 807.7428046058637,
+      "_y": -1611.6297557140988,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Speichern und Laden",
+        "en": "Save and Restore"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "44583b0c-afd8-4eb7-9605-d5bebc547cac",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 342.4549883642724,
+      "_y": -1808.6967258330596,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Feedback",
+        "en": "Feedback"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "fc1db908-06d1-4480-8d65-aeb858113d46",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 644.5334820594093,
+      "_y": -1500.2163830010513,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Zurück",
+        "en": "Back"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "34",
+      "_id": "49e041a0-9355-40eb-af2b-58f617f9a30a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 300.1798934183789,
+      "_y": -1960.9696853366254,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/simple_bot.json",
+      "label": "",
+      "_id": "90a77c4a-63ca-45f6-851a-e848305065f7",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 898.6666690877368,
+      "_y": -2126.758123835058,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/welcome.json",
+      "label": "",
+      "_id": "a119e0df-7c00-423d-afa3-d21f5fcd06f8",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 295.3167718215817,
+      "_y": -2236.3550701119516,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/save_and_restore.json",
+      "label": "",
+      "_id": "01dfe290-61f3-4b18-9856-e07b153050af",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 34.79147970713055,
+      "_y": -1822.9860316864754,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/pan_and_drag.json",
+      "label": "",
+      "_id": "17b76299-8da3-44ff-a761-b022e6d1031a",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 148.14959503131695,
+      "_y": -1359.2244815562783,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/feedback.json",
+      "label": "",
+      "_id": "a94f3054-e630-4eaf-b20d-cb5fd7735187",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 648.3863150353101,
+      "_y": -1232.2063266114865,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/create_edges.json",
+      "label": "",
+      "_id": "acb55b72-f2d3-4760-8d78-ed6a74d53a76",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 905.4946901789071,
+      "_y": -1278.7231608247826,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/questions_and_suggestions.json",
+      "label": "",
+      "_id": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 1135.7805495054022,
+      "_y": -1760.4220478154525,
+      "_parent": false
     }
   ],
   "edges": [
@@ -251,21 +455,6 @@
       "_id": "0f10a2e6-c0fe-44b4-8174-9c724a809abe",
       "_from": "9b3dc486-56f4-46b7-9d70-4b468279f4ec",
       "_to": "c383289a-3e6d-4b04-88e7-172039244e0a",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "f704a44d-b41d-464b-8e20-a41c5f362d71",
-      "_from": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
-      "_to": "135be434-f87d-487a-82c6-08d197dfe359",
       "_collection": "leadsTo"
     },
     {
@@ -395,16 +584,190 @@
       "_collection": "watch"
     },
     {
-      "_id": "e3b0b16c-584a-49a3-a82d-1a0d4566c92e",
-      "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
-      "_to": "135be434-f87d-487a-82c6-08d197dfe359",
-      "_collection": "watch"
-    },
-    {
       "_id": "3ba3b811-25e6-4098-bfb2-bb9cf083754d",
       "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
       "_to": "6e51f5bc-eb6c-43aa-ac0b-0b56c3755786",
       "_collection": "watch"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "4b50439c-b9f4-48a2-9a45-1a987d9c2e87",
+      "_from": "d0f702f9-85a8-4e0f-bad3-c110b990c57b",
+      "_to": "90eb5c84-e981-4f98-a97d-9d933582f043",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "21584e82-f619-47ed-9165-56b16ef3f5ec",
+      "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "_to": "90eb5c84-e981-4f98-a97d-9d933582f043",
+      "_collection": "watch"
+    },
+    {
+      "_id": "2c73fbba-3169-40e5-b94b-dec74a787714",
+      "_from": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_collection": "watch"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "3d0e16cc-ff5f-45f8-a1df-553e3edf8a4a",
+      "_from": "90eb5c84-e981-4f98-a97d-9d933582f043",
+      "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "2ae47fa0-547d-4d4b-a6ed-12a7879d3424",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "f18254be-c7cc-4d2d-95ca-f75b77fe58c6",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "0cddab82-5016-4ce1-b52f-33a58e27712e",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "ce5dd19b-b9ba-4be6-ac1b-d626bf8e0837",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "c27d86e9-b36c-4060-8476-890c5ab670fb",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "d93e5602-f045-409a-afd5-7180b9fa5761",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "e0302ed8-6527-4f88-b98b-249941d8e89b",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "b8660514-6b77-450e-8268-447b5dfb8b9a",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "2ab49e8a-9fbd-4262-a6f9-bc3b633f99b8",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "b851e6bf-0593-4e7e-9d98-46beb3aae0c0",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "44583b0c-afd8-4eb7-9605-d5bebc547cac",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "e0330d90-c45b-48ab-8170-f35c53ddbede",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "fc1db908-06d1-4480-8d65-aeb858113d46",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "079e401b-4f9d-40ec-aeb4-678fb4eec095",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "49e041a0-9355-40eb-af2b-58f617f9a30a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": "reset",
+      "condition": "answered",
+      "_id": "8c186ad2-dd6d-43cc-b993-6882adb19f2e",
+      "_from": "49e041a0-9355-40eb-af2b-58f617f9a30a",
+      "_to": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "effe24bb-150d-46ab-a47b-7d2a05a4ccc7",
+      "_from": "ce5dd19b-b9ba-4be6-ac1b-d626bf8e0837",
+      "_to": "90a77c4a-63ca-45f6-851a-e848305065f7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "389695e2-d54f-47cd-a7c8-ff7fab068b39",
+      "_from": "f18254be-c7cc-4d2d-95ca-f75b77fe58c6",
+      "_to": "a119e0df-7c00-423d-afa3-d21f5fcd06f8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "ba0ae255-ea8c-4d51-8048-9155fba9d6b0",
+      "_from": "44583b0c-afd8-4eb7-9605-d5bebc547cac",
+      "_to": "01dfe290-61f3-4b18-9856-e07b153050af",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "940eaf1f-e739-4256-b756-c219cc247a31",
+      "_from": "e0302ed8-6527-4f88-b98b-249941d8e89b",
+      "_to": "17b76299-8da3-44ff-a761-b022e6d1031a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "518e701e-e6a9-440d-8b84-c313fae68652",
+      "_from": "fc1db908-06d1-4480-8d65-aeb858113d46",
+      "_to": "a94f3054-e630-4eaf-b20d-cb5fd7735187",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "c7ad9e5b-9be3-41c1-a250-b52b55828c3f",
+      "_from": "2ab49e8a-9fbd-4262-a6f9-bc3b633f99b8",
+      "_to": "acb55b72-f2d3-4760-8d78-ed6a74d53a76",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "f7fa7a36-40bd-4627-a960-88f4b05ad5b6",
+      "_from": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
+      "_to": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
+      "_collection": "leadsTo"
     }
   ]
 }
