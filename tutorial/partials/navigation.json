@@ -1,7 +1,7 @@
 {
   "wanderer": "web-wanderer",
   "version": "1.0.0",
-  "time": "2020-10-07T14:24:09.535Z",
+  "time": "2020-10-08T08:41:44.846Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -30,7 +30,8 @@
       "_origin": false,
       "_x": -691.9173796681822,
       "_y": -1782.54632847982,
-      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "hideMessages": true
     },
     {
       "suggestion": {
@@ -95,7 +96,8 @@
       "_origin": false,
       "_x": -900.1116865583067,
       "_y": -922.2422116607277,
-      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
+      "_parent": "fc221def-5a49-4f50-b383-0d53c5802927",
+      "hideMessages": true
     },
     {
       "suggestion": {
@@ -179,7 +181,8 @@
       "_origin": false,
       "_x": 565.3421450268252,
       "_y": -1763.2052292766261,
-      "_parent": false
+      "_parent": false,
+      "hideMessages": true
     },
     {
       "suggestion": {
