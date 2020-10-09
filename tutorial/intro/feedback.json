@@ -1,7 +1,4 @@
 {
-  "wanderer": "web-wanderer",
-  "version": "1.0.0",
-  "time": "2020-10-07T13:44:02.780Z",
   "vertices": [
     {
       "_collection": "flow",
@@ -18,7 +15,11 @@
         "de": "Neuer Chat-Flow"
       },
       "author": "Wanderer.ai",
-      "license": "MIT"
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "version": "1.0.0",
+      "time": "2020-10-09T11:37:36.575Z"
     },
     {
       "message": {
