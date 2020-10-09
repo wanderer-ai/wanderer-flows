@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "time": "2020-10-09T12:34:40.107Z"
     },
     {
       "message": {
@@ -80,7 +80,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/feedback.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/feedback.json",
       "label": "",
       "_id": "6195657b-0300-4be6-8a75-ed131221e4de",
       "_collection": "jump",
@@ -115,61 +115,6 @@
       "_origin": false,
       "_x": 659.1276940430997,
       "_y": 1497.0569308927297,
-      "_parent": false
-    },
-    {
-      "suggestion": {
-        "de": "Antwortvorschlag",
-        "en": "Wait! Why dont you save my flows?"
-      },
-      "type": "button",
-      "name": "",
-      "priority": "50",
-      "_id": "b484233c-9ad8-4b82-bac1-9735943c17f3",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 464.80181164171836,
-      "_y": 1364.5184465619473,
-      "_parent": false
-    },
-    {
-      "message": {
-        "en": "Because its your data!",
-        "de": "Weil es deine Daten sind!"
-      },
-      "_id": "783ee92c-1714-4310-8531-f94c27c5871e",
-      "_collection": "message",
-      "_origin": false,
-      "_x": -16.793249155768223,
-      "_y": 1368.7200475305187,
-      "_parent": false
-    },
-    {
-      "question": {
-        "en": "Continue?",
-        "de": "Weiter?"
-      },
-      "_id": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
-      "_collection": "question",
-      "_origin": false,
-      "_x": -13.29562755194037,
-      "_y": 1838.9564205351392,
-      "_parent": false,
-      "drawAttention": true
-    },
-    {
-      "suggestion": {
-        "de": "Los!",
-        "en": "Let's go!"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": -13.29562755194037,
-      "_y": 1850.2064205351392,
       "_parent": false
     }
   ],
@@ -261,54 +206,6 @@
       "condition": "answered",
       "_id": "e3e5cbcf-4d1f-48e2-b285-1d08c40aef46",
       "_from": "a487cb32-d61f-4a22-985b-8d29acff7b98",
-      "_to": "6195657b-0300-4be6-8a75-ed131221e4de",
-      "_collection": "leadsTo"
-    },
-    {
-      "_id": "60df0710-2ffe-440c-b81d-cf38e2692242",
-      "_from": "da0a92e7-112d-472d-af1a-592c7bd5dc1a",
-      "_to": "b484233c-9ad8-4b82-bac1-9735943c17f3",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "b6326a71-f6c8-43f3-9a93-8e9ee9096d98",
-      "_from": "b484233c-9ad8-4b82-bac1-9735943c17f3",
-      "_to": "783ee92c-1714-4310-8531-f94c27c5871e",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "fc24ed1b-0374-47fd-b11b-4bc7780a67e3",
-      "_from": "783ee92c-1714-4310-8531-f94c27c5871e",
-      "_to": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
-      "_collection": "leadsTo"
-    },
-    {
-      "_id": "3c5afd6a-3e2e-48f0-8d69-607a2132f43c",
-      "_from": "5c5ba024-dac9-4816-90f8-fe073b195ae2",
-      "_to": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "7c513bb7-7bed-431c-8b7c-7d642763a955",
-      "_from": "45c8d0ef-d7c3-4326-8cd5-d0ea2f870141",
       "_to": "6195657b-0300-4be6-8a75-ed131221e4de",
       "_collection": "leadsTo"
     }
