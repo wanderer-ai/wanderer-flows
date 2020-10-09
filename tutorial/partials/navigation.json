@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "time": "2020-10-09T12:03:43.178Z"
     },
     {
       "question": {
@@ -32,7 +32,8 @@
       "_x": -691.9173796681822,
       "_y": -1782.54632847982,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927",
-      "hideMessages": true
+      "hideMessages": true,
+      "smallButtons": true
     },
     {
       "suggestion": {
@@ -98,7 +99,8 @@
       "_x": -900.1116865583067,
       "_y": -922.2422116607277,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927",
-      "hideMessages": true
+      "hideMessages": true,
+      "smallButtons": true
     },
     {
       "suggestion": {
@@ -183,7 +185,9 @@
       "_x": 565.3421450268252,
       "_y": -1763.2052292766261,
       "_parent": false,
-      "hideMessages": true
+      "hideMessages": true,
+      "smallButtons": true,
+      "drawAttention": false
     },
     {
       "suggestion": {

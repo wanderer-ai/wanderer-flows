@@ -99,7 +99,8 @@
       "_origin": false,
       "_x": 577.7525751232911,
       "_y": 1300.1266606097497,
-      "_parent": false
+      "_parent": false,
+      "drawAttention": true
     },
     {
       "suggestion": {
@@ -153,7 +154,8 @@
       "_origin": false,
       "_x": -13.29562755194037,
       "_y": 1838.9564205351392,
-      "_parent": false
+      "_parent": false,
+      "drawAttention": true
     },
     {
       "suggestion": {

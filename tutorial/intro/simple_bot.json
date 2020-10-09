@@ -94,7 +94,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": -1025,
-      "_y": 643
+      "_y": 643,
+      "drawAttention": true
     },
     {
       "suggestion": {

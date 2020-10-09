@@ -52,7 +52,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": 56.779227270891994,
-      "_y": 579.543413713019
+      "_y": 579.543413713019,
+      "drawAttention": true
     },
     {
       "suggestion": {
@@ -88,7 +89,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": 547.9737222977712,
-      "_y": 852.0375821574103
+      "_y": 852.0375821574103,
+      "drawAttention": true
     },
     {
       "suggestion": {
@@ -171,7 +173,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": 1666.6687664323074,
-      "_y": 1543.4471776920705
+      "_y": 1543.4471776920705,
+      "drawAttention": true
     },
     {
       "suggestion": {
@@ -229,7 +232,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": 581.7785828845041,
-      "_y": 1755.7959339803147
+      "_y": 1755.7959339803147,
+      "drawAttention": true
     },
     {
       "suggestion": {

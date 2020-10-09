@@ -52,7 +52,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": 604.3511918646982,
-      "_y": 802.6009327636767
+      "_y": 802.6009327636767,
+      "drawAttention": true
     },
     {
       "suggestion": {
@@ -102,7 +103,8 @@
       "_collection": "question",
       "_origin": false,
       "_x": -796.4283456517335,
-      "_y": 1779.033683132773
+      "_y": 1779.033683132773,
+      "drawAttention": true
     },
     {
       "suggestion": {
