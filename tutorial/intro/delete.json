@@ -74,7 +74,7 @@
     {
       "message": {
         "en": "If you want, you can also delete nodes and edges.",
-        "de": "Wenn du möchtest, kannst du nodes und edges auch löschen."
+        "de": "Wenn du möchtest, kannst du Nodes und Edges auch löschen."
       },
       "_id": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
       "_collection": "message",

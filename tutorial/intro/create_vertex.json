@@ -123,8 +123,8 @@
     },
     {
       "message": {
-        "en": "Please select \"leads to message\" from the circular menu.",
-        "de": "Bitte wähle dann \"leads to message\" aus dem Menu."
+        "en": "Please select \"leads to Message\" from the circular menu.",
+        "de": "Bitte wähle dafür \"leads to Message\" aus dem Kreis-Menu."
       },
       "_id": "6a394db4-965f-4d82-8dc0-86e3fca52432",
       "_collection": "message",
