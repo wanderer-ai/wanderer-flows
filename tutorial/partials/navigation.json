@@ -19,12 +19,12 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-12T11:52:31.617Z"
+      "time": "2020-10-12T12:19:44.707Z"
     },
     {
       "question": {
-        "en": "",
-        "de": ""
+        "en": "Navigation: What do you want to do?",
+        "de": "Navigation: Was willst du tun?"
       },
       "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_collection": "question",
