@@ -167,8 +167,8 @@
     },
     {
       "message": {
-        "en": "Tip: You can set the priority of each suggestion by adjusting the slider inside the suggestion. The priority will influence the position of the suggestion in the chat.",
-        "de": "Tipp: Du kannst die Priorität jedes Vorschlags festlegen, indem du den Schieberegler im Vorschlag anpasst. Die Priorität beeinflusst die Position des Vorschlags im Chat."
+        "en": "Tip: You can set the priority of each suggestion by adjusting the slider inside the suggestion node. The priority will influence the position of the suggestion in the chat.",
+        "de": "Tipp: Du kannst die Priorität jedes Vorschlags festlegen, indem du den Schieberegler im Vorschlag-Knoten anpasst. Die Priorität beeinflusst die Position des Vorschlags im Chat."
       },
       "_id": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
       "_collection": "message",

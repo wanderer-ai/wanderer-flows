@@ -19,12 +19,12 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-12T12:19:44.707Z"
+      "time": "2020-10-12T13:58:44.771Z"
     },
     {
       "question": {
-        "en": "Navigation: What do you want to do?",
-        "de": "Navigation: Was willst du tun?"
+        "en": "How else can I help you?",
+        "de": "Wie kann ich dir sonst noch helfen?"
       },
       "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_collection": "question",
@@ -137,8 +137,8 @@
       "_id": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
       "_collection": "language",
       "_origin": false,
-      "_x": -1373.2345695446502,
-      "_y": -1993.7596978752638,
+      "_x": -942.4159660913185,
+      "_y": -2082.5635325703797,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -146,8 +146,8 @@
       "_id": "c383289a-3e6d-4b04-88e7-172039244e0a",
       "_collection": "language",
       "_origin": false,
-      "_x": -954.3601610716291,
-      "_y": -1987.435709697939,
+      "_x": -962.760523813059,
+      "_y": -1787.0270557238266,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -158,8 +158,8 @@
       "_id": "e9344cac-0fe9-4714-9e63-bec492453deb",
       "_collection": "message",
       "_origin": false,
-      "_x": -710.2357798069879,
-      "_y": -1854.6954904185047,
+      "_x": -688.6348470433112,
+      "_y": -1414.276472403539,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -375,8 +375,8 @@
       "_id": "8b045761-cfb7-4313-bc45-e1d404233048",
       "_collection": "conclusion",
       "_origin": false,
-      "_x": -346.61940543962436,
-      "_y": -1638.3060948964771,
+      "_x": -290.21696989002385,
+      "_y": -1757.1112250966994,
       "_parent": false,
       "label": "Reset Navigation"
     }
@@ -413,7 +413,7 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
+      "type": "and",
       "priority": 10,
       "name": "",
       "expose": "value",
@@ -428,7 +428,7 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
+      "type": "and",
       "priority": 10,
       "name": "",
       "expose": "value",
@@ -713,6 +713,30 @@
       "_id": "7d1c681b-ab5b-41a0-84f3-e6c3e8982921",
       "_from": "e9344cac-0fe9-4714-9e63-bec492453deb",
       "_to": "8b045761-cfb7-4313-bc45-e1d404233048",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": "reset",
+      "condition": false,
+      "_id": "8dc1aaa6-4f21-4a36-8b70-764ba2ada560",
+      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
+      "_to": "c383289a-3e6d-4b04-88e7-172039244e0a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": "reset",
+      "condition": false,
+      "_id": "a8a80716-3d1a-4453-bc46-908398a3b535",
+      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
+      "_to": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
       "_collection": "leadsTo"
     }
   ]

@@ -1,0 +1,741 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "95125eab-efcd-42e2-b4b6-8772ddd22593",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Cat quiz clean",
+        "de": "Katzen Quiz clean"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "version": "1.0.0",
+      "time": "2020-10-09T20:14:32.819Z"
+    },
+    {
+      "message": {
+        "en": "Hey Welcome to the cat quiz!",
+        "de": "Hey! Willkommen zum Katzenquiz!"
+      },
+      "_id": "48c7c64f-b012-4afc-a8d8-e9b2da9c5f7d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 337.98832491243695,
+      "_y": -201.91441585811782,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "I ask you a questions. If you answer it correctly, you win.",
+        "de": "Ich stelle dir eine Frage. Wenn du sie richtig beantwortest, gewinnst du."
+      },
+      "_id": "8ac0080e-33aa-431c-b0ef-0893aeee2dc6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 519.3855405730703,
+      "_y": 67.20221073124833,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "You have a minute for the question. Shortly before the time runs out, I will activate the 50% joker.",
+        "de": "Du hast für die Frage eine Minute Zeit. Kurz vor Ablauf der Zeit werde ich den 50% Joker aktivieren."
+      },
+      "_id": "6e8fd0aa-083f-4a6e-ab1c-facbc7a3a9e2",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 480.1330031441171,
+      "_y": 343.7198872239414,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Ready?",
+        "de": "Bereit?"
+      },
+      "hideMessages": false,
+      "drawAttention": true,
+      "smallButtons": false,
+      "_id": "d508201a-2413-48ba-a162-1900383c9bb6",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 49.42640616701554,
+      "_y": 345.50190089194933,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "2352d488-c0b7-48de-a3c1-01c9caa2efd4",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 49.42640616701554,
+      "_y": 356.75190089194933,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Here is the question:",
+        "de": "Hier ist die Frage:"
+      },
+      "_id": "58cf3b83-1924-42f9-b376-a4ea422df580",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 506.5362909808551,
+      "_y": 763.496945077586,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "How many lives does a cat have?",
+        "de": "Wie viele Leben hat eine Katze? "
+      },
+      "hideMessages": false,
+      "drawAttention": true,
+      "smallButtons": false,
+      "_id": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -57.51280179576453,
+      "_y": 1473.8594141971753,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "1",
+        "en": "1"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "2d52a2af-5fd9-4160-ad1d-1abd6093bebe",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -124.92589875828156,
+      "_y": 1515.757130950997,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "11",
+        "en": "11"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "26d9a49c-647f-490c-ac47-823b66519590",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -142.22723414992316,
+      "_y": 1342.57853771775,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "7",
+        "en": "7"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "dc7366e9-aa22-4634-b10d-3ed55fda956a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 11.932764655979028,
+      "_y": 1557.839760836989,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "4",
+        "en": "4"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "c14d4fba-7547-4e6d-bfbf-870ec508eeb3",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -18.70418408128672,
+      "_y": 1429.651375214609,
+      "_parent": false
+    },
+    {
+      "seconds": "30",
+      "_id": "d52d0013-7f7b-4b26-bd55-7e239ae485e2",
+      "_collection": "wait",
+      "_origin": false,
+      "_x": 697.8152250836121,
+      "_y": 1387.4654451298572,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "30 seconds left!",
+        "de": "Noch 30 Sekunden!"
+      },
+      "_id": "a07e2f10-cb2b-4cc4-b6f8-9e97ccad5b91",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 931.6738669951249,
+      "_y": 1388.52914344388,
+      "_parent": false
+    },
+    {
+      "seconds": "20",
+      "_id": "451218d9-5a9e-48ee-9ac6-694e15a12cf3",
+      "_collection": "wait",
+      "_origin": false,
+      "_x": 699.9711646822245,
+      "_y": 1536.8183186261247,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Unfortunately that was wrong!",
+        "de": "Das war leider falsch!"
+      },
+      "_id": "c5058e58-f565-41a2-89f8-f928701f16cc",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -517.7617718736416,
+      "_y": 1648.6831317364288,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "🎉🎉🎉 Yes! That's right! 🎉🎉🎉",
+        "de": "🎉🎉🎉 Ja! Das ist richtig! 🎉🎉🎉"
+      },
+      "_id": "7d61b402-3a08-436b-9a90-ac490edd677e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 2.9053705384992874,
+      "_y": 1866.991428683369,
+      "_parent": false
+    },
+    {
+      "seconds": "10",
+      "_id": "11d4dbdc-4320-474a-94a5-c4fff068022e",
+      "_collection": "wait",
+      "_origin": false,
+      "_x": 703.7767590335794,
+      "_y": 1674.4460588011104,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "I'm sorry! Unfortunately the time is up 😢",
+        "de": "Das tut mir leid! Die Zeit ist leider rum 😢"
+      },
+      "_id": "09c901ce-30cc-4ba0-859e-803337bd8dca",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 944.0505947887837,
+      "_y": 1673.6548962101626,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Here you have the joker!",
+        "de": "Hier ist der Joker!"
+      },
+      "_id": "eb7ce8f3-b1c5-4563-aee1-485643956100",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 933.2832796639857,
+      "_y": 1537.5782726136808,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "Wrong",
+        "de": "Falsch"
+      },
+      "_id": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -500.1923275301574,
+      "_y": 1426.0024680134572,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "start question",
+        "de": "start question"
+      },
+      "_id": "0f4fef40-1d17-4f07-bf75-14f20eac90bc",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 216.664889503111,
+      "_y": 1253.1808097949736,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "Timer can start",
+        "de": "Timer can start"
+      },
+      "_id": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 519.5611834711445,
+      "_y": 1260.8301080106883,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "Time is up",
+        "de": "Time is up"
+      },
+      "_id": "ee2231fe-78ca-40da-b215-7e1c341556ee",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 525.2648334596896,
+      "_y": 1777.181128979539,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "Joker!",
+        "de": "Joker!"
+      },
+      "_id": "11051d39-bba9-4ff7-9c10-f49faeb104dc",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 276.50143815787044,
+      "_y": 1524.1267402966791,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "answered",
+        "de": "answered"
+      },
+      "_id": "77d50a1e-9059-4e2c-94fc-1d167cf54c4d",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 287.3433879474432,
+      "_y": 1378.785022648845,
+      "_parent": false
+    },
+    {
+      "conclusion": {
+        "en": "answered",
+        "de": "answered"
+      },
+      "_id": "0eecba85-d388-43ec-8266-d06204f32e15",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -328.8850859613515,
+      "_y": 1804.417215591057,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "1dba6863-d78a-44f4-9772-51d255117bd0",
+      "_from": "95125eab-efcd-42e2-b4b6-8772ddd22593",
+      "_to": "48c7c64f-b012-4afc-a8d8-e9b2da9c5f7d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "45bc88e5-e44f-4b11-be5e-a89433ae1e92",
+      "_from": "48c7c64f-b012-4afc-a8d8-e9b2da9c5f7d",
+      "_to": "8ac0080e-33aa-431c-b0ef-0893aeee2dc6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "f107c8b4-7cf8-43bb-954a-5ae5732809d4",
+      "_from": "8ac0080e-33aa-431c-b0ef-0893aeee2dc6",
+      "_to": "6e8fd0aa-083f-4a6e-ab1c-facbc7a3a9e2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "59918d81-224f-4b33-aa59-24110c353cda",
+      "_from": "6e8fd0aa-083f-4a6e-ab1c-facbc7a3a9e2",
+      "_to": "d508201a-2413-48ba-a162-1900383c9bb6",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "016cb120-3fb4-46ed-ae25-3f0b47ec4d10",
+      "_from": "d508201a-2413-48ba-a162-1900383c9bb6",
+      "_to": "2352d488-c0b7-48de-a3c1-01c9caa2efd4",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "answered",
+      "method": false,
+      "condition": "answered",
+      "_id": "945b8e91-48e2-43e4-8393-fa05f68073db",
+      "_from": "d508201a-2413-48ba-a162-1900383c9bb6",
+      "_to": "58cf3b83-1924-42f9-b376-a4ea422df580",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "57067109-238b-4392-8089-587bc37b68e4",
+      "_from": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_to": "2d52a2af-5fd9-4160-ad1d-1abd6093bebe",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "05d8824f-0434-4ecd-a6e0-6a66c0e8b9cd",
+      "_from": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_to": "26d9a49c-647f-490c-ac47-823b66519590",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "7e9b9f60-8952-4933-a725-eb4dfb0b62d8",
+      "_from": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_to": "dc7366e9-aa22-4634-b10d-3ed55fda956a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "8e0393cc-9788-47f0-9611-10fff590d51e",
+      "_from": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_to": "c14d4fba-7547-4e6d-bfbf-870ec508eeb3",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": "37",
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "aea56307-db4b-409f-9081-f3678cd30be0",
+      "_from": "dc7366e9-aa22-4634-b10d-3ed55fda956a",
+      "_to": "7d61b402-3a08-436b-9a90-ac490edd677e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "34",
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "9efe7486-8c91-42d3-9448-6ab758bcf072",
+      "_from": "2d52a2af-5fd9-4160-ad1d-1abd6093bebe",
+      "_to": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "03d0ee95-13b2-4541-86f3-bb494d6f80c7",
+      "_from": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
+      "_to": "c5058e58-f565-41a2-89f8-f928701f16cc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "34",
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "1b597148-9910-40e5-9de0-320298afb3ab",
+      "_from": "c14d4fba-7547-4e6d-bfbf-870ec508eeb3",
+      "_to": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "36",
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "4b722e0d-03e5-4e83-b315-2b588156895a",
+      "_from": "26d9a49c-647f-490c-ac47-823b66519590",
+      "_to": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "b5ef9d54-cacf-4f9c-81eb-1f7b991a9cbc",
+      "_from": "58cf3b83-1924-42f9-b376-a4ea422df580",
+      "_to": "0f4fef40-1d17-4f07-bf75-14f20eac90bc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "e939019e-d034-4852-a288-1b53c06a330c",
+      "_from": "0f4fef40-1d17-4f07-bf75-14f20eac90bc",
+      "_to": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "37b18c53-1e93-4ad3-ae4f-3a4fccaf3dda",
+      "_from": "d52d0013-7f7b-4b26-bd55-7e239ae485e2",
+      "_to": "451218d9-5a9e-48ee-9ac6-694e15a12cf3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "8a8aa2a0-0652-4f92-8518-aa59c72d0f3b",
+      "_from": "451218d9-5a9e-48ee-9ac6-694e15a12cf3",
+      "_to": "11d4dbdc-4320-474a-94a5-c4fff068022e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "230ce207-0170-4046-9507-1c6dd46d7c15",
+      "_from": "d52d0013-7f7b-4b26-bd55-7e239ae485e2",
+      "_to": "a07e2f10-cb2b-4cc4-b6f8-9e97ccad5b91",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "9095f7b2-ced6-42b8-b91e-e50a87b47960",
+      "_from": "451218d9-5a9e-48ee-9ac6-694e15a12cf3",
+      "_to": "eb7ce8f3-b1c5-4563-aee1-485643956100",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "d0db1e4b-872c-4d83-8a30-a2ef131b493a",
+      "_from": "11d4dbdc-4320-474a-94a5-c4fff068022e",
+      "_to": "09c901ce-30cc-4ba0-859e-803337bd8dca",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "dcd13620-6941-4e3c-a8eb-219a3561f3cb",
+      "_from": "0f4fef40-1d17-4f07-bf75-14f20eac90bc",
+      "_to": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "0f00ac25-adce-4674-a187-363e30f24ff9",
+      "_from": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
+      "_to": "d52d0013-7f7b-4b26-bd55-7e239ae485e2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "e510cf69-bc86-41a4-bd6d-66e111155c7d",
+      "_from": "11d4dbdc-4320-474a-94a5-c4fff068022e",
+      "_to": "ee2231fe-78ca-40da-b215-7e1c341556ee",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "6f8cd49f-8441-466f-af73-d06b8b65854d",
+      "_from": "ee2231fe-78ca-40da-b215-7e1c341556ee",
+      "_to": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "23fb2bbb-2dfb-48c4-a9f9-c1a7f89912ef",
+      "_from": "ee2231fe-78ca-40da-b215-7e1c341556ee",
+      "_to": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "up",
+      "_id": "3099caf7-45ee-4bb9-b20c-c69edc37c438",
+      "_from": "451218d9-5a9e-48ee-9ac6-694e15a12cf3",
+      "_to": "11051d39-bba9-4ff7-9c10-f49faeb104dc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "bc498cf1-6bbb-43d3-b2eb-c8a564ca9e4d",
+      "_from": "11051d39-bba9-4ff7-9c10-f49faeb104dc",
+      "_to": "c14d4fba-7547-4e6d-bfbf-870ec508eeb3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "253ad1be-57be-48c3-8234-ea53630d8b27",
+      "_from": "11051d39-bba9-4ff7-9c10-f49faeb104dc",
+      "_to": "26d9a49c-647f-490c-ac47-823b66519590",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "answered",
+      "method": false,
+      "condition": "answered",
+      "_id": "b9731c40-ddc5-41d1-984c-19f26949f706",
+      "_from": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_to": "77d50a1e-9059-4e2c-94fc-1d167cf54c4d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "59cef647-929c-4fc0-8596-e805c48dd130",
+      "_from": "77d50a1e-9059-4e2c-94fc-1d167cf54c4d",
+      "_to": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "f0a160d3-ad09-46ad-960d-c872fb5d85f7",
+      "_from": "7d61b402-3a08-436b-9a90-ac490edd677e",
+      "_to": "0eecba85-d388-43ec-8266-d06204f32e15",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "d0798bdc-cccb-4d4b-9bb4-98faed68248a",
+      "_from": "c5058e58-f565-41a2-89f8-f928701f16cc",
+      "_to": "0eecba85-d388-43ec-8266-d06204f32e15",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "f4d1cd82-63cc-4443-b8bb-1151a2a76691",
+      "_from": "0eecba85-d388-43ec-8266-d06204f32e15",
+      "_to": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
+      "_collection": "leadsTo"
+    }
+  ]
+}

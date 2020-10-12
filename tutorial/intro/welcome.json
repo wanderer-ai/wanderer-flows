@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "time": "2020-10-12T14:01:16.242Z"
     },
     {
       "message": {
@@ -190,14 +190,14 @@
     },
     {
       "question": {
-        "en": "Ready?",
-        "de": "Bereit?"
+        "en": "Ready for the first session?",
+        "de": "Bereit für die erste Einheit?"
       },
       "_id": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
       "_collection": "question",
       "_origin": false,
-      "_x": 72.08529944850119,
-      "_y": 2466.1595284777122,
+      "_x": 241.29260609730278,
+      "_y": 2380.9558492432093,
       "drawAttention": true
     },
     {
@@ -211,19 +211,8 @@
       "_id": "652293fb-f2ce-42bb-b870-52a5d0a4f92d",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 72.08529944850119,
-      "_y": 2477.4095284777122
-    },
-    {
-      "message": {
-        "en": "Ready for the first session?",
-        "de": "Bereit für die erste Einheit?"
-      },
-      "_id": "b55d00ae-5f56-425f-879f-5dd16dfba089",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 237.39514936957175,
-      "_y": 2242.6993155604755
+      "_x": 241.29260609730278,
+      "_y": 2392.2058492432093
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
@@ -231,8 +220,8 @@
       "_id": "fcc3965f-ea16-4fd9-adcb-ec68578384a7",
       "_collection": "jump",
       "_origin": false,
-      "_x": 479.95335275385537,
-      "_y": 2684.264106990825
+      "_x": -6.067634428872564,
+      "_y": 2624.261515980612
     }
   ],
   "edges": [
@@ -435,36 +424,6 @@
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "9295be19-9806-4b25-99f5-7d54cb8ce33d",
-      "_from": "d1009cd8-35f0-4dd1-9747-f2c4c02296b1",
-      "_to": "b55d00ae-5f56-425f-879f-5dd16dfba089",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "1e96ecf1-c5d2-4dd3-afbc-d5cf9a2eb2bc",
-      "_from": "b55d00ae-5f56-425f-879f-5dd16dfba089",
-      "_to": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
       "expose": "value",
       "method": false,
       "condition": "answered",
@@ -493,6 +452,18 @@
       "_from": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
       "_to": "652293fb-f2ce-42bb-b870-52a5d0a4f92d",
       "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "81b016c4-509e-443d-8dc9-3d27601d2215",
+      "_from": "d1009cd8-35f0-4dd1-9747-f2c4c02296b1",
+      "_to": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
+      "_collection": "leadsTo"
     }
   ]
 }
