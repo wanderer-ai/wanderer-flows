@@ -19,12 +19,12 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-12T13:58:44.771Z"
+      "time": "2020-10-12T14:42:24.558Z"
     },
     {
       "question": {
-        "en": "How else can I help you?",
-        "de": "Wie kann ich dir sonst noch helfen?"
+        "en": "Navigation: What do you want to do?",
+        "de": "Navigation: Was willst du tun?"
       },
       "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_collection": "question",
@@ -184,7 +184,7 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "98",
       "_id": "f18254be-c7cc-4d2d-95ca-f75b77fe58c6",
       "_collection": "suggestion",
       "_origin": false,
@@ -194,17 +194,17 @@
     },
     {
       "suggestion": {
-        "de": "Ein einfacher Bot",
-        "en": "Simple Bot"
+        "de": "Knoten einfügen",
+        "en": "Create Vertex"
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "65",
       "_id": "ce5dd19b-b9ba-4be6-ac1b-d626bf8e0837",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 646.1500054986271,
-      "_y": -1212.637063653071,
+      "_x": 893.0046775184387,
+      "_y": -1096.993675233466,
       "_parent": false
     },
     {
@@ -214,12 +214,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "32",
       "_id": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 747.2563436241188,
-      "_y": -1079.4918601814152,
+      "_x": 220.14806237443915,
+      "_y": -818.5300553659999,
       "_parent": false
     },
     {
@@ -229,12 +229,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "78",
       "_id": "e0302ed8-6527-4f88-b98b-249941d8e89b",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 342.3376315258084,
-      "_y": -847.8392564947873,
+      "_x": 753.6549132878534,
+      "_y": -1203.85337432244,
       "_parent": false
     },
     {
@@ -244,12 +244,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "53",
       "_id": "2ab49e8a-9fbd-4262-a6f9-bc3b633f99b8",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 714.4094712725304,
-      "_y": -891.6297557140987,
+      "_x": 903.2732835428039,
+      "_y": -937.5983218582504,
       "_parent": false
     },
     {
@@ -259,12 +259,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "23",
       "_id": "44583b0c-afd8-4eb7-9605-d5bebc547cac",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 249.12165503093883,
-      "_y": -1088.6967258330596,
+      "_x": 195.22226421407933,
+      "_y": -940.1447462646422,
       "_parent": false
     },
     {
@@ -274,12 +274,12 @@
       },
       "type": "button",
       "name": "",
-      "priority": 50,
+      "priority": "14",
       "_id": "fc1db908-06d1-4480-8d65-aeb858113d46",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 551.2001487260758,
-      "_y": -780.2163830010512,
+      "_x": 169.26267280417676,
+      "_y": -1122.2570987770757,
       "_parent": false
     },
     {
@@ -289,7 +289,7 @@
       },
       "type": "button",
       "name": "",
-      "priority": "34",
+      "priority": "0",
       "_id": "49e041a0-9355-40eb-af2b-58f617f9a30a",
       "_collection": "suggestion",
       "_origin": false,
@@ -298,13 +298,13 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/simple_bot.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_vertex.json",
       "label": "",
       "_id": "90a77c4a-63ca-45f6-851a-e848305065f7",
       "_collection": "jump",
       "_origin": false,
-      "_x": 805.3333357544034,
-      "_y": -1406.758123835058,
+      "_x": 1178.8065319989398,
+      "_y": -1232.132239161869,
       "_parent": false
     },
     {
@@ -313,8 +313,8 @@
       "_id": "a119e0df-7c00-423d-afa3-d21f5fcd06f8",
       "_collection": "jump",
       "_origin": false,
-      "_x": 299.26526581623875,
-      "_y": -1507.1527350944384,
+      "_x": 163.85947912998193,
+      "_y": -1529.5012629941118,
       "_parent": false
     },
     {
@@ -323,8 +323,8 @@
       "_id": "01dfe290-61f3-4b18-9856-e07b153050af",
       "_collection": "jump",
       "_origin": false,
-      "_x": -83.98150926088721,
-      "_y": -1177.9331969197817,
+      "_x": -153.65633153633974,
+      "_y": -882.1438570711625,
       "_parent": false
     },
     {
@@ -333,8 +333,8 @@
       "_id": "17b76299-8da3-44ff-a761-b022e6d1031a",
       "_collection": "jump",
       "_origin": false,
-      "_x": 54.81626169798358,
-      "_y": -639.2244815562782,
+      "_x": 956.9491233777633,
+      "_y": -1505.0646419041127,
       "_parent": false
     },
     {
@@ -343,8 +343,8 @@
       "_id": "a94f3054-e630-4eaf-b20d-cb5fd7735187",
       "_collection": "jump",
       "_origin": false,
-      "_x": 555.0529817019767,
-      "_y": -512.2063266114864,
+      "_x": -257.2122385844149,
+      "_y": -1193.1265325536956,
       "_parent": false
     },
     {
@@ -353,8 +353,8 @@
       "_id": "acb55b72-f2d3-4760-8d78-ed6a74d53a76",
       "_collection": "jump",
       "_origin": false,
-      "_x": 812.1613568455737,
-      "_y": -558.7231608247824,
+      "_x": 1230.3915340994179,
+      "_y": -890.5421444311381,
       "_parent": false
     },
     {
@@ -363,8 +363,8 @@
       "_id": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
       "_collection": "jump",
       "_origin": false,
-      "_x": 1042.4472161720687,
-      "_y": -1040.4220478154525,
+      "_x": 28.687161500100316,
+      "_y": -595.5874463946772,
       "_parent": false
     },
     {
@@ -379,6 +379,81 @@
       "_y": -1757.1112250966994,
       "_parent": false,
       "label": "Reset Navigation"
+    },
+    {
+      "suggestion": {
+        "de": "Löschen",
+        "en": "Delete"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "45",
+      "_id": "54f2186e-8586-4b30-beae-55dcbc0413bc",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 440.95114216121823,
+      "_y": -805.7466107327326,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/delete.json",
+      "label": "",
+      "_id": "2c5caa4d-7c7c-4162-8224-fcaab2ada945",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 543.5422278646987,
+      "_y": -499.15273096914683,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Eigenschaften bearbeiten",
+        "en": "Edit properties"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "94fc0267-3ef2-4b56-95e1-5493f3154c54",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 905.9314489261338,
+      "_y": -936.8288435810649,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/edit.json",
+      "label": "",
+      "_id": "7b808405-5d13-411b-a405-f6feb1db01ef",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 1043.7799091642328,
+      "_y": -586.2056854127444,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Der Flow",
+        "en": "The flow"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "91",
+      "_id": "d2fb5660-0ddc-48d9-bb81-e6bd451dce2d",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 525.2706468263494,
+      "_y": -1211.1504310972798,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/the_flow.json",
+      "label": "",
+      "_id": "e8ab1643-5915-4cd0-8699-6a01fc2abf18",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 744.311454699385,
+      "_y": -1588.9444649709858,
+      "_parent": false
     }
   ],
   "edges": [
@@ -737,6 +812,60 @@
       "_id": "a8a80716-3d1a-4453-bc46-908398a3b535",
       "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
       "_to": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "d84756bf-866f-4a16-96b5-8dbe03b7647b",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "54f2186e-8586-4b30-beae-55dcbc0413bc",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "7f96b68c-5977-4ae3-ad03-e9f288017ee4",
+      "_from": "54f2186e-8586-4b30-beae-55dcbc0413bc",
+      "_to": "2c5caa4d-7c7c-4162-8224-fcaab2ada945",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "76da135e-23f6-471a-b1ae-31f31964d8ad",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "94fc0267-3ef2-4b56-95e1-5493f3154c54",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "bfa0d34a-6811-4abf-9b35-dc37cb3ed052",
+      "_from": "94fc0267-3ef2-4b56-95e1-5493f3154c54",
+      "_to": "7b808405-5d13-411b-a405-f6feb1db01ef",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "39e0ceaf-2707-47f1-b929-add08a178eed",
+      "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
+      "_to": "d2fb5660-0ddc-48d9-bb81-e6bd451dce2d",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "680ed1aa-b6d7-42cd-86ca-9ec5e11e4e13",
+      "_from": "d2fb5660-0ddc-48d9-bb81-e6bd451dce2d",
+      "_to": "e8ab1643-5915-4cd0-8699-6a01fc2abf18",
       "_collection": "leadsTo"
     }
   ]

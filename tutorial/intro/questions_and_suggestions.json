@@ -135,7 +135,7 @@
       "_y": 1891.8341495146112
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_edges.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/save_and_restore.json",
       "label": "Jump",
       "_id": "d18f9d06-2e2e-4cef-bedb-8dadf6d53205",
       "_collection": "jump",

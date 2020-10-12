@@ -1,0 +1,239 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Edit",
+        "de": "Edit"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "version": "1.0.0",
+      "time": "2020-10-12T14:13:00.526Z"
+    },
+    {
+      "message": {
+        "en": "Hey! You can edit all nodes in this editor.",
+        "de": "Hey! Du kannst alle Knoten in diesem Editor bearbeiten."
+      },
+      "_id": "2b27006c-0579-4bdd-bef0-ed169c65568f",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 193.8051302002223,
+      "_y": 206.80461199817964,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "To do this, double-click on a node or select it with the mouse and use the edit symbol at the top of the toolbar.",
+        "de": "Doppelklicke dafür auf einen Knoten oder wähle ihn mit der Maus und nutze das Bearbeiten-Symbol oben in der Toolbar."
+      },
+      "_id": "ece3ae34-8c42-484d-983c-88a2bf53755f",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -86.61026040044459,
+      "_y": 369.408394873091,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "When you're done you can just close the window.",
+        "de": "Wenn du fertig bist kannst du das Fenster einfach schließen."
+      },
+      "_id": "ab4f580a-d447-4c23-864b-bc24933375ae",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 273.6764273468524,
+      "_y": 460.61963389168693,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "You can do the same with edges.",
+        "de": "Das Gleiche kannst du auch mit Edges machen."
+      },
+      "_id": "9a85f691-146a-44c5-9df2-b6bbbfd252b8",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -92.40500915141752,
+      "_y": 630.7718216761037,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Different nodes and edges have different properties. Do not worry. You will find out what all this means later.",
+        "de": "Verschiedene Nodes und Edges haben verschiedene Eigenschaften. Mach dir keine Sorgen. Was das alles bedeutet wirst du später noch erfahren."
+      },
+      "_id": "186c85b8-e515-4d4a-9abc-84f9d4949b0e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 257.50204701844586,
+      "_y": 820.2203009387711,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Do you want to jump to the next tutorial?",
+        "de": "Möchtest du zum nächsten Tutorial springen?"
+      },
+      "hideMessages": false,
+      "drawAttention": true,
+      "smallButtons": false,
+      "_id": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -129.49195891857056,
+      "_y": 1017.8306762068455,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -129.49195891857056,
+      "_y": 1029.0806762068455,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/delete.json",
+      "label": "",
+      "_id": "d8c8f6e9-0ed0-4fbc-bf16-1ed16d8d317b",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": -122.12630437066899,
+      "_y": 1364.564090419112,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "6cfee9d3-7179-4121-bb94-0c9075d940d8",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -1861.1736289583973,
+      "_y": -2169.4632730371377,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "4e3df24a-6c6c-4baa-a60c-0c8336014b16",
+      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_to": "2b27006c-0579-4bdd-bef0-ed169c65568f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "bf4e5cf9-26d6-4e6d-92fd-0d0575273936",
+      "_from": "2b27006c-0579-4bdd-bef0-ed169c65568f",
+      "_to": "ece3ae34-8c42-484d-983c-88a2bf53755f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "88c478bc-2b64-4063-8872-d4a4ffc2f189",
+      "_from": "ece3ae34-8c42-484d-983c-88a2bf53755f",
+      "_to": "ab4f580a-d447-4c23-864b-bc24933375ae",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "1c63372d-6b28-4e9b-b532-54a04900537a",
+      "_from": "ab4f580a-d447-4c23-864b-bc24933375ae",
+      "_to": "9a85f691-146a-44c5-9df2-b6bbbfd252b8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "b20d6210-9e79-4267-9c5a-45068d5e40b1",
+      "_from": "9a85f691-146a-44c5-9df2-b6bbbfd252b8",
+      "_to": "186c85b8-e515-4d4a-9abc-84f9d4949b0e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "dde8bd1f-f4e7-4836-8d1a-bc21d13f5f87",
+      "_from": "186c85b8-e515-4d4a-9abc-84f9d4949b0e",
+      "_to": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "4b0801c1-b228-42b2-bd61-94b2d1e08a51",
+      "_from": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_to": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "d1c862cb-0f0d-4d58-94ea-4571e75779f3",
+      "_from": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_to": "d8c8f6e9-0ed0-4fbc-bf16-1ed16d8d317b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "fd2309c9-f790-4894-87d7-590875fdf93b",
+      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_to": "6cfee9d3-7179-4121-bb94-0c9075d940d8",
+      "_collection": "leadsTo"
+    }
+  ]
+}

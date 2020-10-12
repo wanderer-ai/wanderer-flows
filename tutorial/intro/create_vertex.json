@@ -11,8 +11,8 @@
         "de"
       ],
       "topic": {
-        "en": "Simple bot",
-        "de": "Einfacher Bot"
+        "en": "Create vertex",
+        "de": "Vertex erstellen"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
@@ -77,7 +77,7 @@
       "_y": 1236.1674990788893
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/questions_and_suggestions.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_edges.json",
       "label": "Tutorial",
       "_id": "68f8c75d-6ccc-4750-a880-46747803eec9",
       "_collection": "jump",

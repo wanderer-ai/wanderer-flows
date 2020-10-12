@@ -1,0 +1,239 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Delete",
+        "de": "Delete"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "version": "1.0.0",
+      "time": "2020-10-12T14:21:43.663Z"
+    },
+    {
+      "question": {
+        "en": "Do you want to jump to the next tutorial?",
+        "de": "Möchtest du zum nächsten Tutorial springen?"
+      },
+      "hideMessages": false,
+      "drawAttention": true,
+      "smallButtons": false,
+      "_id": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -111.88522725957063,
+      "_y": 1077.6935638474454,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -111.88522725957064,
+      "_y": 1088.9435638474454,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/questions_and_suggestions.json",
+      "label": "",
+      "_id": "d8c8f6e9-0ed0-4fbc-bf16-1ed16d8d317b",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": -122.12630437066899,
+      "_y": 1364.564090419112,
+      "_parent": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
+      "label": "",
+      "_id": "6cfee9d3-7179-4121-bb94-0c9075d940d8",
+      "_collection": "import",
+      "_origin": false,
+      "_x": -1861.1736289583973,
+      "_y": -2169.4632730371377,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "If you want, you can also delete nodes and edges.",
+        "de": "Wenn du möchtest, kannst du nodes und edges auch löschen."
+      },
+      "_id": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 271.18098380183176,
+      "_y": 271.5202865046615,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "To do this, mark one or more nodes or edges and then click on the trash can symbol at the top of the toolbar.",
+        "de": "Markiere dafür einen oder mehrere Nodes oder Edges und klicke dann auf das Mülleimer-Symbol oben in der Toolbar."
+      },
+      "_id": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -65.65562899115653,
+      "_y": 421.68869095057073,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Attention! If you delete a node, edges directly connected to it will also be deleted!",
+        "de": "Achtung! Wenn du einen Knoten löschst, werden auch mit diesem verbundenen Edges gelöscht!"
+      },
+      "_id": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 276.2005480730453,
+      "_y": 562.3399042799269,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Alternatively, you can just delete all edges. To do this, mark a node and then click on the \"Unlink\" symbol in the toolbar. In this way all connections to this node are severed.",
+        "de": "Alternativ kannst du auch lediglich alle Edges löschen. Markiere dafür einen Knoten und klicke dann in der Toolbar auf das \"Unlink\" Symbol. So werden alle Verbindungen zu diesem Knoten durchtrennt."
+      },
+      "_id": "9099d393-5f1d-4b65-bb4f-3ff997ce9d22",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -125.95634506231619,
+      "_y": 729.596816945341,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "So you can save knots but still isolate them from the flow.",
+        "de": "So kannst du dir Knoten für später erhalten aber dennoch vom Flow isolieren."
+      },
+      "_id": "df0aa20f-776b-4f5f-b0e8-4179ef9dcf4b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 241.75136148168278,
+      "_y": 850.006914433841,
+      "_parent": false
+    }
+  ],
+  "edges": [
+    {
+      "_id": "4b0801c1-b228-42b2-bd61-94b2d1e08a51",
+      "_from": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_to": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "d1c862cb-0f0d-4d58-94ea-4571e75779f3",
+      "_from": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
+      "_to": "d8c8f6e9-0ed0-4fbc-bf16-1ed16d8d317b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "fd2309c9-f790-4894-87d7-590875fdf93b",
+      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_to": "6cfee9d3-7179-4121-bb94-0c9075d940d8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "e642c7a5-8908-46e7-8a55-f4d2abe58e45",
+      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_to": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "e7f08f4e-0e03-425e-bd69-1b7a1f87aef8",
+      "_from": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
+      "_to": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "77296e7a-b1b1-44c2-b657-24518056a02e",
+      "_from": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
+      "_to": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "8b027713-a5b3-4a59-b109-28dc28e47a48",
+      "_from": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
+      "_to": "9099d393-5f1d-4b65-bb4f-3ff997ce9d22",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "1d960371-b1ff-40ef-8d2d-bf01ce083107",
+      "_from": "9099d393-5f1d-4b65-bb4f-3ff997ce9d22",
+      "_to": "df0aa20f-776b-4f5f-b0e8-4179ef9dcf4b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "9daaf7d1-939d-43a8-a43a-e778d964c65d",
+      "_from": "df0aa20f-776b-4f5f-b0e8-4179ef9dcf4b",
+      "_to": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_collection": "leadsTo"
+    }
+  ]
+}
