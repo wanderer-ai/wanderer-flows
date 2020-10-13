@@ -19,12 +19,12 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-12T14:42:24.558Z"
+      "time": "2020-10-13T12:10:41.939Z"
     },
     {
       "question": {
-        "en": "Navigation: What do you want to do?",
-        "de": "Navigation: Was willst du tun?"
+        "en": "How else can I help you?",
+        "de": "Wie kann ich dir sonst noch helfen?"
       },
       "_id": "726cb723-b5d6-400b-8637-0955bcedc90b",
       "_collection": "question",
@@ -158,8 +158,8 @@
       "_id": "e9344cac-0fe9-4714-9e63-bec492453deb",
       "_collection": "message",
       "_origin": false,
-      "_x": -688.6348470433112,
-      "_y": -1414.276472403539,
+      "_x": -348.1444629694932,
+      "_y": -1524.786509339778,
       "_parent": "fc221def-5a49-4f50-b383-0d53c5802927"
     },
     {
@@ -188,8 +188,8 @@
       "_id": "f18254be-c7cc-4d2d-95ca-f75b77fe58c6",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 385.6419189506077,
-      "_y": -1233.869863515803,
+      "_x": 184.2704222907227,
+      "_y": -1247.7575529406226,
       "_parent": false
     },
     {
@@ -218,8 +218,8 @@
       "_id": "1db81a50-ff23-4a0a-9807-9bb2ff29906e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 220.14806237443915,
-      "_y": -818.5300553659999,
+      "_x": 513.9334340942557,
+      "_y": -807.0090603965954,
       "_parent": false
     },
     {
@@ -248,8 +248,8 @@
       "_id": "2ab49e8a-9fbd-4262-a6f9-bc3b633f99b8",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 903.2732835428039,
-      "_y": -937.5983218582504,
+      "_x": 914.2274981747773,
+      "_y": -961.3324535608597,
       "_parent": false
     },
     {
@@ -263,8 +263,8 @@
       "_id": "44583b0c-afd8-4eb7-9605-d5bebc547cac",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 195.22226421407933,
-      "_y": -940.1447462646422,
+      "_x": 261.4679852881556,
+      "_y": -853.7372839941079,
       "_parent": false
     },
     {
@@ -278,8 +278,8 @@
       "_id": "fc1db908-06d1-4480-8d65-aeb858113d46",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 169.26267280417676,
-      "_y": -1122.2570987770757,
+      "_x": 97.14742647701797,
+      "_y": -865.7459061450298,
       "_parent": false
     },
     {
@@ -293,8 +293,8 @@
       "_id": "49e041a0-9355-40eb-af2b-58f617f9a30a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 182.53403898029785,
-      "_y": -1204.500903679504,
+      "_x": 121.30310163901542,
+      "_y": -1058.1721176669873,
       "_parent": false
     },
     {
@@ -323,8 +323,8 @@
       "_id": "01dfe290-61f3-4b18-9856-e07b153050af",
       "_collection": "jump",
       "_origin": false,
-      "_x": -153.65633153633974,
-      "_y": -882.1438570711625,
+      "_x": 236.70322729302248,
+      "_y": -488.5648184871581,
       "_parent": false
     },
     {
@@ -343,8 +343,8 @@
       "_id": "a94f3054-e630-4eaf-b20d-cb5fd7735187",
       "_collection": "jump",
       "_origin": false,
-      "_x": -257.2122385844149,
-      "_y": -1193.1265325536956,
+      "_x": -0.7610727467828693,
+      "_y": -601.8511973119329,
       "_parent": false
     },
     {
@@ -363,22 +363,9 @@
       "_id": "1be17079-8ce2-472f-ab6e-1cf251c3c8b8",
       "_collection": "jump",
       "_origin": false,
-      "_x": 28.687161500100316,
-      "_y": -595.5874463946772,
+      "_x": 499.60783087451244,
+      "_y": -503.4194866394406,
       "_parent": false
-    },
-    {
-      "conclusion": {
-        "en": "New conclusion",
-        "de": "Neue Schlussfolgerung"
-      },
-      "_id": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_collection": "conclusion",
-      "_origin": false,
-      "_x": -290.21696989002385,
-      "_y": -1757.1112250966994,
-      "_parent": false,
-      "label": "Reset Navigation"
     },
     {
       "suggestion": {
@@ -391,8 +378,8 @@
       "_id": "54f2186e-8586-4b30-beae-55dcbc0413bc",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 440.95114216121823,
-      "_y": -805.7466107327326,
+      "_x": 755.441861887326,
+      "_y": -821.9735568831505,
       "_parent": false
     },
     {
@@ -401,8 +388,8 @@
       "_id": "2c5caa4d-7c7c-4162-8224-fcaab2ada945",
       "_collection": "jump",
       "_origin": false,
-      "_x": 543.5422278646987,
-      "_y": -499.15273096914683,
+      "_x": 776.8423759951413,
+      "_y": -500.59285534032244,
       "_parent": false
     },
     {
@@ -416,8 +403,8 @@
       "_id": "94fc0267-3ef2-4b56-95e1-5493f3154c54",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 905.9314489261338,
-      "_y": -936.8288435810649,
+      "_x": 865.7659952755644,
+      "_y": -856.4979362799261,
       "_parent": false
     },
     {
@@ -441,8 +428,8 @@
       "_id": "d2fb5660-0ddc-48d9-bb81-e6bd451dce2d",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 525.2706468263494,
-      "_y": -1211.1504310972798,
+      "_x": 485.9221934560271,
+      "_y": -1243.5550397551924,
       "_parent": false
     },
     {
@@ -451,27 +438,21 @@
       "_id": "e8ab1643-5915-4cd0-8699-6a01fc2abf18",
       "_collection": "jump",
       "_origin": false,
-      "_x": 744.311454699385,
-      "_y": -1588.9444649709858,
+      "_x": 475.81612581953834,
+      "_y": -1584.3152351627125,
+      "_parent": false
+    },
+    {
+      "label": "New conclusion",
+      "_id": "a89aaf9b-246f-41cf-a002-904acabd5ad6",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -366.32445451574466,
+      "_y": -709.2062022826663,
       "_parent": false
     }
   ],
   "edges": [
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": false,
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "778a9219-4f9e-4492-8c19-572563a5dd33",
-      "_from": "b6c2bd9f-8343-4c77-8bde-6bb8f8b44316",
-      "_to": "726cb723-b5d6-400b-8637-0955bcedc90b",
-      "_collection": "leadsTo"
-    },
     {
       "type": "or",
       "priority": 10,
@@ -719,102 +700,6 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "d4f233c3-7347-4c2d-8de1-ebd755a49cf7",
-      "_from": "49e041a0-9355-40eb-af2b-58f617f9a30a",
-      "_to": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "9b952991-9b6e-4fd0-9716-c3384bba0a48",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "b062c758-3e56-44bb-ae5d-9f98975034fd",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "c8b3f05a-7840-4ce9-a8a2-066b5cc5d863",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "1b9925aa-1596-4d2b-84b7-ed61d2b49a67",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "726cb723-b5d6-400b-8637-0955bcedc90b",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "f7fc5690-74c1-4123-b456-f9407329a939",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "e9344cac-0fe9-4714-9e63-bec492453deb",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "7d1c681b-ab5b-41a0-84f3-e6c3e8982921",
-      "_from": "e9344cac-0fe9-4714-9e63-bec492453deb",
-      "_to": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "8dc1aaa6-4f21-4a36-8b70-764ba2ada560",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "c383289a-3e6d-4b04-88e7-172039244e0a",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": "reset",
-      "condition": false,
-      "_id": "a8a80716-3d1a-4453-bc46-908398a3b535",
-      "_from": "8b045761-cfb7-4313-bc45-e1d404233048",
-      "_to": "99aacbf3-fff8-47dc-8195-b5f21809d6db",
-      "_collection": "leadsTo"
-    },
-    {
       "_id": "d84756bf-866f-4a16-96b5-8dbe03b7647b",
       "_from": "3031d3ae-18c9-4a8a-b485-8631e1143cae",
       "_to": "54f2186e-8586-4b30-beae-55dcbc0413bc",
@@ -866,6 +751,54 @@
       "_id": "680ed1aa-b6d7-42cd-86ca-9ec5e11e4e13",
       "_from": "d2fb5660-0ddc-48d9-bb81-e6bd451dce2d",
       "_to": "e8ab1643-5915-4cd0-8699-6a01fc2abf18",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "b79ce81b-6e7c-4b12-8609-a77f4f4db6e6",
+      "_from": "b6c2bd9f-8343-4c77-8bde-6bb8f8b44316",
+      "_to": "a89aaf9b-246f-41cf-a002-904acabd5ad6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "a3420637-a16a-4730-a6f8-60f09625d8af",
+      "_from": "a89aaf9b-246f-41cf-a002-904acabd5ad6",
+      "_to": "726cb723-b5d6-400b-8637-0955bcedc90b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "c07e9ee0-fb53-4a5f-aad9-6924e9bf9efe",
+      "_from": "e9344cac-0fe9-4714-9e63-bec492453deb",
+      "_to": "a89aaf9b-246f-41cf-a002-904acabd5ad6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "d7c573ee-42a7-4b9c-a42d-0f07b88df599",
+      "_from": "49e041a0-9355-40eb-af2b-58f617f9a30a",
+      "_to": "a89aaf9b-246f-41cf-a002-904acabd5ad6",
       "_collection": "leadsTo"
     }
   ]
