@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T20:47:51.826Z"
+      "time": "2020-10-22T21:17:58.414Z"
     },
     {
       "message": {
@@ -56,8 +56,8 @@
     },
     {
       "message": {
-        "en": "You can also restart the current chat at any time! Just use the \"restart\" button below.",
-        "de": "Du kannst den Chat auch zu jeder Zeit einfach neu starten. Nutze dafür einfach den Button unten."
+        "en": "You can also simply restart the chat at any time. Simply use the button at the bottom or at the top right in the toolbar.",
+        "de": "Du kannst den Chat auch zu jeder Zeit einfach neu starten. Nutze dafür einfach den Button unten oder ganz oben rechts in der Werkzeugleiste."
       },
       "_id": "8713e143-400c-4fe6-a1e9-769743bc6933",
       "_collection": "message",
