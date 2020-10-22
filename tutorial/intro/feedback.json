@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T21:02:40.675Z"
+      "time": "2020-10-22T21:25:41.257Z"
     },
     {
       "message": {
@@ -59,8 +59,8 @@
     },
     {
       "message": {
-        "en": "If you want you can send me feedback to hello@wanderer.ai or write to me on Twitter @wanderer_ai.",
-        "de": "Wenn du möchtest kannst du mir Feedback an hello@wanderer.ai senden oder mir auf Twitter @wanderer_ai schreiben."
+        "en": "If you want you can send me feedback to [hello@wanderer.ai](mailto:hello@wanderer.ai) or write to me on Twitter [@wanderer_ai](https://twitter.com/wanderer_ai).",
+        "de": "Wenn du möchtest kannst du mir Feedback an [hello@wanderer.ai](mailto:hello@wanderer.ai) senden oder mir auf Twitter [@wanderer_ai](https://twitter.com/wanderer_ai) schreiben."
       },
       "_id": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
       "_collection": "message",
