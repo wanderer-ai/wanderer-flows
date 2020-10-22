@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T20:50:52.571Z"
     },
     {
       "message": {
@@ -73,8 +73,8 @@
       "_id": "6087053c-2f18-45f7-9402-ffba1c2658cd",
       "_collection": "message",
       "_origin": false,
-      "_x": -475.83905977261776,
-      "_y": 1284.685749747406
+      "_x": -522.5057264392844,
+      "_y": 1391.3524164140726
     },
     {
       "question": {
@@ -84,8 +84,8 @@
       "_id": "d0bad614-4eba-46e5-9099-34b47dcc9141",
       "_collection": "question",
       "_origin": false,
-      "_x": 980.2488837785444,
-      "_y": 1009.4845649007202,
+      "_x": 660.2488837785443,
+      "_y": 1299.48456490072,
       "drawAttention": true
     },
     {
@@ -99,8 +99,8 @@
       "_id": "489da84d-47d6-486e-86b5-03b214b561cb",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 980.2488837785444,
-      "_y": 1020.7345649007203
+      "_x": 886.9314749350611,
+      "_y": 1360.7959983978221
     },
     {
       "message": {
@@ -110,8 +110,8 @@
       "_id": "484b8453-f60e-4aa3-8025-3cfa9e3cae3d",
       "_collection": "message",
       "_origin": false,
-      "_x": 1396.053082261484,
-      "_y": 675.9731372076417
+      "_x": 1256.053082261484,
+      "_y": 1029.3064705409752
     },
     {
       "message": {
@@ -121,8 +121,8 @@
       "_id": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
       "_collection": "message",
       "_origin": false,
-      "_x": 1298.8306077889629,
-      "_y": 76.3848057375828
+      "_x": 1367.8524195933007,
+      "_y": 582.2491993205819
     },
     {
       "question": {
@@ -132,8 +132,8 @@
       "_id": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
       "_collection": "question",
       "_origin": false,
-      "_x": 1141.1355174121286,
-      "_y": -358.03810910897187,
+      "_x": 1274.9858050511905,
+      "_y": -245.1726269035697,
       "drawAttention": true
     },
     {
@@ -147,16 +147,16 @@
       "_id": "ea8d96e0-9769-4426-882e-72066ca3b069",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1141.1355174121286,
-      "_y": -346.78810910897187
+      "_x": 1152.917088828073,
+      "_y": -439.52303196113974
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/edit.json",
       "_id": "2d3fc520-6a0c-4ccf-978d-096809143b3c",
       "_collection": "jump",
       "_origin": false,
-      "_x": 862.6657470944587,
-      "_y": -638.277661481318
+      "_x": 695.9990804277919,
+      "_y": -678.277661481318
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
@@ -176,8 +176,8 @@
       "_id": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
       "_collection": "message",
       "_origin": false,
-      "_x": 136.90066039246022,
-      "_y": 1298.4285733744691,
+      "_x": 106.90066039246021,
+      "_y": 1415.0952400411359,
       "_parent": false
     },
     {
@@ -188,8 +188,8 @@
       "_id": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
       "_collection": "message",
       "_origin": false,
-      "_x": 1785.8361434348017,
-      "_y": -148.40943947501341,
+      "_x": 1358.580238634565,
+      "_y": 215.11567043950117,
       "_parent": false
     }
   ],
@@ -300,20 +300,6 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "ec3cfad7-4e78-4970-8c42-fd4fd08d1439",
-      "_from": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
-      "_to": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
-      "_collection": "leadsTo"
-    },
-    {
       "priority": 50,
       "_id": "fffb9512-a94f-473b-b0dc-1e059efb70a3",
       "_from": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
@@ -368,6 +354,18 @@
       "_id": "b6efc390-f76e-4a2f-8b0a-5165fcafa604",
       "_from": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
       "_to": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "eef27a7f-fade-4eaf-83bd-7b2061fe36f7",
+      "_from": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
+      "_to": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
       "_collection": "leadsTo"
     }
   ]

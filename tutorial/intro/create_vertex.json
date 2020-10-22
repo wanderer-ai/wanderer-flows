@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T20:49:46.370Z"
     },
     {
       "message": {
@@ -129,8 +129,8 @@
       "_id": "6a394db4-965f-4d82-8dc0-86e3fca52432",
       "_collection": "message",
       "_origin": false,
-      "_x": 340.0038980257846,
-      "_y": 625.7016452342428,
+      "_x": 53.11873511612316,
+      "_y": 706.928167262882,
       "_parent": false
     }
   ],
@@ -192,20 +192,6 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "",
-      "condition": "finished",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "77e40d66-621c-47e8-ad3b-8a1b593610ec",
-      "_from": "f481243f-fcc1-4015-b6d3-7f72e3da123c",
-      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
-      "_collection": "leadsTo"
-    },
-    {
       "priority": 50,
       "_id": "0ed8f398-7928-4a6a-93fc-f3855899ec50",
       "_from": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
@@ -260,6 +246,18 @@
       "_id": "a6efd338-a016-4230-a844-744055fae861",
       "_from": "6a394db4-965f-4d82-8dc0-86e3fca52432",
       "_to": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "66bb7f3c-c29f-41d4-8198-012c07908b89",
+      "_from": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
       "_collection": "leadsTo"
     }
   ]

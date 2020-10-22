@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-13T12:19:00.462Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T20:59:20.630Z"
     },
     {
       "question": {
@@ -32,8 +32,8 @@
       "_id": "e393e352-5379-403c-85ad-b49058c3578a",
       "_collection": "question",
       "_origin": false,
-      "_x": -111.88522725957063,
-      "_y": 1077.6935638474454,
+      "_x": 1286.8915214640253,
+      "_y": 2673.204638902288,
       "_parent": false
     },
     {
@@ -47,8 +47,8 @@
       "_id": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -111.88522725957064,
-      "_y": 1088.9435638474454,
+      "_x": 1525.2968565900976,
+      "_y": 2726.117707176747,
       "_parent": false
     },
     {
@@ -57,8 +57,8 @@
       "_id": "d8c8f6e9-0ed0-4fbc-bf16-1ed16d8d317b",
       "_collection": "jump",
       "_origin": false,
-      "_x": -122.12630437066899,
-      "_y": 1364.564090419112,
+      "_x": 1795.1241828795305,
+      "_y": 2721.6698303478825,
       "_parent": false
     },
     {
@@ -79,8 +79,8 @@
       "_id": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
       "_collection": "message",
       "_origin": false,
-      "_x": 271.18098380183176,
-      "_y": 271.5202865046615,
+      "_x": 742.8532038312377,
+      "_y": 967.1929913004877,
       "_parent": false
     },
     {
@@ -91,8 +91,8 @@
       "_id": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
       "_collection": "message",
       "_origin": false,
-      "_x": -65.65562899115653,
-      "_y": 421.68869095057073,
+      "_x": 1015.8315412094531,
+      "_y": 1196.047090228548,
       "_parent": false
     },
     {
@@ -103,8 +103,8 @@
       "_id": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
       "_collection": "message",
       "_origin": false,
-      "_x": 276.2005480730453,
-      "_y": 562.3399042799269,
+      "_x": 817.4049788110115,
+      "_y": 1846.2053327290462,
       "_parent": false
     },
     {
@@ -115,8 +115,8 @@
       "_id": "9099d393-5f1d-4b65-bb4f-3ff997ce9d22",
       "_collection": "message",
       "_origin": false,
-      "_x": -125.95634506231619,
-      "_y": 729.596816945341,
+      "_x": 776.3030240442579,
+      "_y": 2143.138172955901,
       "_parent": false
     },
     {
@@ -127,8 +127,198 @@
       "_id": "df0aa20f-776b-4f5f-b0e8-4179ef9dcf4b",
       "_collection": "message",
       "_origin": false,
-      "_x": 241.75136148168278,
-      "_y": 850.006914433841,
+      "_x": 893.1324705529674,
+      "_y": 2382.1085446824372,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "Attention! You can break a lot in this tutorial!",
+        "de": "Vorsicht! In diesem Tutorial kannst du einiges kaputt machen!"
+      },
+      "_id": "48281607-0a16-40f1-82d5-d21db0c90af6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 433.8959999447563,
+      "_y": 91.47168130568656,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "If you delete the wrong nodes or edges, the tutorial will no longer work. In this case, please reload it.",
+        "de": "Wenn du die falschen Nodes oder Edges löschst, funktioniet das Tutorial nicht mehr. Lade es in diesem Fall bitte neu."
+      },
+      "_id": "481d3260-8cdc-4d47-be24-e7a65cfd8d5a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 648.8147038203532,
+      "_y": 333.43013315709396,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Ready?",
+        "de": "Bereit?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "_id": "aa6af0bc-2692-48a5-82ee-ff56fcc05e75",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 448.150868521523,
+      "_y": 531.9960199361411,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Los!",
+        "en": "Go!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "9e03fcdb-d1d4-4398-bd7e-7dfcf58093de",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 489.40175017031095,
+      "_y": 689.3483766998637,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "_id": "3e89b314-f0c2-4f36-83b2-feef3b0e54d2",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -638.4541691825077,
+      "_y": 80.85232737027968,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "_id": "3debe2ee-bc59-4c6d-b195-3f0f8541809e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -879.8753806830805,
+      "_y": 294.6541171497929,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "_id": "656245e4-66a6-4779-a68a-f6ec1dc56ad0",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -539.1715110114651,
+      "_y": 428.23808724439897,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "You can experiment with the unconnected edges and vertices near the start node.",
+        "de": "Du kannst in Ruhe mit den nicht verbundenen Edges und Vertices in der nähe des Startknotens experimentieren."
+      },
+      "_id": "929c7189-5e65-4882-b744-b979afbcbf58",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1219.0828626279701,
+      "_y": 1406.239428031715,
+      "_parent": false
+    },
+    {
+      "label": "New conclusion",
+      "_id": "09075b46-d6a0-43e4-a22f-64ce1dbf76dd",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -423.9595682685201,
+      "_y": 278.23658075341876,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "_id": "32ab0497-66bf-4882-8ddd-2b5455fe76f8",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -1052.6873370741378,
+      "_y": 61.14812530615218,
+      "_parent": false
+    },
+    {
+      "label": "New conclusion",
+      "_id": "e5bca110-7d50-435b-baa5-4d693daf30f4",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -1232.9664577461513,
+      "_y": 349.01828892095654,
+      "_parent": false
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "_id": "e3b1a948-a7cf-40a8-a16c-dfc66700ecf6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -1054.732122360183,
+      "_y": 455.3690387544188,
+      "_parent": false
+    },
+    {
+      "label": "New conclusion",
+      "_id": "5abd6daf-16b9-400c-90bc-20c0d22783d4",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -932.7903295839303,
+      "_y": 598.3182957450126,
+      "_parent": false
+    },
+    {
+      "label": "New conclusion",
+      "_id": "cd66c316-2aed-415e-8d86-291802c10def",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -695.8037515216317,
+      "_y": 561.6750033018354,
+      "_parent": false
+    },
+    {
+      "question": {
+        "en": "Are you ready for more information?",
+        "de": "Bereit für mehr Informationen?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "_id": "0419f9ec-4607-4a4d-afe8-3d38579c9c5d",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 1129.4305895301334,
+      "_y": 1588.82402419718,
+      "_parent": false
+    },
+    {
+      "suggestion": {
+        "de": "Klar!",
+        "en": "Sure!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "_id": "0bd835a2-f9de-4563-bc30-cef18c8f0c0b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1166.5090616391276,
+      "_y": 1742.947856417142,
       "_parent": false
     }
   ],
@@ -165,18 +355,6 @@
     },
     {
       "type": "or",
-      "priority": "12",
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": false,
-      "_id": "e642c7a5-8908-46e7-8a55-f4d2abe58e45",
-      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
-      "_to": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
       "priority": 10,
       "name": "",
       "expose": "",
@@ -185,18 +363,6 @@
       "_id": "e7f08f4e-0e03-425e-bd69-1b7a1f87aef8",
       "_from": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
       "_to": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "77296e7a-b1b1-44c2-b657-24518056a02e",
-      "_from": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
-      "_to": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
       "_collection": "leadsTo"
     },
     {
@@ -233,6 +399,222 @@
       "_id": "9daaf7d1-939d-43a8-a43a-e778d964c65d",
       "_from": "df0aa20f-776b-4f5f-b0e8-4179ef9dcf4b",
       "_to": "e393e352-5379-403c-85ad-b49058c3578a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "8acfae58-30dc-4dde-8874-d1316621af70",
+      "_from": "2c76bb7e-2808-4ce4-b339-0607a4571c54",
+      "_to": "48281607-0a16-40f1-82d5-d21db0c90af6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "96810490-3fa4-4662-92bf-7ba8e1545519",
+      "_from": "48281607-0a16-40f1-82d5-d21db0c90af6",
+      "_to": "481d3260-8cdc-4d47-be24-e7a65cfd8d5a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "42cb0585-e25f-4955-98f5-8c7bb4ce3bad",
+      "_from": "481d3260-8cdc-4d47-be24-e7a65cfd8d5a",
+      "_to": "aa6af0bc-2692-48a5-82ee-ff56fcc05e75",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "3d4496f5-e6b6-4764-bb96-521122bc9798",
+      "_from": "aa6af0bc-2692-48a5-82ee-ff56fcc05e75",
+      "_to": "9e03fcdb-d1d4-4398-bd7e-7dfcf58093de",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "88fe050a-d22e-4f99-8bf0-445f0cf4a292",
+      "_from": "9e03fcdb-d1d4-4398-bd7e-7dfcf58093de",
+      "_to": "b2d40063-3ae4-4f84-be27-6a413cee9e17",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "a6ef3356-e7ea-407c-90e4-d58944f33ded",
+      "_from": "3e89b314-f0c2-4f36-83b2-feef3b0e54d2",
+      "_to": "3debe2ee-bc59-4c6d-b195-3f0f8541809e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "abc25296-ecc7-4ba1-be70-0d1416d4e69a",
+      "_from": "3debe2ee-bc59-4c6d-b195-3f0f8541809e",
+      "_to": "656245e4-66a6-4779-a68a-f6ec1dc56ad0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "99a93da0-b9a0-4078-a0ce-0e47fbe7b786",
+      "_from": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
+      "_to": "929c7189-5e65-4882-b744-b979afbcbf58",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "479569c6-8323-4b92-9085-35d36bcbb3e6",
+      "_from": "656245e4-66a6-4779-a68a-f6ec1dc56ad0",
+      "_to": "09075b46-d6a0-43e4-a22f-64ce1dbf76dd",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "edc2aecd-ebee-40ae-8692-8f2a4923d1f3",
+      "_from": "09075b46-d6a0-43e4-a22f-64ce1dbf76dd",
+      "_to": "3e89b314-f0c2-4f36-83b2-feef3b0e54d2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "a52da9f7-046d-4fb4-bed9-00da5c12c517",
+      "_from": "3debe2ee-bc59-4c6d-b195-3f0f8541809e",
+      "_to": "32ab0497-66bf-4882-8ddd-2b5455fe76f8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "fcb62c77-4659-4e73-8c77-7d80c3b5aea3",
+      "_from": "32ab0497-66bf-4882-8ddd-2b5455fe76f8",
+      "_to": "e5bca110-7d50-435b-baa5-4d693daf30f4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "30888a7a-669b-42c1-98b7-80f374600f76",
+      "_from": "e5bca110-7d50-435b-baa5-4d693daf30f4",
+      "_to": "e3b1a948-a7cf-40a8-a16c-dfc66700ecf6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "4cc5d9ca-dcf9-449a-b73b-9de47a3b500b",
+      "_from": "e3b1a948-a7cf-40a8-a16c-dfc66700ecf6",
+      "_to": "5abd6daf-16b9-400c-90bc-20c0d22783d4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "f1bce194-fbdc-43ae-85ba-293d149d95af",
+      "_from": "5abd6daf-16b9-400c-90bc-20c0d22783d4",
+      "_to": "cd66c316-2aed-415e-8d86-291802c10def",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": false,
+      "_id": "0eb5e99e-913a-49c4-a09c-6e347c9da74a",
+      "_from": "cd66c316-2aed-415e-8d86-291802c10def",
+      "_to": "656245e4-66a6-4779-a68a-f6ec1dc56ad0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "",
+      "method": false,
+      "condition": "sent",
+      "_id": "117a2ada-6d5c-4bcd-90d8-82af94547e2b",
+      "_from": "929c7189-5e65-4882-b744-b979afbcbf58",
+      "_to": "0419f9ec-4607-4a4d-afe8-3d38579c9c5d",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "3651f300-e314-4529-b84a-10970d32cd72",
+      "_from": "0419f9ec-4607-4a4d-afe8-3d38579c9c5d",
+      "_to": "0bd835a2-f9de-4563-bc30-cef18c8f0c0b",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "method": false,
+      "condition": "answered",
+      "_id": "72251f69-8f83-4a40-b19e-8de21cce52e1",
+      "_from": "0bd835a2-f9de-4563-bc30-cef18c8f0c0b",
+      "_to": "ccd5022e-caaf-4ce1-a6ef-7b3e4216241d",
       "_collection": "leadsTo"
     }
   ]

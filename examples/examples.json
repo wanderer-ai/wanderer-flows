@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-20T14:07:57.715Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T21:07:25.788Z"
     },
     {
       "message": {
@@ -30,7 +30,7 @@
       "_collection": "message",
       "_origin": false,
       "_x": 332,
-      "_y": 97,
+      "_y": 140.5439513428817,
       "_parent": false
     },
     {
@@ -41,8 +41,8 @@
       "_id": "71d64422-c7fe-4f62-aa18-8512e6eccea0",
       "_collection": "message",
       "_origin": false,
-      "_x": 171,
-      "_y": 327,
+      "_x": 174.78643055155493,
+      "_y": 361.0778749639944,
       "_parent": false
     },
     {
@@ -70,8 +70,8 @@
       "_id": "3fbac63c-3e99-42ba-bbf4-89660de035cc",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -64,
-      "_y": 629,
+      "_x": -245.7486664746367,
+      "_y": 674.4371666186593,
       "_parent": false
     },
     {
@@ -85,8 +85,8 @@
       "_id": "733ab3a8-c14d-48ef-bf65-d86a6e532f5a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 146,
-      "_y": 628.75,
+      "_x": 70.27138896890138,
+      "_y": 698.7989652037662,
       "_parent": false
     },
     {
@@ -95,8 +95,8 @@
       "_id": "2fc9d76a-6fce-4651-bd25-4e148933c3ee",
       "_collection": "jump",
       "_origin": false,
-      "_x": -222.0095867377893,
-      "_y": 960.0114004449388,
+      "_x": -398.0786073850936,
+      "_y": 884.2827894138402,
       "_parent": false
     },
     {
@@ -105,8 +105,8 @@
       "_id": "41571831-615c-47a7-baa3-24f573e890a3",
       "_collection": "jump",
       "_origin": false,
-      "_x": 185.9974089897866,
-      "_y": 1000.7626959500456,
+      "_x": 225.7549297811134,
+      "_y": 943.9662376767216,
       "_parent": false
     }
   ],

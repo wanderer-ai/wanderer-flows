@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-12T14:13:00.526Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T20:51:14.951Z"
     },
     {
       "message": {
@@ -107,8 +107,8 @@
       "_id": "5e3b68e9-282e-4dd2-b56b-3248072b0739",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -129.49195891857056,
-      "_y": 1029.0806762068455,
+      "_x": 20.457165971957266,
+      "_y": 1156.3102367200206,
       "_parent": false
     },
     {

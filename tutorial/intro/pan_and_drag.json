@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-09T11:37:36.575Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T20:49:01.305Z"
     },
     {
       "message": {
@@ -66,8 +66,8 @@
       "_id": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 56.779227270891994,
-      "_y": 590.793413713019
+      "_x": 171.779227270892,
+      "_y": 624.793413713019
     },
     {
       "message": {
@@ -103,8 +103,8 @@
       "_id": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 423.26874755816175,
-      "_y": 913.4895772352745
+      "_x": 425.26874755816175,
+      "_y": 974.4895772352745
     },
     {
       "suggestion": {
@@ -117,8 +117,8 @@
       "_id": "d667a38e-16ef-4046-bae7-d4b77acf416a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 610.6786970373809,
-      "_y": 813.0855870795459
+      "_x": 719.6786970373809,
+      "_y": 954.0855870795459
     },
     {
       "message": {
@@ -172,8 +172,8 @@
       "_id": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_collection": "question",
       "_origin": false,
-      "_x": 1666.6687664323074,
-      "_y": 1543.4471776920705,
+      "_x": 1594.0986480261374,
+      "_y": 1709.096361010502,
       "drawAttention": true
     },
     {
@@ -187,8 +187,8 @@
       "_id": "2d57006c-5412-49ff-b82f-f6d63814a59e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1954.070424678844,
-      "_y": 1789.0481104557473
+      "_x": 1719.006345493641,
+      "_y": 1837.9540598164272
     },
     {
       "suggestion": {
@@ -201,16 +201,16 @@
       "_id": "0fa8adf2-8530-4610-bc69-3bed50514614",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1772.46223708657,
-      "_y": 1841.0507014659609
+      "_x": 1879.739803426126,
+      "_y": 1572.8567856170716
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_vertex.json",
       "_id": "6157fb1d-a53f-4393-868c-f74d4febbd54",
       "_collection": "jump",
       "_origin": false,
-      "_x": 2447.114550012542,
-      "_y": 1947.578763945326
+      "_x": 1999.9742148137848,
+      "_y": 2146.6107424179436
     },
     {
       "message": {
@@ -246,8 +246,8 @@
       "_id": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 581.7785828845041,
-      "_y": 1767.0459339803147
+      "_x": 577.045749075406,
+      "_y": 1909.030948253256
     },
     {
       "message": {

@@ -18,8 +18,8 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "1.0.0",
-      "time": "2020-10-09T20:14:32.819Z"
+      "version": "0.0.1",
+      "time": "2020-10-22T21:09:16.120Z"
     },
     {
       "message": {
@@ -83,8 +83,8 @@
       "_id": "2352d488-c0b7-48de-a3c1-01c9caa2efd4",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 49.42640616701554,
-      "_y": 356.75190089194933,
+      "_x": -35.76828124297041,
+      "_y": 443.83980357771253,
       "_parent": false
     },
     {
@@ -110,8 +110,8 @@
       "_id": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
       "_collection": "question",
       "_origin": false,
-      "_x": -57.51280179576453,
-      "_y": 1473.8594141971753,
+      "_x": -140.46754769735338,
+      "_y": 1506.6956677832209,
       "_parent": false
     },
     {
@@ -125,8 +125,8 @@
       "_id": "2d52a2af-5fd9-4160-ad1d-1abd6093bebe",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -124.92589875828156,
-      "_y": 1515.757130950997,
+      "_x": -318.48697252865554,
+      "_y": 1550.3216084099922,
       "_parent": false
     },
     {
@@ -140,8 +140,8 @@
       "_id": "26d9a49c-647f-490c-ac47-823b66519590",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -142.22723414992316,
-      "_y": 1342.57853771775,
+      "_x": -180.12966703927484,
+      "_y": 1346.198731877604,
       "_parent": false
     },
     {
@@ -155,8 +155,8 @@
       "_id": "dc7366e9-aa22-4634-b10d-3ed55fda956a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 11.932764655979028,
-      "_y": 1557.839760836989,
+      "_x": -76.56553349971028,
+      "_y": 1662.4356261033267,
       "_parent": false
     },
     {
@@ -170,8 +170,8 @@
       "_id": "c14d4fba-7547-4e6d-bfbf-870ec508eeb3",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -18.70418408128672,
-      "_y": 1429.651375214609,
+      "_x": -29.324378241140746,
+      "_y": 1259.9650017514489,
       "_parent": false
     },
     {
@@ -212,8 +212,8 @@
       "_id": "c5058e58-f565-41a2-89f8-f928701f16cc",
       "_collection": "message",
       "_origin": false,
-      "_x": -517.7617718736416,
-      "_y": 1648.6831317364288,
+      "_x": -686.9781663131189,
+      "_y": 1000.1550632263093,
       "_parent": false
     },
     {
@@ -224,8 +224,8 @@
       "_id": "7d61b402-3a08-436b-9a90-ac490edd677e",
       "_collection": "message",
       "_origin": false,
-      "_x": 2.9053705384992874,
-      "_y": 1866.991428683369,
+      "_x": 67.77553387481304,
+      "_y": 1965.6555977288592,
       "_parent": false
     },
     {
@@ -269,8 +269,8 @@
       "_id": "c259efd7-23cd-4bc0-a623-1bc0da1c12a7",
       "_collection": "conclusion",
       "_origin": false,
-      "_x": -500.1923275301574,
-      "_y": 1426.0024680134572,
+      "_x": -519.2684851572945,
+      "_y": 1175.620450885927,
       "_parent": false
     },
     {
@@ -331,18 +331,6 @@
       "_origin": false,
       "_x": 287.3433879474432,
       "_y": 1378.785022648845,
-      "_parent": false
-    },
-    {
-      "conclusion": {
-        "en": "answered",
-        "de": "answered"
-      },
-      "_id": "0eecba85-d388-43ec-8266-d06204f32e15",
-      "_collection": "conclusion",
-      "_origin": false,
-      "_x": -328.8850859613515,
-      "_y": 1804.417215591057,
       "_parent": false
     }
   ],
@@ -699,42 +687,6 @@
       "_id": "59cef647-929c-4fc0-8596-e805c48dd130",
       "_from": "77d50a1e-9059-4e2c-94fc-1d167cf54c4d",
       "_to": "09fbce48-af34-45cb-8abc-af8809a4f1f0",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "f0a160d3-ad09-46ad-960d-c872fb5d85f7",
-      "_from": "7d61b402-3a08-436b-9a90-ac490edd677e",
-      "_to": "0eecba85-d388-43ec-8266-d06204f32e15",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "d0798bdc-cccb-4d4b-9bb4-98faed68248a",
-      "_from": "c5058e58-f565-41a2-89f8-f928701f16cc",
-      "_to": "0eecba85-d388-43ec-8266-d06204f32e15",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "not",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": false,
-      "_id": "f4d1cd82-63cc-4443-b8bb-1151a2a76691",
-      "_from": "0eecba85-d388-43ec-8266-d06204f32e15",
-      "_to": "4e249fa8-fd99-43a1-a7a2-e32c32f028e1",
       "_collection": "leadsTo"
     }
   ]
