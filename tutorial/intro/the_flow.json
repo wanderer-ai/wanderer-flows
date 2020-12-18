@@ -97,8 +97,8 @@
     },
     {
       "message": {
-        "en": "As you can see, the network is pulsing from the large gray node. This is the starting point of the network.",
-        "de": "Wie du sehen kannst pulsiert das Netzwerk ausgehend von dem großen grauen Knoten. Das ist der Startpunkt des Netzwerks."
+        "en": "As you can see, the network is pulsing from the large yellow node. This is the starting point of the network.",
+        "de": "Wie du sehen kannst pulsiert das Netzwerk ausgehend von dem großen gelben Knoten. Das ist der Startpunkt des Netzwerks."
       },
       "_id": "5ad79967-96b7-41de-8183-de2d9afcb5c3",
       "_collection": "message",
