@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-12-20T21:18:00.754Z"
+      "time": "2020-12-20T21:32:34.267Z"
     },
     {
       "message": {
@@ -371,6 +371,34 @@
       "_id": "b32c1635-65e4-44de-ac1d-b6d94179a5bf",
       "_from": "2fe13df3-1657-47a8-b352-f22ba7ceab1a",
       "_to": "613c27ba-6472-4702-ab1d-c9118ab8b89d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "af4d8f67-7c4a-4ffc-a9b4-5b52797c19bd",
+      "_from": "c836a299-a712-4845-9027-22c0df41d19a",
+      "_to": "c3d8a898-3097-40b9-89e0-a1e896535542",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "6ee5a617-29b8-48fd-8226-918c8747750e",
+      "_from": "c3d8a898-3097-40b9-89e0-a1e896535542",
+      "_to": "f51bdce7-31b6-462b-9bb4-70a9bb764bb5",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "32a4603c-c438-42ec-8f76-7d6042447a7a",
+      "_from": "f51bdce7-31b6-462b-9bb4-70a9bb764bb5",
+      "_to": "2fe13df3-1657-47a8-b352-f22ba7ceab1a",
       "_collection": "leadsTo"
     }
   ]
