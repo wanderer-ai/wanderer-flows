@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T21:01:16.194Z"
+      "time": "2021-01-14T15:50:18.706Z"
     },
     {
       "message": {
@@ -102,9 +102,11 @@
       "_id": "99a6587b-2e01-4bfb-9bc6-52578049c553",
       "_collection": "question",
       "_origin": false,
-      "_x": -792.6672144969895,
-      "_y": 2466.994599756955,
-      "drawAttention": true
+      "_x": -732.0843256721105,
+      "_y": 2482.140321963174,
+      "drawAttention": true,
+      "repeatable": true,
+      "forgetful": true
     },
     {
       "suggestion": {
@@ -162,19 +164,8 @@
       "_id": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
       "_collection": "message",
       "_origin": false,
-      "_x": -183.03846407264123,
-      "_y": 1664.7119367773978
-    },
-    {
-      "message": {
-        "en": "Tip: You can set the priority of each suggestion by adjusting the slider inside the suggestion node. The priority will influence the position of the suggestion in the chat.",
-        "de": "Tipp: Du kannst die Priorität jedes Vorschlags festlegen, indem du den Schieberegler im Vorschlag-Knoten anpasst. Die Priorität beeinflusst die Position des Vorschlags im Chat."
-      },
-      "_id": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
-      "_collection": "message",
-      "_origin": false,
-      "_x": -610.2636274330146,
-      "_y": 2218.974939541178
+      "_x": -201.97061683041596,
+      "_y": 1702.5762422929472
     },
     {
       "message": {
@@ -185,7 +176,8 @@
       "_collection": "message",
       "_origin": false,
       "_x": -1250.3579559370326,
-      "_y": 2687.5212018307184
+      "_y": 2687.5212018307184,
+      "forgetful": true
     },
     {
       "message": {
@@ -206,8 +198,8 @@
       "_id": "fb6c4e88-272f-4258-9424-ee07b5190f61",
       "_collection": "message",
       "_origin": false,
-      "_x": -430.0384640726412,
-      "_y": 1910.7119367773978
+      "_x": -477.368845967078,
+      "_y": 2035.664144978711
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
@@ -349,20 +341,6 @@
       "type": "or",
       "priority": "10",
       "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "bb36a8df-dffe-406d-90a8-08d21c71c988",
-      "_from": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
-      "_to": "99a6587b-2e01-4bfb-9bc6-52578049c553",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": "10",
-      "name": "",
       "expose": "value",
       "condition": "answered",
       "compareVariable": false,
@@ -399,20 +377,6 @@
       "_id": "9a8aa15d-4bd9-4f8d-ab98-843eeb696fe5",
       "_from": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
       "_to": "fb6c4e88-272f-4258-9424-ee07b5190f61",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "8fce3562-c8b9-431a-bc12-a67a522a5bb8",
-      "_from": "fb6c4e88-272f-4258-9424-ee07b5190f61",
-      "_to": "5b0fb6ec-e479-419e-ba58-7f713e7e8102",
       "_collection": "leadsTo"
     },
     {
@@ -472,6 +436,17 @@
       "condition": "sent",
       "_id": "b2491619-79ae-45f1-89aa-9ee5de75e345",
       "_from": "332f9a58-bab4-4247-81b8-fd7cd6f44235",
+      "_to": "99a6587b-2e01-4bfb-9bc6-52578049c553",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "7f55bf58-2d1a-4feb-8539-fe8ba5a55b0e",
+      "_from": "fb6c4e88-272f-4258-9424-ee07b5190f61",
       "_to": "99a6587b-2e01-4bfb-9bc6-52578049c553",
       "_collection": "leadsTo"
     }

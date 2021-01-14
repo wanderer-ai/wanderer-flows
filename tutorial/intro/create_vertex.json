@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T21:16:20.607Z"
+      "time": "2021-01-14T15:30:11.604Z"
     },
     {
       "message": {
@@ -51,8 +51,8 @@
       "_id": "3e2ca128-927c-42de-a4fa-041e4e972505",
       "_collection": "message",
       "_origin": false,
-      "_x": 613.5633376121008,
-      "_y": 616.684130366267
+      "_x": 746.4909720762439,
+      "_y": 1043.2981600269711
     },
     {
       "message": {
@@ -62,8 +62,8 @@
       "_id": "73db0c74-6c50-4da4-beb1-a607c2149539",
       "_collection": "message",
       "_origin": false,
-      "_x": 408.9893665159169,
-      "_y": 998.5014009844539
+      "_x": 683.8512471077762,
+      "_y": 1290.6669123349918
     },
     {
       "message": {
@@ -73,8 +73,8 @@
       "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
       "_collection": "message",
       "_origin": false,
-      "_x": 43.66674687954018,
-      "_y": 1236.1674990788893
+      "_x": -56.244319024882394,
+      "_y": 1317.6738949482867
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_edges.json",
@@ -123,15 +123,46 @@
     },
     {
       "message": {
-        "en": "Please select \"leads to Message\" from the circular menu.",
-        "de": "Bitte wähle dafür \"leads to Message\" aus dem Kreis-Menu."
+        "en": "Please select \"leads to Message\" from the circular menu. You should then see the new message in the chat.",
+        "de": "Bitte wähle dafür \"leads to Message\" aus dem Kreis-Menu. Du solltest die neue Nachricht dann im Chat sehen."
       },
       "_id": "6a394db4-965f-4d82-8dc0-86e3fca52432",
       "_collection": "message",
       "_origin": false,
-      "_x": 53.11873511612316,
-      "_y": 706.928167262882,
+      "_x": 85.26338804283104,
+      "_y": 666.747351104497,
       "_parent": false
+    },
+    {
+      "question": {
+        "en": "Done?",
+        "de": "Fertig?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "34ce15e4-11cb-4547-b0d3-1802564bcf3b",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 500.8975165284112,
+      "_y": 720.9948678345651
+    },
+    {
+      "suggestion": {
+        "de": "ok",
+        "en": "ok"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "a6581bff-b351-4393-96e5-d383eaa3f043",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 667.5501052799696,
+      "_y": 766.2978120352182
     }
   ],
   "edges": [
@@ -243,21 +274,37 @@
       "expose": "",
       "method": false,
       "condition": "sent",
-      "_id": "a6efd338-a016-4230-a844-744055fae861",
-      "_from": "6a394db4-965f-4d82-8dc0-86e3fca52432",
-      "_to": "3e2ca128-927c-42de-a4fa-041e4e972505",
+      "_id": "66bb7f3c-c29f-41d4-8198-012c07908b89",
+      "_from": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
+      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "66bb7f3c-c29f-41d4-8198-012c07908b89",
-      "_from": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
-      "_to": "6ba34272-8207-42dc-bbf9-aafac39b26c1",
+      "expose": "none",
+      "condition": "active",
+      "_id": "f38ba29a-b78d-4934-8e44-0a0e72b125e4",
+      "_from": "6a394db4-965f-4d82-8dc0-86e3fca52432",
+      "_to": "34ce15e4-11cb-4547-b0d3-1802564bcf3b",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "d33ff0cf-c0c9-4298-8748-8c85c07e16d0",
+      "_from": "34ce15e4-11cb-4547-b0d3-1802564bcf3b",
+      "_to": "a6581bff-b351-4393-96e5-d383eaa3f043",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "26cb89f7-ad66-4811-9141-6f4c5d43c4c7",
+      "_from": "a6581bff-b351-4393-96e5-d383eaa3f043",
+      "_to": "3e2ca128-927c-42de-a4fa-041e4e972505",
       "_collection": "leadsTo"
     }
   ]

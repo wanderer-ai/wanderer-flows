@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T20:50:52.571Z"
+      "time": "2021-01-14T15:37:21.879Z"
     },
     {
       "message": {
@@ -40,8 +40,8 @@
       "_id": "5a4be482-46e4-4e33-9943-bcc239ac6a4f",
       "_collection": "message",
       "_origin": false,
-      "_x": -1083.3809355543938,
-      "_y": -413.3346894076039
+      "_x": -1057.6652132130275,
+      "_y": -471.1950646756781
     },
     {
       "message": {
@@ -51,8 +51,8 @@
       "_id": "f6ece555-c770-4ced-8d1f-7cd6929c8f2d",
       "_collection": "message",
       "_origin": false,
-      "_x": -1299.4902199605797,
-      "_y": 229.84840418781283
+      "_x": -1262.5238690948656,
+      "_y": 1.6213684081867807
     },
     {
       "message": {
@@ -62,13 +62,13 @@
       "_id": "04e29e8a-4c78-4205-9bb2-f160d06f144e",
       "_collection": "message",
       "_origin": false,
-      "_x": -1160.5462567506322,
-      "_y": 866.4453819925204
+      "_x": -1051.2544367998255,
+      "_y": 978.951667235998
     },
     {
       "message": {
-        "en": "Select this message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has now appeared in the toolbar.",
-        "de": "Wähle dafür diese Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches nun in der Toolbar erschienen ist."
+        "en": "Select this message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has appeared on the map.",
+        "de": "Wähle dafür diese Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches auf der Karte erschienen ist."
       },
       "_id": "6087053c-2f18-45f7-9402-ffba1c2658cd",
       "_collection": "message",
@@ -84,8 +84,8 @@
       "_id": "d0bad614-4eba-46e5-9099-34b47dcc9141",
       "_collection": "question",
       "_origin": false,
-      "_x": 660.2488837785443,
-      "_y": 1299.48456490072,
+      "_x": 576.5744686942592,
+      "_y": 1474.4401600769522,
       "drawAttention": true
     },
     {
@@ -110,8 +110,8 @@
       "_id": "484b8453-f60e-4aa3-8025-3cfa9e3cae3d",
       "_collection": "message",
       "_origin": false,
-      "_x": 1256.053082261484,
-      "_y": 1029.3064705409752
+      "_x": 1377.7613223840806,
+      "_y": 869.564405380067
     },
     {
       "message": {
@@ -121,8 +121,8 @@
       "_id": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
       "_collection": "message",
       "_origin": false,
-      "_x": 1367.8524195933007,
-      "_y": 582.2491993205819
+      "_x": 1405.8862446316123,
+      "_y": 275.44301067820305
     },
     {
       "question": {
@@ -176,21 +176,40 @@
       "_id": "dfc2195b-3f43-4b6e-b296-b1aa9e1fd26f",
       "_collection": "message",
       "_origin": false,
-      "_x": 106.90066039246021,
-      "_y": 1415.0952400411359,
+      "_x": 5.477126956963062,
+      "_y": 1493.698478453646,
       "_parent": false
     },
     {
-      "message": {
-        "en": "By the way: You can simply delete the edge you just created. To do this, select it and click on the trash icon at the top of the toolbar.",
-        "de": "Übrigens: Du kannst die eben erstellte Edge auch einfach wieder löschen. Wähle sie dafür aus und klicke auf den Mülleimer oben in der Toolbar."
+      "question": {
+        "en": "Ready for the job?",
+        "de": "Bereit für die Aufgabe?"
       },
-      "_id": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
-      "_collection": "message",
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "ad232f8d-275f-4f75-aba8-786909c05739",
+      "_collection": "question",
       "_origin": false,
-      "_x": 1358.580238634565,
-      "_y": 215.11567043950117,
-      "_parent": false
+      "_x": -1297.0301543383432,
+      "_y": 458.1427382360108
+    },
+    {
+      "suggestion": {
+        "de": "klar",
+        "en": "sure"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "37cf845b-ab75-4998-a7a2-bb603df13496",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -1254.389272557722,
+      "_y": 636.8971379064451
     }
   ],
   "edges": [
@@ -234,20 +253,6 @@
       "_id": "807ea31e-6926-47a4-a88f-b138fdee6bdc",
       "_from": "5a4be482-46e4-4e33-9943-bcc239ac6a4f",
       "_to": "f6ece555-c770-4ced-8d1f-7cd6929c8f2d",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "08892f06-141b-4f6b-ae54-6af77a3c22c2",
-      "_from": "f6ece555-c770-4ced-8d1f-7cd6929c8f2d",
-      "_to": "04e29e8a-4c78-4205-9bb2-f160d06f144e",
       "_collection": "leadsTo"
     },
     {
@@ -348,23 +353,38 @@
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
+      "expose": "none",
       "condition": "sent",
-      "_id": "b6efc390-f76e-4a2f-8b0a-5165fcafa604",
-      "_from": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
-      "_to": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
+      "_id": "b2d7427b-281b-45d1-8760-f1c335444afe",
+      "_from": "f6ece555-c770-4ced-8d1f-7cd6929c8f2d",
+      "_to": "ad232f8d-275f-4f75-aba8-786909c05739",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "3742907c-d8fb-4223-8ef8-41d34a7d1368",
+      "_from": "ad232f8d-275f-4f75-aba8-786909c05739",
+      "_to": "37cf845b-ab75-4998-a7a2-bb603df13496",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "df372d65-ad70-4778-8d1a-edbc3448e8b8",
+      "_from": "37cf845b-ab75-4998-a7a2-bb603df13496",
+      "_to": "04e29e8a-4c78-4205-9bb2-f160d06f144e",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
+      "expose": "none",
       "condition": "sent",
-      "_id": "eef27a7f-fade-4eaf-83bd-7b2061fe36f7",
-      "_from": "8f085e47-8f42-49a6-83e5-dd42da72f0b0",
+      "_id": "d975574b-7c97-4eac-8eef-d46bbf6edddd",
+      "_from": "1a434e8c-1f24-40ec-b26e-9d960459ca57",
       "_to": "0e419de6-1cae-4be6-8413-c0b58c0b87dc",
       "_collection": "leadsTo"
     }

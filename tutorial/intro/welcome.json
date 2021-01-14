@@ -19,12 +19,12 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-12-20T21:32:34.267Z"
+      "time": "2021-01-14T15:21:52.596Z"
     },
     {
       "message": {
-        "en": "Hi! 👋 My name is Wanderer.ai",
-        "de": "Hi! 👋 Mein Name ist Wanderer.ai"
+        "en": "Hi! 👋 My name is Wanderer.",
+        "de": "Hi! 👋 Mein Name ist Wanderer."
       },
       "_id": "ea900e19-cf32-4ee0-bf05-b54314367aca",
       "_collection": "message",
@@ -170,8 +170,8 @@
     },
     {
       "message": {
-        "en": "Should you break something in the tutorial, you can reload the current section with the green button at the top right.",
-        "de": "Solltest du im Tutorial mal etwas kaputt machen, kannst du den aktuellen Abschnitt mit dem grünen Button ganz oben rechts neu laden."
+        "en": "This is a live tutorial. Should you break something, you can reload the current section with the green button at the top right.",
+        "de": "Das ist ein Live-Tutorial. Solltest du mal etwas kaputt machen, kannst du den aktuellen Abschnitt mit dem grünen Button ganz oben rechts neu laden."
       },
       "forgetful": false,
       "_id": "2fe13df3-1657-47a8-b352-f22ba7ceab1a",

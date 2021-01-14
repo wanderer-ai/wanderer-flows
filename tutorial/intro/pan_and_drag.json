@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T20:49:01.305Z"
+      "time": "2021-01-14T15:25:51.853Z"
     },
     {
       "message": {
@@ -66,8 +66,8 @@
       "_id": "b3b88ee9-9bda-42c7-b3f6-cba3a83e88d3",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 171.779227270892,
-      "_y": 624.793413713019
+      "_x": -41.55410606244135,
+      "_y": 704.793413713019
     },
     {
       "message": {
@@ -77,8 +77,8 @@
       "_id": "6c3a42c0-3577-4ba7-992e-3355f3063f61",
       "_collection": "message",
       "_origin": false,
-      "_x": 8.901366863329459,
-      "_y": 882.8539824171884
+      "_x": 112.2347001966628,
+      "_y": 1016.1873157505219
     },
     {
       "question": {
@@ -103,22 +103,8 @@
       "_id": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 425.26874755816175,
-      "_y": 974.4895772352745
-    },
-    {
-      "suggestion": {
-        "de": "Was ist eine Maus?",
-        "en": "What is a mouse?"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "d667a38e-16ef-4046-bae7-d4b77acf416a",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 719.6786970373809,
-      "_y": 954.0855870795459
+      "_x": 708.6974627219237,
+      "_y": 919.1864133008819
     },
     {
       "message": {
@@ -128,19 +114,8 @@
       "_id": "4181c4bf-0e30-4bb5-9910-9a0d86bbc10f",
       "_collection": "message",
       "_origin": false,
-      "_x": 691.5154874085117,
-      "_y": 1175.3641306855418
-    },
-    {
-      "message": {
-        "en": "Are you kidding me?",
-        "de": "Verarschst du mich?"
-      },
-      "_id": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 1049.416982636012,
-      "_y": 1018.7548029547875
+      "_x": 1019.8780232689677,
+      "_y": 1050.9320118331586
     },
     {
       "message": {
@@ -161,8 +136,8 @@
       "_id": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
       "_collection": "message",
       "_origin": false,
-      "_x": 1073.9589797572978,
-      "_y": 1546.5762567878874
+      "_x": 823.0713283344845,
+      "_y": 1507.748405972452
     },
     {
       "question": {
@@ -172,8 +147,8 @@
       "_id": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_collection": "question",
       "_origin": false,
-      "_x": 1594.0986480261374,
-      "_y": 1709.096361010502,
+      "_x": 1256.5950217073528,
+      "_y": 2189.9643595708944,
       "drawAttention": true
     },
     {
@@ -187,41 +162,16 @@
       "_id": "2d57006c-5412-49ff-b82f-f6d63814a59e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1719.006345493641,
-      "_y": 1837.9540598164272
-    },
-    {
-      "suggestion": {
-        "de": "Ich habe nichts kapiert!",
-        "en": "I did not get it!"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "0fa8adf2-8530-4610-bc69-3bed50514614",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 1879.739803426126,
-      "_y": 1572.8567856170716
+      "_x": 1381.5027191748563,
+      "_y": 2318.822058376819
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/create_vertex.json",
       "_id": "6157fb1d-a53f-4393-868c-f74d4febbd54",
       "_collection": "jump",
       "_origin": false,
-      "_x": 1999.9742148137848,
-      "_y": 2146.6107424179436
-    },
-    {
-      "message": {
-        "en": "🤦",
-        "de": "🤦"
-      },
-      "_id": "18ac152b-2491-4e10-96b7-8b958e17e639",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 1548.0174936268895,
-      "_y": 1049.3268281576068
+      "_x": 1662.4705884950001,
+      "_y": 2627.4787409783357
     },
     {
       "question": {
@@ -231,8 +181,8 @@
       "_id": "0f289aef-7009-402f-ad5f-9d0e1977a334",
       "_collection": "question",
       "_origin": false,
-      "_x": 581.7785828845041,
-      "_y": 1755.7959339803147,
+      "_x": 447.37448390799693,
+      "_y": 1618.405077248774,
       "drawAttention": true
     },
     {
@@ -246,8 +196,8 @@
       "_id": "3b07e450-48f8-4dde-87de-f2f0e64d6357",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 577.045749075406,
-      "_y": 1909.030948253256
+      "_x": 373.9462217331284,
+      "_y": 1819.4282156022512
     },
     {
       "message": {
@@ -257,19 +207,8 @@
       "_id": "7b63fa71-1edb-4e59-9ebc-eca40df8ce5b",
       "_collection": "message",
       "_origin": false,
-      "_x": 1121.3399984859695,
-      "_y": 2257.193668752467
-    },
-    {
-      "message": {
-        "en": "Please repeat the question by clicking on the circle arrow nearby your answer to reload the question if you are ready.",
-        "de": "Bitte wiederhole die Frage, indem du auf den Kreispfeil neben deiner Antwort klickst, um die Frage erneut zu laden, wenn du bereit bist."
-      },
-      "_id": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 1845.1201867585928,
-      "_y": 1367.8908367338104
+      "_x": 688.2601240061131,
+      "_y": 2000.3325018195867
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/partials/navigation.json",
@@ -368,13 +307,6 @@
       "_collection": "isAnswerableBy"
     },
     {
-      "priority": 50,
-      "_id": "f208d502-bf48-4c0c-ba63-8da54904d5db",
-      "_from": "cbaf79bf-f60e-4953-b4f8-668300093eba",
-      "_to": "d667a38e-16ef-4046-bae7-d4b77acf416a",
-      "_collection": "isAnswerableBy"
-    },
-    {
       "type": "or",
       "priority": "10",
       "name": "",
@@ -386,34 +318,6 @@
       "_id": "e48ce5ec-89eb-40bf-be3e-ce449a647d1b",
       "_from": "9f00a206-fbb7-48c3-bfda-3f9fe620c67b",
       "_to": "4181c4bf-0e30-4bb5-9910-9a0d86bbc10f",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "value",
-      "condition": "answered",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "58ba0839-f9cc-4371-8785-768df251b2a5",
-      "_from": "d667a38e-16ef-4046-bae7-d4b77acf416a",
-      "_to": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": "10",
-      "name": "",
-      "expose": "",
-      "condition": "sent",
-      "compareVariable": false,
-      "compareCondition": "==",
-      "compareValue": "",
-      "_id": "44effb64-800d-4ded-8c86-654c4650d15f",
-      "_from": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
-      "_to": "b4763e79-3093-4b57-9799-308e907c8ec9",
       "_collection": "leadsTo"
     },
     {
@@ -449,13 +353,6 @@
       "_id": "bd70b191-a4da-4bd0-96e7-aec45a16bb36",
       "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
       "_to": "2d57006c-5412-49ff-b82f-f6d63814a59e",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "priority": 50,
-      "_id": "0f4d9c54-c694-4868-9adc-566df7e60954",
-      "_from": "32a0e84c-bfda-4a82-acfb-5d94b8e2b3f3",
-      "_to": "0fa8adf2-8530-4610-bc69-3bed50514614",
       "_collection": "isAnswerableBy"
     },
     {
@@ -531,42 +428,6 @@
       "_id": "82185d7a-9ff0-4d2c-a7ea-837b26f07b33",
       "_from": "f905bc45-0309-4889-a74d-ea0506cd9509",
       "_to": "308aae91-fefc-4f8a-8392-df99376a631c",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "349766c7-c446-483d-939a-30e7dd625adc",
-      "_from": "0fa8adf2-8530-4610-bc69-3bed50514614",
-      "_to": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "55bd15f9-fd80-4cce-aab6-b5d11b56ae12",
-      "_from": "c6cfd7d9-9cfa-4147-ab01-1f0ae8c22115",
-      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "",
-      "method": false,
-      "condition": "sent",
-      "_id": "2cc5395a-c3b4-4351-951d-9845ffb817e7",
-      "_from": "21dea938-6141-4a7c-9e5f-b4f1ff7222ca",
-      "_to": "18ac152b-2491-4e10-96b7-8b958e17e639",
       "_collection": "leadsTo"
     }
   ]

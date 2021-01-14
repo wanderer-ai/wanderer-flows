@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T20:48:19.394Z"
+      "time": "2021-01-14T15:24:14.624Z"
     },
     {
       "question": {
@@ -85,8 +85,8 @@
     },
     {
       "message": {
-        "en": "Think of it as a huge canvas on which you can draw a network of nodes (so-called vertices) and their connections (edges).",
-        "de": "Stell dir das wie eine riesige Leinwand vor, auf der du ein Netzwerk aus Knotenpunkten (sog. Nodes oder auch Vertices) und deren Verbindungen (Edges oder Kanten) zeichnen kannst."
+        "en": "Think of it as a huge canvas on which you can draw a network of nodes and connections.",
+        "de": "Stell dir das wie eine riesige Leinwand vor, auf der du ein Netzwerk aus Knoten und  Verbindungen zeichnen kannst."
       },
       "_id": "70b4b13a-2adb-4bc5-ab0f-40bfa6e777d6",
       "_collection": "message",
