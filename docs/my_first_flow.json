@@ -1,0 +1,118 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "f41409cb-89e3-421d-b4cb-e84824148b7e",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "My first flow",
+        "de": "Mein erster flow"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-22T14:01:55.693Z"
+    },
+    {
+      "message": {
+        "en": "Nice to see you here!",
+        "de": "Schön dich hier zu sehen!"
+      },
+      "forgetful": false,
+      "_id": "dbd1b5fc-bb53-48d0-9f97-c6c867b3c8f5",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 47,
+      "_y": 253
+    },
+    {
+      "question": {
+        "en": "How are you today?",
+        "de": "Wie geht es dir heute?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "2b87c568-1c4b-4ec1-8166-c5fccd9fba1e",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 126,
+      "_y": 334
+    },
+    {
+      "suggestion": {
+        "de": "Mir geht es gut",
+        "en": "I am fine"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "50c71e5b-bac4-444e-a480-205ff4c36650",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -42,
+      "_y": 441
+    },
+    {
+      "suggestion": {
+        "de": "Mir geht es nicht so gut",
+        "en": "I feel bad"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "453bb9b4-4015-47f8-929d-5ef63e9ed068",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 260,
+      "_y": 458
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "f03f7ee8-0b95-4a61-abd8-063c77f1baef",
+      "_from": "f41409cb-89e3-421d-b4cb-e84824148b7e",
+      "_to": "dbd1b5fc-bb53-48d0-9f97-c6c867b3c8f5",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "befca469-e2bb-471a-8fb4-c2c779aecfeb",
+      "_from": "dbd1b5fc-bb53-48d0-9f97-c6c867b3c8f5",
+      "_to": "2b87c568-1c4b-4ec1-8166-c5fccd9fba1e",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "6d25879d-775c-4094-b985-28bb5d4d4fa7",
+      "_from": "2b87c568-1c4b-4ec1-8166-c5fccd9fba1e",
+      "_to": "50c71e5b-bac4-444e-a480-205ff4c36650",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "26875712-bf42-4b94-b251-7901767936d8",
+      "_from": "2b87c568-1c4b-4ec1-8166-c5fccd9fba1e",
+      "_to": "453bb9b4-4015-47f8-929d-5ef63e9ed068",
+      "_collection": "isAnswerableBy"
+    }
+  ]
+}
