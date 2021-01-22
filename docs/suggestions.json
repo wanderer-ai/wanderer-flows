@@ -1,0 +1,254 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "9a82b78e-83d5-471d-8f6d-897d0463a0b7",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Suggestions",
+        "de": "Suggestions"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-22T15:09:34.384Z"
+    },
+    {
+      "question": {
+        "en": "Do you want to register?",
+        "de": "Möchtest du dich registrieren?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 127.887498453446,
+      "_y": 374.32811920042246
+    },
+    {
+      "suggestion": {
+        "de": "Dein Name",
+        "en": "Your name"
+      },
+      "type": "text",
+      "name": "",
+      "priority": "54",
+      "required": true,
+      "_id": "be6e2939-1012-4832-a5c2-03bf065a2186",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -156.112501546554,
+      "_y": 353.32811920042246
+    },
+    {
+      "suggestion": {
+        "de": "ok",
+        "en": "ok"
+      },
+      "type": "button",
+      "name": "",
+      "priority": "47",
+      "required": true,
+      "_id": "762561c0-eaec-47c4-97b3-211db6afa5e2",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 233.887498453446,
+      "_y": 573.3281192004225
+    },
+    {
+      "suggestion": {
+        "de": "Akzeptiere die Bedingungen",
+        "en": "Accept the terms"
+      },
+      "type": "checkbox",
+      "name": "",
+      "priority": "50",
+      "required": true,
+      "_id": "8e535c9a-fdf2-4cae-908c-57d5cc87d2dc",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 409.51673702987824,
+      "_y": 442.66608866376464
+    },
+    {
+      "message": {
+        "en": "Thanks! You answered the question.",
+        "de": "Danke! Du hast die Frage beantwortet."
+      },
+      "forgetful": true,
+      "_id": "3c2b0f9f-9090-4b04-afe7-21809cbe5b65",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -207.31669898309963,
+      "_y": 611.5263573134772
+    },
+    {
+      "message": {
+        "en": "You entered your name correctly.",
+        "de": "Du hast deinen Namen richtig eingegeben."
+      },
+      "forgetful": true,
+      "_id": "32338d77-ac67-4bfd-9c92-101060466228",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -387.1083559302126,
+      "_y": 257.92542454980065
+    },
+    {
+      "message": {
+        "en": "Thanks for accepting the terms!",
+        "de": "Danke, dass du die Bedingungen akzeptiert hast."
+      },
+      "forgetful": true,
+      "_id": "ade1fc81-b77d-433d-82b8-d9f5ef9b30bf",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 782.5167370298782,
+      "_y": 410.66608866376464
+    },
+    {
+      "message": {
+        "en": "Please tell me your name.",
+        "de": "Bitte nenne mir deinen Namen."
+      },
+      "forgetful": true,
+      "_id": "c0574614-92c9-4316-b6de-98e23e1622b6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -479.73053497763885,
+      "_y": 468.7297774469589
+    },
+    {
+      "message": {
+        "en": "Oops!",
+        "de": "Huch!"
+      },
+      "forgetful": true,
+      "_id": "5d87f80a-2ee0-40f4-b2d4-25240601ba3d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -53.72276194699875,
+      "_y": 746.1415406333276
+    },
+    {
+      "message": {
+        "en": "Please accept the terms!",
+        "de": "Bitte akzeptiere die Bedingungen!"
+      },
+      "forgetful": true,
+      "_id": "17966eeb-edf7-4e68-b2d7-c722ad097ad3",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 702.1262201272589,
+      "_y": 612.4699233588807
+    }
+  ],
+  "edges": [
+    {
+      "_id": "6a342f70-8ca4-472a-baba-6a213393daac",
+      "_from": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_to": "be6e2939-1012-4832-a5c2-03bf065a2186",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "8c05b4ac-f799-4c1c-94f1-2a0e6722df20",
+      "_from": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_to": "762561c0-eaec-47c4-97b3-211db6afa5e2",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "d91fc133-74cc-4167-8427-f520a6435bea",
+      "_from": "9a82b78e-83d5-471d-8f6d-897d0463a0b7",
+      "_to": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "04a44b45-78bf-4f26-997b-2bd4f87aef94",
+      "_from": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_to": "8e535c9a-fdf2-4cae-908c-57d5cc87d2dc",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": "29",
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "3e541b54-d9cc-421d-9742-34c3a615a03d",
+      "_from": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_to": "3c2b0f9f-9090-4b04-afe7-21809cbe5b65",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "d097cc80-4df5-4b99-b718-6446397ca726",
+      "_from": "be6e2939-1012-4832-a5c2-03bf065a2186",
+      "_to": "32338d77-ac67-4bfd-9c92-101060466228",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "3d69a073-d986-44ea-899d-8a47bbd6df07",
+      "_from": "8e535c9a-fdf2-4cae-908c-57d5cc87d2dc",
+      "_to": "ade1fc81-b77d-433d-82b8-d9f5ef9b30bf",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "invalid",
+      "_id": "7f04b468-a19e-47d5-a869-2171bda7ddbb",
+      "_from": "be6e2939-1012-4832-a5c2-03bf065a2186",
+      "_to": "c0574614-92c9-4316-b6de-98e23e1622b6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "28",
+      "name": "",
+      "expose": "none",
+      "condition": "invalid",
+      "_id": "89e10e91-5efe-4c05-b4c3-86937892d064",
+      "_from": "c9bc3a76-d767-4938-9a67-b334fc651ae8",
+      "_to": "5d87f80a-2ee0-40f4-b2d4-25240601ba3d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "invalid",
+      "_id": "5d69752d-5332-4ed6-a03e-81be831cd08d",
+      "_from": "8e535c9a-fdf2-4cae-908c-57d5cc87d2dc",
+      "_to": "17966eeb-edf7-4e68-b2d7-c722ad097ad3",
+      "_collection": "leadsTo"
+    }
+  ]
+}

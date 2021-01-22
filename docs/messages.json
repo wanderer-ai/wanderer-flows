@@ -1,0 +1,118 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "1d46b17c-2acd-4662-8529-84d94de5a921",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Messages",
+        "de": "Nachrichten"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-22T14:43:36.412Z"
+    },
+    {
+      "message": {
+        "en": "New message 1",
+        "de": "Neue Nachricht 1"
+      },
+      "forgetful": false,
+      "_id": "baf20598-f1bc-4560-829e-1fc4bb873287",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 203,
+      "_y": 194
+    },
+    {
+      "message": {
+        "en": "New message 2",
+        "de": "Neue Nachricht 2"
+      },
+      "forgetful": false,
+      "_id": "aec920af-4cd4-4bde-88bb-b460889b0b44",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 73,
+      "_y": 319
+    },
+    {
+      "message": {
+        "en": "New message 3",
+        "de": "Neue Nachricht 3"
+      },
+      "forgetful": false,
+      "_id": "33c5a397-76ec-4185-8711-877156470029",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -138,
+      "_y": 251
+    },
+    {
+      "message": {
+        "en": "New message 4",
+        "de": "Neue Nachricht 4"
+      },
+      "forgetful": false,
+      "_id": "5ee46cb7-f7cb-44de-8c40-1b02939b64cf",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -192,
+      "_y": 438
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "986e375a-4648-4cd4-8c6e-161b0cb4c531",
+      "_from": "1d46b17c-2acd-4662-8529-84d94de5a921",
+      "_to": "baf20598-f1bc-4560-829e-1fc4bb873287",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "51de5bd2-edc0-42a5-95c9-fdbbe2277819",
+      "_from": "baf20598-f1bc-4560-829e-1fc4bb873287",
+      "_to": "aec920af-4cd4-4bde-88bb-b460889b0b44",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "8315bf3d-344f-4658-94da-d8736061e8d8",
+      "_from": "aec920af-4cd4-4bde-88bb-b460889b0b44",
+      "_to": "33c5a397-76ec-4185-8711-877156470029",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "5cb0e51d-d75a-428f-b287-031cfb3cf272",
+      "_from": "33c5a397-76ec-4185-8711-877156470029",
+      "_to": "5ee46cb7-f7cb-44de-8c40-1b02939b64cf",
+      "_collection": "leadsTo"
+    }
+  ]
+}
