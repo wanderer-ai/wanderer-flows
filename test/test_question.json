@@ -18,7 +18,7 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "time": "2021-01-27T15:38:13.380Z"
+      "time": "2021-01-27T15:58:14.986Z"
     },
     {
       "message": {
@@ -156,7 +156,7 @@
       "_collection": "isAnswerableBy"
     },
     {
-      "type": "or",
+      "type": "and",
       "priority": 10,
       "name": "",
       "expose": "none",
@@ -167,7 +167,7 @@
       "_collection": "leadsTo"
     },
     {
-      "type": "or",
+      "type": "and",
       "priority": 10,
       "name": "",
       "expose": "none",
