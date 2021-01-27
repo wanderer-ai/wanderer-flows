@@ -1,0 +1,239 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "7fe1064f-ba94-4fba-9fb4-ba87ab8cebd1",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Testing AND",
+        "de": "Testing AND"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-27T15:45:05.217Z"
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "8e814a30-333a-4408-99de-d365031836c6",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -311,
+      "_y": 209
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "fc129cf6-7d00-472d-8a6d-3c6eddfcdc93",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 290,
+      "_y": 178
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "a0067173-f253-48db-98a3-c6aadd3bc577",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -135,
+      "_y": 251
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "50576cba-342f-4c75-b42d-be6a9fc25501",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 60,
+      "_y": 332
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "33827a7a-992e-44b0-969c-81cb6f32fc26",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -294,
+      "_y": 459
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "384e7b52-a371-4ee6-8977-e452d70949fa",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 265,
+      "_y": 567
+    },
+    {
+      "message": {
+        "en": "OK",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "20f687fa-1189-42a5-ac25-511aee94fad8",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -23,
+      "_y": 794
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/test/test_or.json",
+      "_id": "82cbcb44-e8b1-4dc7-9514-371b59e4e8de",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 12.598341753463504,
+      "_y": 1106.2098976590148
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "068164cd-e35b-4e94-8862-165460791286",
+      "_from": "7fe1064f-ba94-4fba-9fb4-ba87ab8cebd1",
+      "_to": "8e814a30-333a-4408-99de-d365031836c6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "edb2fceb-9713-4ea6-9b37-11f52da11a9f",
+      "_from": "7fe1064f-ba94-4fba-9fb4-ba87ab8cebd1",
+      "_to": "fc129cf6-7d00-472d-8a6d-3c6eddfcdc93",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "77612c7a-4351-458a-823a-56ac781a9b96",
+      "_from": "7fe1064f-ba94-4fba-9fb4-ba87ab8cebd1",
+      "_to": "a0067173-f253-48db-98a3-c6aadd3bc577",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "4de0ab4b-74a6-46a5-b526-06fe481d6eea",
+      "_from": "7fe1064f-ba94-4fba-9fb4-ba87ab8cebd1",
+      "_to": "50576cba-342f-4c75-b42d-be6a9fc25501",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "6ff877f7-4159-4ae9-ae27-3906ecdf7b37",
+      "_from": "8e814a30-333a-4408-99de-d365031836c6",
+      "_to": "33827a7a-992e-44b0-969c-81cb6f32fc26",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "51afaf01-62d6-4c66-ab2d-4f9b66844cd6",
+      "_from": "50576cba-342f-4c75-b42d-be6a9fc25501",
+      "_to": "384e7b52-a371-4ee6-8977-e452d70949fa",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "bb678ec7-fd57-4d71-9bcd-38b9f358c846",
+      "_from": "a0067173-f253-48db-98a3-c6aadd3bc577",
+      "_to": "33827a7a-992e-44b0-969c-81cb6f32fc26",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "d848ce1e-f258-41e7-bbab-5b83ca78ebaa",
+      "_from": "fc129cf6-7d00-472d-8a6d-3c6eddfcdc93",
+      "_to": "384e7b52-a371-4ee6-8977-e452d70949fa",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "745d620a-291a-4bd8-a01a-b1984b2888ae",
+      "_from": "33827a7a-992e-44b0-969c-81cb6f32fc26",
+      "_to": "20f687fa-1189-42a5-ac25-511aee94fad8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "f871e5d2-2c6b-4e13-b4ec-778d883dd75e",
+      "_from": "384e7b52-a371-4ee6-8977-e452d70949fa",
+      "_to": "20f687fa-1189-42a5-ac25-511aee94fad8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "5f03eeec-423a-42dd-a51d-cdc441801ba5",
+      "_from": "20f687fa-1189-42a5-ac25-511aee94fad8",
+      "_to": "82cbcb44-e8b1-4dc7-9514-371b59e4e8de",
+      "_collection": "leadsTo"
+    }
+  ]
+}

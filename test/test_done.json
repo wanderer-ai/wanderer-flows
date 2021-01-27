@@ -1,0 +1,49 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "a8d0b7e4-0ca0-4c09-8c3d-44faa463b1cd",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Testing done",
+        "de": "Testing done"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-27T15:51:15.019Z"
+    },
+    {
+      "message": {
+        "en": "All tests were successfully completed",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "ab768755-707f-4007-b9ed-722062d44971",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1,
+      "_y": 315
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "7f867571-cc0a-42c4-bf7e-847d69af6b3c",
+      "_from": "a8d0b7e4-0ca0-4c09-8c3d-44faa463b1cd",
+      "_to": "ab768755-707f-4007-b9ed-722062d44971",
+      "_collection": "leadsTo"
+    }
+  ]
+}

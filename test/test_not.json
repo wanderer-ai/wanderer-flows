@@ -1,0 +1,148 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "29313bd0-349b-4ca1-8e36-b49f32dcb5ca",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Testing NOT",
+        "de": "Testing NOT"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-27T15:50:07.469Z"
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "6a08d20e-a3fc-492f-9952-3c2c61f9e07b",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -181,
+      "_y": 240
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "b3021cf7-0a6a-4d38-877f-59848060dff2",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 195,
+      "_y": 378
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "47365aff-a1b9-4127-92ad-cbca8e400ce9",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -161,
+      "_y": 428
+    },
+    {
+      "message": {
+        "en": "OK",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "9b3fbcbe-841f-4909-bf01-6f318c420252",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 96,
+      "_y": 630
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/test/test_done.json",
+      "_id": "46926819-bb70-4606-8673-25ab96222aab",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 111.99714988876542,
+      "_y": 832.0046638183838
+    }
+  ],
+  "edges": [
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "3423cde9-a6ef-41ec-8710-5be71266c7bb",
+      "_from": "29313bd0-349b-4ca1-8e36-b49f32dcb5ca",
+      "_to": "6a08d20e-a3fc-492f-9952-3c2c61f9e07b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "eb50cf6d-fca3-4410-abdb-5e3f62efbaec",
+      "_from": "29313bd0-349b-4ca1-8e36-b49f32dcb5ca",
+      "_to": "b3021cf7-0a6a-4d38-877f-59848060dff2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "28855aac-ea88-426f-a9cb-2e8ca25aa3e7",
+      "_from": "6a08d20e-a3fc-492f-9952-3c2c61f9e07b",
+      "_to": "47365aff-a1b9-4127-92ad-cbca8e400ce9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b25a8041-eefa-4989-ac3f-18c90508a1c3",
+      "_from": "47365aff-a1b9-4127-92ad-cbca8e400ce9",
+      "_to": "9b3fbcbe-841f-4909-bf01-6f318c420252",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "819f427e-977d-43e1-9daa-e88cb0b013ff",
+      "_from": "b3021cf7-0a6a-4d38-877f-59848060dff2",
+      "_to": "9b3fbcbe-841f-4909-bf01-6f318c420252",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "a5722d60-dd59-43f8-b7b8-28fabf851a3a",
+      "_from": "9b3fbcbe-841f-4909-bf01-6f318c420252",
+      "_to": "46926819-bb70-4606-8673-25ab96222aab",
+      "_collection": "leadsTo"
+    }
+  ]
+}

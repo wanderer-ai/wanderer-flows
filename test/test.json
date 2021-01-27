@@ -1,0 +1,137 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "7cbbdb2a-2c36-4227-8e12-1acb5d63deb1",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Testing",
+        "de": "Testing"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-27T15:41:11.614Z"
+    },
+    {
+      "message": {
+        "en": "Hey!",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "85fb21b8-6b0a-4a42-95ab-8e255fa5818e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -232,
+      "_y": 243
+    },
+    {
+      "message": {
+        "en": "This is a automated test track.",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "ec2b87bd-5a0e-401f-b3cc-8d63607bd194",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -8,
+      "_y": 342
+    },
+    {
+      "message": {
+        "en": "I will now check all features.",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "7db532d5-bda1-4683-a826-39ffe5a943d5",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 121,
+      "_y": 577
+    },
+    {
+      "message": {
+        "en": "Please be patient until I am finished.",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "ed89e52d-21ea-48f3-99ea-dcc9bd1fd257",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 363,
+      "_y": 497
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/test/test_question.json",
+      "_id": "5b4f4c55-b773-4ad7-ba9b-1fa66ba72129",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": 622,
+      "_y": 714
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "15e6f965-6f80-4f58-8f9b-f507f3e37fe6",
+      "_from": "7cbbdb2a-2c36-4227-8e12-1acb5d63deb1",
+      "_to": "85fb21b8-6b0a-4a42-95ab-8e255fa5818e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "66e5e943-e0c2-4d36-b2f0-e1e547546eda",
+      "_from": "85fb21b8-6b0a-4a42-95ab-8e255fa5818e",
+      "_to": "ec2b87bd-5a0e-401f-b3cc-8d63607bd194",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "4510b7c0-023e-4019-b3d3-383ad40fd48b",
+      "_from": "ec2b87bd-5a0e-401f-b3cc-8d63607bd194",
+      "_to": "7db532d5-bda1-4683-a826-39ffe5a943d5",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "14681a80-727e-4d17-95a8-57960d83508b",
+      "_from": "7db532d5-bda1-4683-a826-39ffe5a943d5",
+      "_to": "ed89e52d-21ea-48f3-99ea-dcc9bd1fd257",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "ce2a3dcf-9f20-4a21-9e15-971c54498f7f",
+      "_from": "ed89e52d-21ea-48f3-99ea-dcc9bd1fd257",
+      "_to": "5b4f4c55-b773-4ad7-ba9b-1fa66ba72129",
+      "_collection": "leadsTo"
+    }
+  ]
+}

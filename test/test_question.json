@@ -1,0 +1,192 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "5f008b6c-8d1a-4b64-91c9-8e9b6d3eadd5",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Testing question",
+        "de": "Testing question"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-01-27T15:38:13.380Z"
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "8793768c-91a5-49b9-8253-68ba08869231",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 212,
+      "_y": 254
+    },
+    {
+      "question": {
+        "en": "New question",
+        "de": "Neue Frage"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -21,
+      "_y": 373
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "ok"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "163e593e-68db-4b75-a4b5-da4d40383c09",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 116,
+      "_y": 551
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Do not check the box"
+      },
+      "type": "checkbox",
+      "name": "",
+      "priority": "44",
+      "required": true,
+      "_id": "17be2e83-d4a5-4842-948a-aeae470ee192",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -232,
+      "_y": 682
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Please fill this input"
+      },
+      "type": "text",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -274,
+      "_y": 357
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "forgetful": false,
+      "_id": "1317d7fe-9168-4e31-9623-ead4081a33a1",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -626,
+      "_y": 665
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/test/test_and.json",
+      "_id": "81de126b-3ff3-4068-bfdc-6b85931bcec1",
+      "_collection": "jump",
+      "_origin": false,
+      "_x": -391,
+      "_y": 1088
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "ce432b6e-d662-4c68-af44-9e2f59cdf9e8",
+      "_from": "5f008b6c-8d1a-4b64-91c9-8e9b6d3eadd5",
+      "_to": "8793768c-91a5-49b9-8253-68ba08869231",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "676f6da3-64e9-4f5f-8c53-115851348a3e",
+      "_from": "8793768c-91a5-49b9-8253-68ba08869231",
+      "_to": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "4be148a7-e3e1-4cfc-8a03-826ac1562fa6",
+      "_from": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_to": "163e593e-68db-4b75-a4b5-da4d40383c09",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "ec7a066e-fbdc-42e6-8611-d0dd2e8d8f00",
+      "_from": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_to": "17be2e83-d4a5-4842-948a-aeae470ee192",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "1d9ad433-5d9b-4697-8688-4a763026cd57",
+      "_from": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_to": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "ea42b5b7-d6fa-43c9-bc98-c2b3dde393aa",
+      "_from": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
+      "_to": "1317d7fe-9168-4e31-9623-ead4081a33a1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "invalid",
+      "_id": "717be307-0bad-42d3-869b-9b0a37f8b56f",
+      "_from": "17be2e83-d4a5-4842-948a-aeae470ee192",
+      "_to": "1317d7fe-9168-4e31-9623-ead4081a33a1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "9c4a7b6e-b381-42d3-bd4c-9c4e25e51de3",
+      "_from": "1317d7fe-9168-4e31-9623-ead4081a33a1",
+      "_to": "81de126b-3ff3-4068-bfdc-6b85931bcec1",
+      "_collection": "leadsTo"
+    }
+  ]
+}
