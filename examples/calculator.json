@@ -2,7 +2,7 @@
   "vertices": [
     {
       "_collection": "flow",
-      "_id": "e90c2e26-fe9c-4762-9417-f50132d273f6",
+      "_id": "d5430c41-2270-41c8-a56a-3563fa9ed74f",
       "_origin": true,
       "_x": 0,
       "_y": 0,
@@ -12,312 +12,404 @@
       ],
       "topic": {
         "en": "Calculator",
-        "de": "Taschenrechner"
+        "de": "Neuer Chat-Flow"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "version": "0.0.1",
-      "time": "2020-10-22T21:10:38.769Z"
+      "time": "2021-01-29T14:06:32.297Z"
     },
     {
       "question": {
         "en": "What is the first number?",
-        "de": "Was ist die erste Zahl?"
+        "de": "Neue Frage"
       },
       "hideMessages": false,
-      "drawAttention": true,
-      "smallButtons": false,
-      "_id": "831bb952-7131-499d-90ad-22e8f6b4b60e",
+      "showInNavigation": false,
+      "forgetful": true,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "b46f85a7-62e1-4d4d-a2ec-ab5e67ae1f66",
       "_collection": "question",
       "_origin": false,
-      "_x": -14.223970576885904,
-      "_y": 436.2729164089077,
-      "_parent": false
+      "_x": -496.00000000000017,
+      "_y": 358.0000000000001
     },
     {
-      "suggestion": {
-        "de": "Nummer 1",
-        "en": "Number 1"
+      "question": {
+        "en": "What is the second number?",
+        "de": "Neue Frage"
       },
-      "type": "text",
-      "name": "",
-      "priority": 50,
-      "_id": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_collection": "suggestion",
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": true,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "99bdd873-e499-476b-b22e-75663d667ad6",
+      "_collection": "question",
       "_origin": false,
-      "_x": -124.6391284731817,
-      "_y": 535.0151424814758,
-      "_parent": false
+      "_x": 742.6876140142473,
+      "_y": 401.8432486815079
     },
     {
       "suggestion": {
-        "de": "ok",
+        "de": "Antwortvorschlag",
         "en": "ok"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "8b03dd80-4b9c-49da-898a-fdc40da4ed9b",
+      "required": true,
+      "_id": "a58a43a4-c546-431a-95b0-ea1d6ef8bfb9",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 124.88104966106096,
-      "_y": 530.4127074638693,
-      "_parent": false
-    },
-    {
-      "question": {
-        "en": "Please select an operation",
-        "de": "Welche Operation möchtest du durchführen?"
-      },
-      "hideMessages": false,
-      "drawAttention": true,
-      "smallButtons": false,
-      "_id": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_collection": "question",
-      "_origin": false,
-      "_x": 804.3376286850885,
-      "_y": 403.3806874466853,
-      "_parent": false
+      "_x": -417.00000000000017,
+      "_y": 538.0000000000002
     },
     {
       "suggestion": {
-        "de": "+",
+        "de": "Antwortvorschlag",
+        "en": "First number"
+      },
+      "type": "text",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -498.3048267165805,
+      "_y": 564.5241042487941
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "ok"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "daddcdec-c994-46c9-b790-6edba3238bb3",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 956.9753250271328,
+      "_y": 450.2382738344847
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Second number"
+      },
+      "type": "text",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 759.2925888612701,
+      "_y": 580.6037461662102
+    },
+    {
+      "question": {
+        "en": "Please choose an operation",
+        "de": "Neue Frage"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": true,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 104.58540266389022,
+      "_y": 388.1846716188494
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
         "en": "+"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "8b69c3d9-75df-486a-abcb-354716c7cb29",
+      "required": true,
+      "_id": "4d6f0725-38b3-40b5-8f4b-3cd45ddd1b8e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 614.699991909912,
-      "_y": 485.6012544998881,
-      "_parent": false
+      "_x": -79.98069152371285,
+      "_y": 548.5859153306055
     },
     {
       "suggestion": {
-        "de": "-",
+        "de": "Antwortvorschlag",
         "en": "-"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "9ac9ea69-865a-4c94-9c68-fa1b9077afd6",
+      "required": true,
+      "_id": "043fe937-25ba-43fa-94fc-23ab5301ab18",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 721.0358228644218,
-      "_y": 563.6542067151561,
-      "_parent": false
-    },
-    {
-      "question": {
-        "en": "What is the second number?",
-        "de": "Was ist die zweite Zahl?"
-      },
-      "hideMessages": false,
-      "drawAttention": true,
-      "smallButtons": false,
-      "_id": "28bcd54b-0760-4ced-bd67-d1037ae713da",
-      "_collection": "question",
-      "_origin": false,
-      "_x": 1540.570086323059,
-      "_y": 419.59743250841206,
-      "_parent": false
+      "_x": 70.58540266389015,
+      "_y": 619.18467161885
     },
     {
       "suggestion": {
-        "de": "Nummer 2",
-        "en": "Number 2"
-      },
-      "type": "text",
-      "name": "",
-      "priority": 50,
-      "_id": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 1450.5954721987714,
-      "_y": 573.8798355116539,
-      "_parent": false
-    },
-    {
-      "suggestion": {
-        "de": "ok",
-        "en": "ok"
+        "de": "Antwortvorschlag",
+        "en": "*"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "5c26471e-f3e8-4084-92f5-f2ba999a0c94",
+      "required": true,
+      "_id": "06d4c78e-5f53-4395-9045-07bb8303354a",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 1680.6312582231376,
-      "_y": 519.7238861509743,
-      "_parent": false
-    },
-    {
-      "expression": "a+b",
-      "_id": "15452468-cfce-4098-bf8b-b8fc1ae2b6be",
-      "_collection": "expression",
-      "_origin": false,
-      "_x": 465.293932999069,
-      "_y": 1067.911670019144,
-      "_parent": false
-    },
-    {
-      "message": {
-        "en": "The result is {{result}}",
-        "de": "Das Ergebnis ist {{result}}"
-      },
-      "_id": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
-      "_collection": "message",
-      "_origin": false,
-      "_x": 4.26181888300178,
-      "_y": 1340.542329005707,
-      "_parent": false
-    },
-    {
-      "expression": "a-b",
-      "_id": "d9dbb877-dca9-45a4-bb7c-14f4343e5e34",
-      "_collection": "expression",
-      "_origin": false,
-      "_x": 558.5895525248918,
-      "_y": 1251.7730079323828,
-      "_parent": false
+      "_x": 217.58540266389025,
+      "_y": 625.18467161885
     },
     {
       "suggestion": {
-        "de": "x",
-        "en": "x"
-      },
-      "type": "button",
-      "name": "",
-      "priority": 50,
-      "_id": "938ee10b-122e-4a94-91b5-3971b2d3daac",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": 868.0641160252587,
-      "_y": 546.4844741846982,
-      "_parent": false
-    },
-    {
-      "suggestion": {
-        "de": "/",
+        "de": "Antwortvorschlag",
         "en": "/"
       },
       "type": "button",
       "name": "",
       "priority": 50,
-      "_id": "80697a2e-0672-4ae9-8c0b-1ccd606e5816",
+      "required": true,
+      "_id": "1e6cf02e-6645-4312-98af-40fa416bbc6e",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": 990.8200429208666,
-      "_y": 495.11080228462004,
-      "_parent": false
+      "_x": 366.5854026638902,
+      "_y": 573.18467161885
     },
     {
-      "expression": "a*b",
-      "_id": "e0868acc-dad2-45fb-9762-b7b9d73f0243",
-      "_collection": "expression",
+      "message": {
+        "en": "Hey! I'am your calculator bot.",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "67f84baa-9a90-4dda-8823-3b72a1de5c24",
+      "_collection": "message",
       "_origin": false,
-      "_x": 633.30009493272,
-      "_y": 1439.7096505511217,
-      "_parent": false
+      "_x": -397.0000000000001,
+      "_y": -27.000000000000032
     },
     {
-      "expression": "a/b",
-      "_id": "5eacef41-017b-47ec-bca7-c2a5e4b0eb88",
-      "_collection": "expression",
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "",
+      "_id": "2710f1f8-0fd0-487e-a17a-7cdb98d1bce6",
+      "_collection": "conclusion",
       "_origin": false,
-      "_x": 695.4584187918222,
-      "_y": 1615.730449233532,
-      "_parent": false
+      "_x": -523.7320810620361,
+      "_y": 113.21401010507557
+    },
+    {
+      "conclusion": {
+        "en": "add",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "a|number + b|number",
+      "_id": "605ffc89-a3e1-4a69-8704-3973e23265a2",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -109.15176055833868,
+      "_y": 911.529918967491
+    },
+    {
+      "conclusion": {
+        "en": "substract",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "a|number - b|number",
+      "_id": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 61.8995572186383,
+      "_y": 959.8083021422084
+    },
+    {
+      "conclusion": {
+        "en": "multiply",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "a|number * b|number",
+      "_id": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 226.94154715744753,
+      "_y": 976.5268096881018
+    },
+    {
+      "conclusion": {
+        "en": "devide",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "a|number / b|number",
+      "_id": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 372.2976916510048,
+      "_y": 953.9311626792467
+    },
+    {
+      "message": {
+        "en": "The result is {{value}}",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": true,
+      "_id": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 145.9026664980276,
+      "_y": 1273.6325545214447
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "",
+      "_id": "f4a13d6f-6e2e-48bf-9aaf-5021555c65b0",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -1429.7461896338623,
+      "_y": 536.4190637621804
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "",
+      "_id": "5205a67b-dd78-4779-b3ee-634f0b04ebad",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -1396.0066075893242,
+      "_y": 1268.5617247967373
     }
   ],
   "edges": [
     {
+      "_id": "f5cfad7a-69da-4c7e-a718-03ce181e5a18",
+      "_from": "b46f85a7-62e1-4d4d-a2ec-ab5e67ae1f66",
+      "_to": "a58a43a4-c546-431a-95b0-ea1d6ef8bfb9",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "6dd5d425-8549-4892-865a-79187029d8aa",
+      "_from": "b46f85a7-62e1-4d4d-a2ec-ab5e67ae1f66",
+      "_to": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "e4ee1f5f-0e9a-4469-b764-1171274b058e",
+      "_from": "99bdd873-e499-476b-b22e-75663d667ad6",
+      "_to": "daddcdec-c994-46c9-b790-6edba3238bb3",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "535c41cd-29e8-4de7-8569-4e2cf1dfb55b",
+      "_from": "99bdd873-e499-476b-b22e-75663d667ad6",
+      "_to": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "90a649b6-b467-42ed-97a5-8a08abf1e18a",
+      "_from": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_to": "4d6f0725-38b3-40b5-8f4b-3cd45ddd1b8e",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "84b66384-3ff5-458a-9ea9-d915f9bda409",
+      "_from": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_to": "043fe937-25ba-43fa-94fc-23ab5301ab18",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "22bf076b-b1d3-483d-b73d-87653178f875",
+      "_from": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_to": "06d4c78e-5f53-4395-9045-07bb8303354a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "20426a5f-5d93-488f-9c3c-39d24e98b11d",
+      "_from": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_to": "1e6cf02e-6645-4312-98af-40fa416bbc6e",
+      "_collection": "isAnswerableBy"
+    },
+    {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
-      "condition": false,
-      "_id": "4b9939f2-3710-4e0e-aa9a-b37809c5f7e3",
-      "_from": "e90c2e26-fe9c-4762-9417-f50132d273f6",
-      "_to": "831bb952-7131-499d-90ad-22e8f6b4b60e",
+      "expose": "none",
+      "condition": "active",
+      "_id": "d328d4ab-d4b6-426d-8871-6740512cefe7",
+      "_from": "d5430c41-2270-41c8-a56a-3563fa9ed74f",
+      "_to": "67f84baa-9a90-4dda-8823-3b72a1de5c24",
       "_collection": "leadsTo"
     },
     {
-      "_id": "d8173bbf-f939-49f3-9d62-9b003f31d2fc",
-      "_from": "831bb952-7131-499d-90ad-22e8f6b4b60e",
-      "_to": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "_id": "e9d68bd5-d472-4110-9dfe-6898036f823b",
-      "_from": "831bb952-7131-499d-90ad-22e8f6b4b60e",
-      "_to": "8b03dd80-4b9c-49da-898a-fdc40da4ed9b",
-      "_collection": "isAnswerableBy"
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "2fdc891c-c195-4520-8ce4-c13482f3ca6f",
+      "_from": "67f84baa-9a90-4dda-8823-3b72a1de5c24",
+      "_to": "2710f1f8-0fd0-487e-a17a-7cdb98d1bce6",
+      "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "answered",
-      "method": false,
+      "expose": "none",
+      "condition": "active",
+      "_id": "66a6b07a-37fa-4f4a-a077-5e9987404065",
+      "_from": "2710f1f8-0fd0-487e-a17a-7cdb98d1bce6",
+      "_to": "b46f85a7-62e1-4d4d-a2ec-ab5e67ae1f66",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
       "condition": "answered",
-      "_id": "9866e7fa-6e6a-424d-977f-439eee8b88fe",
-      "_from": "831bb952-7131-499d-90ad-22e8f6b4b60e",
-      "_to": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
+      "_id": "9e9ad342-8ea9-45fa-bf7c-b875ed2e6852",
+      "_from": "b46f85a7-62e1-4d4d-a2ec-ab5e67ae1f66",
+      "_to": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
       "_collection": "leadsTo"
-    },
-    {
-      "_id": "0ab3583d-3c8d-4458-b714-4354fbd4cc20",
-      "_from": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_to": "8b69c3d9-75df-486a-abcb-354716c7cb29",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "_id": "fc4e34e9-32b7-47da-94cf-dd2e8577c254",
-      "_from": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_to": "9ac9ea69-865a-4c94-9c68-fa1b9077afd6",
-      "_collection": "isAnswerableBy"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "answered",
-      "method": false,
+      "expose": "none",
       "condition": "answered",
-      "_id": "f2caca50-d5b8-4675-a246-66e67288948f",
-      "_from": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_to": "28bcd54b-0760-4ced-bd67-d1037ae713da",
+      "_id": "cd7220b7-0d8e-4e1e-8dd5-01c3609002f6",
+      "_from": "bb6e5c09-4819-4f42-979b-8e594f9fccd5",
+      "_to": "99bdd873-e499-476b-b22e-75663d667ad6",
       "_collection": "leadsTo"
-    },
-    {
-      "_id": "f8069a6d-7a94-449c-977a-ba054bc7c690",
-      "_from": "28bcd54b-0760-4ced-bd67-d1037ae713da",
-      "_to": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "_id": "98f45906-51f0-4d0b-828e-289c4314760e",
-      "_from": "28bcd54b-0760-4ced-bd67-d1037ae713da",
-      "_to": "5c26471e-f3e8-4084-92f5-f2ba999a0c94",
-      "_collection": "isAnswerableBy"
     },
     {
       "type": "and",
       "priority": 10,
       "name": "",
-      "expose": "value",
-      "method": false,
+      "expose": "none",
       "condition": "answered",
-      "_id": "c43a9414-3a70-4b6c-a021-50ffbd4e5965",
-      "_from": "8b69c3d9-75df-486a-abcb-354716c7cb29",
-      "_to": "15452468-cfce-4098-bf8b-b8fc1ae2b6be",
+      "_id": "01d71cf1-9ed4-486d-b0f5-a7af5903dfb9",
+      "_from": "4d6f0725-38b3-40b5-8f4b-3cd45ddd1b8e",
+      "_to": "605ffc89-a3e1-4a69-8704-3973e23265a2",
       "_collection": "leadsTo"
     },
     {
@@ -325,11 +417,10 @@
       "priority": 10,
       "name": "a",
       "expose": "value",
-      "method": false,
       "condition": "answered",
-      "_id": "ce1357bc-10cd-48f3-a9db-ad168b2e8cb9",
-      "_from": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_to": "15452468-cfce-4098-bf8b-b8fc1ae2b6be",
+      "_id": "67d545e5-871c-43fd-b96f-948396a84933",
+      "_from": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_to": "605ffc89-a3e1-4a69-8704-3973e23265a2",
       "_collection": "leadsTo"
     },
     {
@@ -337,191 +428,186 @@
       "priority": 10,
       "name": "b",
       "expose": "value",
-      "method": false,
       "condition": "answered",
-      "_id": "f8585d31-1486-45c2-83be-d2435aa1532c",
-      "_from": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_to": "15452468-cfce-4098-bf8b-b8fc1ae2b6be",
+      "_id": "3c224f39-8c22-4690-b44d-963e7593b915",
+      "_from": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_to": "605ffc89-a3e1-4a69-8704-3973e23265a2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "ec3a4270-090f-40ad-8d5f-58f4b68f524b",
+      "_from": "043fe937-25ba-43fa-94fc-23ab5301ab18",
+      "_to": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "a",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "eb374c70-e77e-49a9-9a0b-6c4e36a6ab4c",
+      "_from": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_to": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "b",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "bc39a491-bdda-4ef6-83ce-38aeeb9ce61f",
+      "_from": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_to": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "05ff49b5-0542-4429-84a8-9d1097c74249",
+      "_from": "06d4c78e-5f53-4395-9045-07bb8303354a",
+      "_to": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "cce2b3fb-2469-4141-881c-3a96f7cb2827",
+      "_from": "1e6cf02e-6645-4312-98af-40fa416bbc6e",
+      "_to": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "a",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "f47a046d-e3c2-4688-95b9-0f4720c7bbad",
+      "_from": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_to": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "b",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "88576811-5fc8-493b-8473-870fd274b00d",
+      "_from": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_to": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "b",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "6ad79ca8-61bb-4c07-8fb0-fb86b1208eb6",
+      "_from": "1bec8480-20a7-4f35-b1ba-2aefa5a5ba8d",
+      "_to": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "a",
+      "expose": "value",
+      "condition": "answered",
+      "_id": "87be388c-286e-462a-8d55-b1ccd78cd47a",
+      "_from": "fe24d5ee-4203-4117-87a5-1cfa1bf8b462",
+      "_to": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "result",
-      "method": false,
-      "condition": "true",
-      "_id": "cd43396b-fc7e-4722-9b97-5d2955053cb4",
-      "_from": "15452468-cfce-4098-bf8b-b8fc1ae2b6be",
-      "_to": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
+      "expose": "value",
+      "condition": "active",
+      "_id": "6fa7fbf7-28e0-428b-8549-8abc66dc9114",
+      "_from": "605ffc89-a3e1-4a69-8704-3973e23265a2",
+      "_to": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "active",
+      "_id": "3d963847-5617-43f7-b582-f366d2c531d4",
+      "_from": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
+      "_to": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "active",
+      "_id": "22e017dc-362c-41c5-828e-cec3eff07957",
+      "_from": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
+      "_to": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "value",
+      "condition": "active",
+      "_id": "22e1fd14-e9ec-4d96-a8bf-77e195adba7e",
+      "_from": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
+      "_to": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
       "_collection": "leadsTo"
     },
     {
       "type": "not",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
+      "expose": "none",
+      "condition": "active",
+      "_id": "0c44a744-c897-4955-8b6e-77b8e80269b6",
+      "_from": "f4a13d6f-6e2e-48bf-9aaf-5021555c65b0",
+      "_to": "2710f1f8-0fd0-487e-a17a-7cdb98d1bce6",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
       "condition": "sent",
-      "_id": "91a7bd0a-3e41-4dcc-92d4-87d09e53df4c",
-      "_from": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
-      "_to": "831bb952-7131-499d-90ad-22e8f6b4b60e",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "532341f1-bce8-4d05-80b0-cddc744a5f49",
-      "_from": "9ac9ea69-865a-4c94-9c68-fa1b9077afd6",
-      "_to": "d9dbb877-dca9-45a4-bb7c-14f4343e5e34",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "a",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "65c94c67-35ab-47a6-949b-afb4fc10a18a",
-      "_from": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_to": "d9dbb877-dca9-45a4-bb7c-14f4343e5e34",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "b",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "b4a1e485-b244-4d09-bb6a-6aae5513cc33",
-      "_from": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_to": "d9dbb877-dca9-45a4-bb7c-14f4343e5e34",
+      "_id": "c867905b-f89e-410f-ae91-3e338099bc18",
+      "_from": "bbd21b10-75a4-417b-bd73-04f7c0cd5971",
+      "_to": "5205a67b-dd78-4779-b3ee-634f0b04ebad",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "result",
-      "method": false,
-      "condition": "true",
-      "_id": "c4a18cc1-f7a9-4ffe-a79b-99fcae556fe4",
-      "_from": "d9dbb877-dca9-45a4-bb7c-14f4343e5e34",
-      "_to": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
-      "_collection": "leadsTo"
-    },
-    {
-      "_id": "4f53695f-18d6-4e70-a839-ba8c438c8d25",
-      "_from": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_to": "938ee10b-122e-4a94-91b5-3971b2d3daac",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "_id": "67e178ae-17f5-4d2d-ae65-4e24a1ff6f87",
-      "_from": "366742dc-5bb3-4aae-ae0e-f2dc9d052fa3",
-      "_to": "80697a2e-0672-4ae9-8c0b-1ccd606e5816",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "f677f95d-3e62-410b-a422-ad459b2c7226",
-      "_from": "938ee10b-122e-4a94-91b5-3971b2d3daac",
-      "_to": "e0868acc-dad2-45fb-9762-b7b9d73f0243",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "81f28e64-4392-4e5a-8e58-21c880974c8f",
-      "_from": "80697a2e-0672-4ae9-8c0b-1ccd606e5816",
-      "_to": "5eacef41-017b-47ec-bca7-c2a5e4b0eb88",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "b",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "bd40eff5-99a8-4d69-8635-ee0bc27ade45",
-      "_from": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_to": "e0868acc-dad2-45fb-9762-b7b9d73f0243",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "b",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "3110c072-20ab-4df7-95e0-20945d0be1b5",
-      "_from": "3a49e442-75cb-421d-bd26-b05aaaf39194",
-      "_to": "5eacef41-017b-47ec-bca7-c2a5e4b0eb88",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "a",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "ce273343-bb09-488d-bbe0-298f01e8b586",
-      "_from": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_to": "e0868acc-dad2-45fb-9762-b7b9d73f0243",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "a",
-      "expose": "value",
-      "method": false,
-      "condition": "answered",
-      "_id": "d9305883-28b1-4840-b3b5-9b2ba7ac339e",
-      "_from": "ef7151a5-16ab-465d-8d15-4d130d8d0c25",
-      "_to": "5eacef41-017b-47ec-bca7-c2a5e4b0eb88",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "result",
-      "method": false,
-      "condition": "true",
-      "_id": "1ba607db-f381-4f8c-862c-1658a2674416",
-      "_from": "e0868acc-dad2-45fb-9762-b7b9d73f0243",
-      "_to": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
-      "_collection": "leadsTo"
-    },
-    {
-      "type": "or",
-      "priority": 10,
-      "name": "",
-      "expose": "result",
-      "method": false,
-      "condition": "true",
-      "_id": "cefc359a-8157-49f7-a473-3b1a94c486dc",
-      "_from": "5eacef41-017b-47ec-bca7-c2a5e4b0eb88",
-      "_to": "c4e69fe0-fc80-481e-9411-c8c02916d2e1",
+      "expose": "none",
+      "condition": "active",
+      "_id": "e6c69872-0e0b-47fd-9735-a58adc8da169",
+      "_from": "5205a67b-dd78-4779-b3ee-634f0b04ebad",
+      "_to": "f4a13d6f-6e2e-48bf-9aaf-5021555c65b0",
       "_collection": "leadsTo"
     }
   ]
