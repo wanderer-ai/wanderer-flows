@@ -1,0 +1,129 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "18d6e578-7187-4336-95a6-c1fa9aa66a7e",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Required Edge Logic",
+        "de": "Required Edge Logic"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-01T15:58:34.771Z"
+    },
+    {
+      "message": {
+        "en": "New message 1",
+        "de": "Neue Nachricht 1"
+      },
+      "forgetful": false,
+      "_id": "1c21eaf9-c175-4899-a0d2-4dea7589fe1a",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -214,
+      "_y": 220
+    },
+    {
+      "message": {
+        "en": "New message 3",
+        "de": "Neue Nachricht 3"
+      },
+      "forgetful": false,
+      "_id": "fe24bf1c-db9a-4e0b-bde5-998c2b24fc8e",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 13,
+      "_y": 378
+    },
+    {
+      "message": {
+        "en": "New message 2",
+        "de": "Neue Nachricht 2"
+      },
+      "forgetful": false,
+      "_id": "f52960d6-c760-4317-a07b-f34df9ca178d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 252,
+      "_y": 243
+    },
+    {
+      "message": {
+        "en": "New message 4",
+        "de": "Neue Nachricht 4"
+      },
+      "forgetful": false,
+      "_id": "950723e3-3576-4905-aeb5-f2ef62cedbd7",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 16,
+      "_y": 615
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b91254e4-44ff-47a1-b7d1-629be8702e59",
+      "_from": "18d6e578-7187-4336-95a6-c1fa9aa66a7e",
+      "_to": "1c21eaf9-c175-4899-a0d2-4dea7589fe1a",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "f141278f-8091-4443-9ff9-65f91695ad22",
+      "_from": "1c21eaf9-c175-4899-a0d2-4dea7589fe1a",
+      "_to": "fe24bf1c-db9a-4e0b-bde5-998c2b24fc8e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "bea7c25c-a855-4e36-9b91-3dd42202a3f9",
+      "_from": "18d6e578-7187-4336-95a6-c1fa9aa66a7e",
+      "_to": "f52960d6-c760-4317-a07b-f34df9ca178d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "5afdf280-aacd-4551-b21c-59c7fc852943",
+      "_from": "f52960d6-c760-4317-a07b-f34df9ca178d",
+      "_to": "fe24bf1c-db9a-4e0b-bde5-998c2b24fc8e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "924f9aeb-dd14-4dfc-86b0-e75b728bafa1",
+      "_from": "fe24bf1c-db9a-4e0b-bde5-998c2b24fc8e",
+      "_to": "950723e3-3576-4905-aeb5-f2ef62cedbd7",
+      "_collection": "leadsTo"
+    }
+  ]
+}

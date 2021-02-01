@@ -1,0 +1,141 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Bigger edges first",
+        "de": "Bigger edges first"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-01T15:37:10.502Z"
+    },
+    {
+      "message": {
+        "en": "Fourth message",
+        "de": "Vierte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "a2a8fe20-66ed-48fb-b0a2-7978b7c991fc",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 259.97666573752645,
+      "_y": 403.9082322568546
+    },
+    {
+      "message": {
+        "en": "First message",
+        "de": "Erste Nachricht"
+      },
+      "forgetful": false,
+      "_id": "56ab66b6-fefc-48c2-bf41-a3fd94bc11b5",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -332.9502221956637,
+      "_y": 230.85380520048832
+    },
+    {
+      "message": {
+        "en": "Third message",
+        "de": "Dritte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "19e1fc30-5934-4118-8cc6-5927acac8604",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 29.194403297099313,
+      "_y": 487.7946995579842
+    },
+    {
+      "message": {
+        "en": "Fifth message",
+        "de": "Fünfte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "f21285a4-2de6-4392-8f59-7e229f9fec82",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 351.7433817810073,
+      "_y": 211.69206400403033
+    },
+    {
+      "message": {
+        "en": "Second message",
+        "de": "Zweite Nachricht"
+      },
+      "forgetful": false,
+      "_id": "5cd69b4f-6b2a-4653-b008-f89303bf1114",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -201.9051229774653,
+      "_y": 415.9891028550836
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": "23",
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "0d507dc7-6e2e-4ced-8e1e-1b95cc095afb",
+      "_from": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_to": "a2a8fe20-66ed-48fb-b0a2-7978b7c991fc",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "78",
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "2a6a906e-fb9e-4d09-ad8a-82297c2c55b3",
+      "_from": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_to": "56ab66b6-fefc-48c2-bf41-a3fd94bc11b5",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "40",
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b9698456-13f2-4ea7-88c5-482d909ed250",
+      "_from": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_to": "19e1fc30-5934-4118-8cc6-5927acac8604",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "982fde84-e3d2-48b5-8f16-0fd71ebbe94c",
+      "_from": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_to": "f21285a4-2de6-4392-8f59-7e229f9fec82",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "63",
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "7d1c4bd9-e76f-4910-955e-48502e825045",
+      "_from": "6c3a3b81-14e3-4cda-9733-1fa14b73542c",
+      "_to": "5cd69b4f-6b2a-4653-b008-f89303bf1114",
+      "_collection": "leadsTo"
+    }
+  ]
+}

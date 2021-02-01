@@ -1,0 +1,166 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "24434b25-9b8f-434f-915d-3f04da92bead",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Unconnected nodes",
+        "de": "Unconnected nodes"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-01T16:07:05.009Z"
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "b95a0bbb-a206-4753-9576-8085b8c5ca6b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -288,
+      "_y": 211
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "5e190a9f-7787-40be-9bed-b8b7798b46e5",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -57,
+      "_y": 394
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "ddbff737-7157-4c7d-aaef-a95fff399521",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 265,
+      "_y": 319
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "44b4def5-933d-4b66-ae9e-4bdb6dd0aaf7",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 404,
+      "_y": 392
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "4a791f7b-6143-4bf4-98cb-4f6327aa56d7",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 496,
+      "_y": 21
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "f136e82a-5831-4cf3-8c9e-c6bcc37bdd50",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -295,
+      "_y": 65
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "bb7bed88-f94e-4ca2-ba97-eaddf1fdbfb7",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -289,
+      "_y": -135
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": false,
+      "_id": "f2418121-203b-4e1a-b898-30f0041b3360",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -317,
+      "_y": -17
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "bd1f068e-439f-4cff-b0b2-ed07a3545e19",
+      "_from": "5e190a9f-7787-40be-9bed-b8b7798b46e5",
+      "_to": "ddbff737-7157-4c7d-aaef-a95fff399521",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "cfc368ca-8c24-40b1-a1d4-fb2d4130b6ae",
+      "_from": "ddbff737-7157-4c7d-aaef-a95fff399521",
+      "_to": "44b4def5-933d-4b66-ae9e-4bdb6dd0aaf7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "2c31df5d-f291-42e9-b1c5-90868155bca9",
+      "_from": "ddbff737-7157-4c7d-aaef-a95fff399521",
+      "_to": "4a791f7b-6143-4bf4-98cb-4f6327aa56d7",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "edd2a77f-2282-4bd5-8fd3-afb0d8079ed4",
+      "_from": "4a791f7b-6143-4bf4-98cb-4f6327aa56d7",
+      "_to": "44b4def5-933d-4b66-ae9e-4bdb6dd0aaf7",
+      "_collection": "leadsTo"
+    }
+  ]
+}

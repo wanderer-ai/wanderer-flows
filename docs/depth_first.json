@@ -1,0 +1,141 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "200bcbc8-3625-4a97-b776-71405351e9eb",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Depth first",
+        "de": "Depth first"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-01T15:32:57.073Z"
+    },
+    {
+      "message": {
+        "en": "First message",
+        "de": "Erste Nachricht"
+      },
+      "forgetful": false,
+      "_id": "50a73e49-520e-4d07-b7da-17ed8ad69ab4",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -128,
+      "_y": 324
+    },
+    {
+      "message": {
+        "en": "Second message",
+        "de": "Zweite Nachricht"
+      },
+      "forgetful": false,
+      "_id": "5cca7a72-c53b-4028-b5d5-e9c499138d2b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -26,
+      "_y": 477
+    },
+    {
+      "message": {
+        "en": "Third message",
+        "de": "Dritte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "f167be65-5df4-4b0f-8c62-91fcd824c599",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 97,
+      "_y": 602
+    },
+    {
+      "message": {
+        "en": "Fourth message",
+        "de": "Vierte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "edb0dc48-7ec7-48fa-8c05-5c1af19f3025",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 249.73922778101206,
+      "_y": 688.3396915561551
+    },
+    {
+      "message": {
+        "en": "Fifth message",
+        "de": "Fünfte Nachricht"
+      },
+      "forgetful": false,
+      "_id": "879fa01d-ccaa-480d-a19e-6a17731ab003",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -301.05328525415314,
+      "_y": 426.14562520800797
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "ce002e3d-1248-4019-9fbd-f074eaa9c0ca",
+      "_from": "200bcbc8-3625-4a97-b776-71405351e9eb",
+      "_to": "50a73e49-520e-4d07-b7da-17ed8ad69ab4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "21",
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "2b26d159-b49f-4e5f-b7da-1347f080b50a",
+      "_from": "50a73e49-520e-4d07-b7da-17ed8ad69ab4",
+      "_to": "5cca7a72-c53b-4028-b5d5-e9c499138d2b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "fceb49cf-4d30-43cb-8a28-7d80488395d5",
+      "_from": "5cca7a72-c53b-4028-b5d5-e9c499138d2b",
+      "_to": "f167be65-5df4-4b0f-8c62-91fcd824c599",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "55a2b4d6-1966-4f74-9d56-d42c9c2c1456",
+      "_from": "f167be65-5df4-4b0f-8c62-91fcd824c599",
+      "_to": "edb0dc48-7ec7-48fa-8c05-5c1af19f3025",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "dd1768ba-b56d-4769-bc37-1690804c567e",
+      "_from": "50a73e49-520e-4d07-b7da-17ed8ad69ab4",
+      "_to": "879fa01d-ccaa-480d-a19e-6a17731ab003",
+      "_collection": "leadsTo"
+    }
+  ]
+}

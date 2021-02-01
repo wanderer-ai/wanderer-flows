@@ -1,0 +1,143 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "ed5e0470-93e1-42fc-9d90-8ac997ac2b98",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Edges decide",
+        "de": "Edges decide"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-01T15:47:41.800Z"
+    },
+    {
+      "question": {
+        "en": "Example question",
+        "de": "Beispiel-Frage"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -214,
+      "_y": 342
+    },
+    {
+      "suggestion": {
+        "de": "Antwort",
+        "en": "Suggestion"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "e84b26e8-671f-4378-a562-7f061f68dfc5",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -436,
+      "_y": 347
+    },
+    {
+      "message": {
+        "en": "Die Frage ist aktiv",
+        "de": "The question is active"
+      },
+      "forgetful": false,
+      "_id": "60c17ce7-138f-476c-972d-7606b37bb622",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 125,
+      "_y": 400
+    },
+    {
+      "message": {
+        "en": "Die Frage ist noch nicht beantwortet",
+        "de": "The question is not answered yet"
+      },
+      "forgetful": false,
+      "_id": "d6d20c06-a0e4-4cd3-b107-b6843039be2d",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 32,
+      "_y": 592
+    },
+    {
+      "message": {
+        "en": "The question was answered",
+        "de": "Die Frage wurde beantwortet"
+      },
+      "forgetful": false,
+      "_id": "a73d24af-2832-4899-8172-2d3cde50fc51",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -289,
+      "_y": 607
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "77efd31b-67c0-4e49-92d6-ef3f847adcf5",
+      "_from": "ed5e0470-93e1-42fc-9d90-8ac997ac2b98",
+      "_to": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "0ca4a010-9273-43b0-bedd-7a7b87e27c38",
+      "_from": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_to": "e84b26e8-671f-4378-a562-7f061f68dfc5",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": "21",
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "9111f52b-1b79-4f55-99f1-51983ccca818",
+      "_from": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_to": "60c17ce7-138f-476c-972d-7606b37bb622",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "12",
+      "name": "",
+      "expose": "none",
+      "condition": "notAnswered",
+      "_id": "d4b36d90-1278-4a33-93cf-dedc34cfbe82",
+      "_from": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_to": "d6d20c06-a0e4-4cd3-b107-b6843039be2d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "8",
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "469719cd-296c-45e3-8f1f-a45b0ef045fe",
+      "_from": "4e856b84-9eca-4a61-8037-a30abdcffc5f",
+      "_to": "a73d24af-2832-4899-8172-2d3cde50fc51",
+      "_collection": "leadsTo"
+    }
+  ]
+}
