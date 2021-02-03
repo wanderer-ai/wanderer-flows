@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-01-15T21:22:54.402Z"
+      "time": "2021-02-03T15:25:32.882Z"
     },
     {
       "message": {
@@ -72,7 +72,7 @@
     {
       "suggestion": {
         "de": "Nicht so gut",
-        "en": "Not so good"
+        "en": "I'm not so good"
       },
       "type": "button",
       "name": "",
@@ -444,7 +444,7 @@
       "priority": 10,
       "name": "",
       "expose": "none",
-      "condition": "active",
+      "condition": "sent",
       "_id": "7f55bf58-2d1a-4feb-8539-fe8ba5a55b0e",
       "_from": "fb6c4e88-272f-4258-9424-ee07b5190f61",
       "_to": "99a6587b-2e01-4bfb-9bc6-52578049c553",

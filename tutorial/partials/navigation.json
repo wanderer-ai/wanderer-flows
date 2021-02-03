@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-01-14T15:17:15.342Z"
+      "time": "2021-02-03T15:17:38.899Z"
     },
     {
       "question": {
@@ -231,8 +231,8 @@
     },
     {
       "suggestion": {
-        "de": "Pan and Drag",
-        "en": "Pan and Drag"
+        "de": "Die Karte",
+        "en": "The map"
       },
       "type": "button",
       "name": "",
@@ -335,7 +335,7 @@
       "_parent": false
     },
     {
-      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/pan_and_drag.json",
+      "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/tutorial/intro/the_map.json",
       "label": "",
       "_id": "17b76299-8da3-44ff-a761-b022e6d1031a",
       "_collection": "jump",

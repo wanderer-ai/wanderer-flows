@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T21:25:41.257Z"
+      "time": "2021-02-03T15:31:52.410Z"
     },
     {
       "message": {
@@ -59,8 +59,8 @@
     },
     {
       "message": {
-        "en": "If you want you can send me feedback to [hello@wanderer.ai](mailto:hello@wanderer.ai) or write to me on Twitter [@wanderer_ai](https://twitter.com/wanderer_ai).",
-        "de": "Wenn du möchtest kannst du mir Feedback an [hello@wanderer.ai](mailto:hello@wanderer.ai) senden oder mir auf Twitter [@wanderer_ai](https://twitter.com/wanderer_ai) schreiben."
+        "en": "If you want you can send me feedback to [hello@wanderer.ai](mailto://hello@wanderer.ai) or write to me on Twitter at [@wanderer_ai](https://twitter.com/wanderer_ai).",
+        "de": "Wenn du möchtest kannst du mir Feedback an [hello@wanderer.ai](mailto:hello@wanderer.ai) senden oder mir über Twitter an [@wanderer_ai](https://twitter.com/wanderer_ai) schreiben."
       },
       "_id": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
       "_collection": "message",
@@ -77,8 +77,8 @@
       "_id": "6401b6bb-7647-46ab-9bb4-a255dfdeb9a4",
       "_collection": "message",
       "_origin": false,
-      "_x": 257.64452305337034,
-      "_y": 914.2788350408762,
+      "_x": -18.355476946629665,
+      "_y": 1095.2788350408762,
       "_parent": false
     },
     {
@@ -90,6 +90,18 @@
       "_x": -4426.653845796443,
       "_y": -3165.5068662890126,
       "_parent": false
+    },
+    {
+      "message": {
+        "en": "You can also post questions and issues on [Github](https://github.com/wanderer-ai).",
+        "de": "Du kannst außerdem Fragen und Issues auf [Github](https://github.com/wanderer-ai) einstellen."
+      },
+      "forgetful": false,
+      "_id": "76523945-aa98-4480-bc5e-fc97564496bd",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 239.41094211090535,
+      "_y": 881.0313878073424
     }
   ],
   "edges": [
@@ -147,22 +159,32 @@
       "name": "",
       "expose": "",
       "method": false,
-      "condition": "sent",
-      "_id": "1a6411e8-ea0b-4f12-a604-4dbc76dc48f7",
-      "_from": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
-      "_to": "6401b6bb-7647-46ab-9bb4-a255dfdeb9a4",
+      "condition": false,
+      "_id": "1cabac79-0375-4917-a4be-4965d5e37e0b",
+      "_from": "8f192650-1d04-4690-9464-f6aff31771f6",
+      "_to": "1b45997f-ef60-42de-9c61-c5da4edd5750",
       "_collection": "leadsTo"
     },
     {
       "type": "or",
       "priority": 10,
       "name": "",
-      "expose": "",
-      "method": false,
-      "condition": false,
-      "_id": "1cabac79-0375-4917-a4be-4965d5e37e0b",
-      "_from": "8f192650-1d04-4690-9464-f6aff31771f6",
-      "_to": "1b45997f-ef60-42de-9c61-c5da4edd5750",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "f1e2ba61-1b68-4c65-8446-9ad4fb9eb585",
+      "_from": "4db396d3-e4dc-4f3f-b3ef-e88f0dee975d",
+      "_to": "76523945-aa98-4480-bc5e-fc97564496bd",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "7ff28be0-2efb-4912-84cd-c42dca8a429d",
+      "_from": "76523945-aa98-4480-bc5e-fc97564496bd",
+      "_to": "6401b6bb-7647-46ab-9bb4-a255dfdeb9a4",
       "_collection": "leadsTo"
     }
   ]

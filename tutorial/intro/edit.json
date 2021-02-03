@@ -12,14 +12,14 @@
       ],
       "topic": {
         "en": "Edit",
-        "de": "Edit"
+        "de": "Bearbeiten"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-01-14T15:47:17.260Z"
+      "time": "2021-02-03T15:22:42.874Z"
     },
     {
       "message": {

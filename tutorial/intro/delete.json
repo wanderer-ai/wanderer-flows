@@ -12,14 +12,14 @@
       ],
       "topic": {
         "en": "Delete",
-        "de": "Delete"
+        "de": "Löschen"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2020-10-22T20:59:20.630Z"
+      "time": "2021-02-03T15:23:31.291Z"
     },
     {
       "question": {

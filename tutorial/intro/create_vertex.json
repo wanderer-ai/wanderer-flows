@@ -11,15 +11,15 @@
         "de"
       ],
       "topic": {
-        "en": "Create vertex",
-        "de": "Vertex erstellen"
+        "en": "Create node",
+        "de": "Node erstellen"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-01-14T15:30:11.604Z"
+      "time": "2021-02-03T15:20:00.735Z"
     },
     {
       "message": {
@@ -67,8 +67,8 @@
     },
     {
       "message": {
-        "en": "When you're done, you can simply restart the chat.",
-        "de": "Wenn du fertig bist, kannst du den Chat einfach neu starten."
+        "en": "When you're done, you can simply restart the chat using the restart icon in the chat toolbar.",
+        "de": "Wenn du fertig bist, kannst du den Chat einfach über das Neustart-Symbol in der Chat-Toolbar neu starten."
       },
       "_id": "c22ed2b2-dcb3-47ab-a675-ac2905820a8a",
       "_collection": "message",
