@@ -18,7 +18,7 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "time": "2021-01-29T14:06:32.297Z"
+      "time": "2021-02-02T15:37:49.398Z"
     },
     {
       "question": {
@@ -217,7 +217,7 @@
         "en": "add",
         "de": "Addition"
       },
-      "expression": "a|number + b|number",
+      "expression": "a|Number + b|Number",
       "_id": "605ffc89-a3e1-4a69-8704-3973e23265a2",
       "_collection": "conclusion",
       "_origin": false,
@@ -229,7 +229,7 @@
         "en": "substract",
         "de": "Substraktion"
       },
-      "expression": "a|number - b|number",
+      "expression": "a|Number - b|Number",
       "_id": "a0d5bbb9-14d1-45be-bca1-ee33ca3bc904",
       "_collection": "conclusion",
       "_origin": false,
@@ -241,7 +241,7 @@
         "en": "multiply",
         "de": "Multiplikation"
       },
-      "expression": "a|number * b|number",
+      "expression": "a|Number * b|Number",
       "_id": "19bcc0e5-aba8-4abb-8d79-a2d54dd9c92b",
       "_collection": "conclusion",
       "_origin": false,
@@ -253,7 +253,7 @@
         "en": "devide",
         "de": "Division"
       },
-      "expression": "a|number / b|number",
+      "expression": "a|Number / b|Number",
       "_id": "e2578f56-7f48-438b-9e64-d8b9b84e68c2",
       "_collection": "conclusion",
       "_origin": false,
