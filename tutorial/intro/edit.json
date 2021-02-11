@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-03T15:22:42.874Z"
+      "time": "2021-02-11T15:46:17.939Z"
     },
     {
       "message": {
@@ -47,8 +47,8 @@
     },
     {
       "message": {
-        "en": "When you're done you can just close the window.",
-        "de": "Wenn du fertig bist kannst du das Fenster einfach schließen."
+        "en": "When you're done you can just close the editing window.",
+        "de": "Wenn du fertig bist kannst du das Bearbeiten-Fenster einfach schließen."
       },
       "_id": "ab4f580a-d447-4c23-864b-bc24933375ae",
       "_collection": "message",

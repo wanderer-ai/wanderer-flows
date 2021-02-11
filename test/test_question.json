@@ -18,7 +18,7 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "time": "2021-01-27T15:58:14.986Z"
+      "time": "2021-02-10T15:40:25.315Z"
     },
     {
       "message": {
@@ -75,23 +75,8 @@
       "_id": "17be2e83-d4a5-4842-948a-aeae470ee192",
       "_collection": "suggestion",
       "_origin": false,
-      "_x": -232,
-      "_y": 682
-    },
-    {
-      "suggestion": {
-        "de": "Antwortvorschlag",
-        "en": "Please fill this input"
-      },
-      "type": "text",
-      "name": "",
-      "priority": 50,
-      "required": true,
-      "_id": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
-      "_collection": "suggestion",
-      "_origin": false,
-      "_x": -274,
-      "_y": 357
+      "_x": -141.62772928621885,
+      "_y": 615.3618609888281
     },
     {
       "conclusion": {
@@ -103,7 +88,8 @@
       "_collection": "conclusion",
       "_origin": false,
       "_x": -626,
-      "_y": 665
+      "_y": 665,
+      "expression": "answer == 'start'"
     },
     {
       "url": "https://raw.githubusercontent.com/wanderer-ai/wanderer-flows/master/test/test_and.json",
@@ -112,6 +98,52 @@
       "_origin": false,
       "_x": -391,
       "_y": 1088
+    },
+    {
+      "question": {
+        "en": "Please type \"start\"",
+        "de": "Neue Frage"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": true,
+      "_id": "13447b90-3208-49e2-8e98-db12830ee683",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -596.3054202553211,
+      "_y": 280.3015657901003
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "input"
+      },
+      "type": "text",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "c71b7db7-038c-443c-a96e-3baf8a8e8e7c",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -730.2721613004244,
+      "_y": 421.5199942842165
+    },
+    {
+      "suggestion": {
+        "de": "ok",
+        "en": "ok"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "ae1eba1a-b5b2-403b-ad33-56b4e4e4d82a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -558.7065602998149,
+      "_y": 426.105400485216
     }
   ],
   "edges": [
@@ -150,23 +182,6 @@
       "_collection": "isAnswerableBy"
     },
     {
-      "_id": "1d9ad433-5d9b-4697-8688-4a763026cd57",
-      "_from": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
-      "_to": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
-      "_collection": "isAnswerableBy"
-    },
-    {
-      "type": "and",
-      "priority": 10,
-      "name": "",
-      "expose": "none",
-      "condition": "answered",
-      "_id": "ea42b5b7-d6fa-43c9-bc98-c2b3dde393aa",
-      "_from": "0e9e355f-cd0a-417b-9301-53a8bc9ca0e1",
-      "_to": "1317d7fe-9168-4e31-9623-ead4081a33a1",
-      "_collection": "leadsTo"
-    },
-    {
       "type": "and",
       "priority": 10,
       "name": "",
@@ -182,11 +197,45 @@
       "priority": 10,
       "name": "",
       "expose": "none",
-      "condition": "active",
+      "condition": "isTrue",
       "_id": "9c4a7b6e-b381-42d3-bd4c-9c4e25e51de3",
       "_from": "1317d7fe-9168-4e31-9623-ead4081a33a1",
       "_to": "81de126b-3ff3-4068-bfdc-6b85931bcec1",
       "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "invalid",
+      "_id": "b5032646-29b9-47d8-9b07-cd0fce7149c4",
+      "_from": "cbc6cc49-9ddf-4866-952a-597da868c0d1",
+      "_to": "13447b90-3208-49e2-8e98-db12830ee683",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "3c7d6fb0-b07d-4ea9-ba28-9b43cc5e0df4",
+      "_from": "13447b90-3208-49e2-8e98-db12830ee683",
+      "_to": "c71b7db7-038c-443c-a96e-3baf8a8e8e7c",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "answer",
+      "condition": "answered",
+      "_id": "7a63cbe9-bfdf-4945-b2f5-e10034517d58",
+      "_from": "c71b7db7-038c-443c-a96e-3baf8a8e8e7c",
+      "_to": "1317d7fe-9168-4e31-9623-ead4081a33a1",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "bb251971-8540-4693-a6c6-31ad15fbce91",
+      "_from": "13447b90-3208-49e2-8e98-db12830ee683",
+      "_to": "ae1eba1a-b5b2-403b-ad33-56b4e4e4d82a",
+      "_collection": "isAnswerableBy"
     }
   ]
 }

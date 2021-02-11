@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-03T15:23:31.291Z"
+      "time": "2021-02-11T15:50:37.459Z"
     },
     {
       "question": {
@@ -109,8 +109,8 @@
     },
     {
       "message": {
-        "en": "Alternatively, you can just delete all edges. To do this, mark a node and then click on the \"Unlink\" symbol in the toolbar. In this way all connections to this node are severed.",
-        "de": "Alternativ kannst du auch lediglich alle Edges löschen. Markiere dafür einen Knoten und klicke dann in der Toolbar auf das \"Unlink\" Symbol. So werden alle Verbindungen zu diesem Knoten durchtrennt."
+        "en": "Alternatively, you can just delete all edges of a node. To do this, mark a node and then click on the \"Unlink\" button inside the delete dialog. In this way all connections to this node are severed.",
+        "de": "Alternativ kannst du auch einfach alle Verbindungen eines Nodes löschen. Markiere dafür einen Knoten und klicke dann auf den \"Unlink\" Button im Löschen-Dialog. So werden alle Verbindungen zu diesem Knoten durchtrennt."
       },
       "_id": "9099d393-5f1d-4b65-bb4f-3ff997ce9d22",
       "_collection": "message",
@@ -145,8 +145,8 @@
     },
     {
       "message": {
-        "en": "If you delete the wrong nodes or edges, the tutorial will no longer work. In this case, please reload it.",
-        "de": "Wenn du die falschen Nodes oder Edges löschst, funktioniet das Tutorial nicht mehr. Lade es in diesem Fall bitte neu."
+        "en": "If you delete the wrong nodes or edges, the tutorial will no longer work. In this case, please reload it using the green button inside the toolbar.",
+        "de": "Wenn du die falschen Nodes oder Edges löschst, funktioniet das Tutorial nicht mehr. Lade es in diesem Fall bitte mit dem grünen Button in der Toolbar neu."
       },
       "_id": "481d3260-8cdc-4d47-be24-e7a65cfd8d5a",
       "_collection": "message",
