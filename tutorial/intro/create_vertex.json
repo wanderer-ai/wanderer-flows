@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-03T15:20:00.735Z"
+      "time": "2021-02-12T13:07:45.216Z"
     },
     {
       "message": {
@@ -45,7 +45,7 @@
     },
     {
       "message": {
-        "en": "Double click than on the new message and enter a text.",
+        "en": "Double click then on the new message and enter a text.",
         "de": "Doppelklicke dann auf die neue Nachricht und gibt einen Text ein."
       },
       "_id": "3e2ca128-927c-42de-a4fa-041e4e972505",
@@ -284,7 +284,7 @@
       "priority": 10,
       "name": "",
       "expose": "none",
-      "condition": "active",
+      "condition": "sent",
       "_id": "f38ba29a-b78d-4934-8e44-0a0e72b125e4",
       "_from": "6a394db4-965f-4d82-8dc0-86e3fca52432",
       "_to": "34ce15e4-11cb-4547-b0d3-1802564bcf3b",

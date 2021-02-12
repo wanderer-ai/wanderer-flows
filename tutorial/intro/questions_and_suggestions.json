@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-03T15:25:32.882Z"
+      "time": "2021-02-12T13:13:17.583Z"
     },
     {
       "message": {
@@ -53,7 +53,8 @@
       "_origin": false,
       "_x": 604.3511918646982,
       "_y": 802.6009327636767,
-      "drawAttention": true
+      "drawAttention": true,
+      "repeatable": true
     },
     {
       "suggestion": {
@@ -158,8 +159,8 @@
     },
     {
       "message": {
-        "en": "Now please add a new suggestion to the first question by using the right mouse button. Select \"Is answeable by Suggestion\" from the circle menu.",
-        "de": "Bitte füge eine weitere Antwortmöglichkeit zur ersten Frage hinzu, indem du mit der rechten Maustaste über der Frage das Kreismenu öffnest. Wähle dort \"Is answeable by Suggestion\"."
+        "en": "Now please add a new suggestion to the first question by using the right mouse button. Select \"Is answerable by Suggestion\" from the circle menu.",
+        "de": "Bitte füge eine weitere Antwortmöglichkeit zur ersten Frage hinzu, indem du mit der rechten Maustaste über der Frage das Kreismenu öffnest. Wähle dort \"Is answerable by Suggestion\"."
       },
       "_id": "434f2c75-1871-4bae-adf3-6a8b21bdca32",
       "_collection": "message",

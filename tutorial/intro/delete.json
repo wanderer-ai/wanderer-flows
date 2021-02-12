@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-11T15:50:37.459Z"
+      "time": "2021-02-12T13:11:53.080Z"
     },
     {
       "question": {
@@ -85,8 +85,8 @@
     },
     {
       "message": {
-        "en": "To do this, mark one or more nodes or edges and then click on the trash can symbol at the top of the toolbar.",
-        "de": "Markiere dafür einen oder mehrere Nodes oder Edges und klicke dann auf das Mülleimer-Symbol oben in der Toolbar."
+        "en": "To do this, mark one or more nodes or edges and then click on the trash can symbol at the top of the map.",
+        "de": "Markiere dafür einen oder mehrere Nodes oder Edges und klicke dann auf das Mülleimer-Symbol oben auf der Karte."
       },
       "_id": "8bc9a9ca-87d6-4371-8fb0-6691126c7879",
       "_collection": "message",

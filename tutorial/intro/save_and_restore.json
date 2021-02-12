@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "1.0.0",
-      "time": "2020-10-09T12:34:40.107Z"
+      "time": "2021-02-12T13:15:02.631Z"
     },
     {
       "message": {
@@ -59,8 +59,8 @@
     },
     {
       "message": {
-        "en": "Use the \"Restore from file\" button to restore your flow.",
-        "de": "Nutze den \"Restore from file\" Button, um deinen Flow wiederherzustellen."
+        "en": "Use the \"Load from file\" button to restore your flow.",
+        "de": "Nutze den \"Load from file\" Button, um deinen Flow wiederherzustellen."
       },
       "_id": "c2e492e1-d54f-4515-a634-640104dafa06",
       "_collection": "message",

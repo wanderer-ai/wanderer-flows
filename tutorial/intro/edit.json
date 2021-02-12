@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-02-11T15:46:17.939Z"
+      "time": "2021-02-12T13:10:11.136Z"
     },
     {
       "message": {
@@ -259,7 +259,7 @@
       "priority": 10,
       "name": "",
       "expose": "none",
-      "condition": "active",
+      "condition": "sent",
       "_id": "06c05f5b-4e8a-40db-9825-3b3a991cdd10",
       "_from": "ab4f580a-d447-4c23-864b-bc24933375ae",
       "_to": "b8fb90e0-8778-4c51-82cd-784308929341",

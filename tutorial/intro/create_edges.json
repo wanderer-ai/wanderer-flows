@@ -19,7 +19,7 @@
       "builder": "wanderer.ai",
       "target": "web",
       "version": "0.0.1",
-      "time": "2021-01-14T15:37:21.879Z"
+      "time": "2021-02-12T13:09:12.371Z"
     },
     {
       "message": {
@@ -67,8 +67,8 @@
     },
     {
       "message": {
-        "en": "Select this message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has appeared on the map.",
-        "de": "Wähle dafür diese Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches auf der Karte erschienen ist."
+        "en": "Select THIS message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has appeared on the map.",
+        "de": "Wähle dafür DIESE Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches auf der Karte erschienen ist."
       },
       "_id": "6087053c-2f18-45f7-9402-ffba1c2658cd",
       "_collection": "message",
