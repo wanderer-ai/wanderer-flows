@@ -1,0 +1,137 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "49d59a6d-2575-4c40-a65b-f671773a14fc",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Forbid",
+        "de": "Verboten"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-18T13:54:26.768Z"
+    },
+    {
+      "message": {
+        "en": "Hey! The red \"forbid\" edge blocks the next message. Please remove it in order to activate the next node.",
+        "de": "Hey! Die rote Verbindung blockiert die nächste Nachricht. Bitte entferne Sie, um den nächsten Knoten zu aktivieren."
+      },
+      "forgetful": false,
+      "_id": "7e52dd70-ca13-4d04-ae43-18a07bcc66b9",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -78,
+      "_y": 209
+    },
+    {
+      "message": {
+        "en": "Thanks!",
+        "de": "Danke!"
+      },
+      "forgetful": false,
+      "_id": "339ec89f-ab03-49c3-b234-e355d9b91bd1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -276,
+      "_y": 430
+    },
+    {
+      "_id": "92299713-ebe0-4d2d-9cfb-681f2b03ee81",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 218,
+      "_y": 447
+    },
+    {
+      "_id": "d25e09ab-f616-474a-a981-c2514b8997f4",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 94,
+      "_y": 567
+    },
+    {
+      "_id": "6c6beb1e-a26d-4968-a206-4eefb4363a2f",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 145,
+      "_y": 323
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "965e8598-6405-4ead-bac0-29d51af54c24",
+      "_from": "49d59a6d-2575-4c40-a65b-f671773a14fc",
+      "_to": "7e52dd70-ca13-4d04-ae43-18a07bcc66b9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": "22",
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "b0a3768b-ff8c-4957-9ea8-836a71e568eb",
+      "_from": "7e52dd70-ca13-4d04-ae43-18a07bcc66b9",
+      "_to": "339ec89f-ab03-49c3-b234-e355d9b91bd1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "9538b5c0-047d-4e19-9cc6-3c08eb4e2195",
+      "_from": "92299713-ebe0-4d2d-9cfb-681f2b03ee81",
+      "_to": "d25e09ab-f616-474a-a981-c2514b8997f4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "f35a7700-dd69-4810-b5ec-50923376296d",
+      "_from": "d25e09ab-f616-474a-a981-c2514b8997f4",
+      "_to": "339ec89f-ab03-49c3-b234-e355d9b91bd1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "8f4b07d8-fa59-4b3f-bea8-2cc995e46809",
+      "_from": "7e52dd70-ca13-4d04-ae43-18a07bcc66b9",
+      "_to": "6c6beb1e-a26d-4968-a206-4eefb4363a2f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "159c7e8c-de24-4963-9ad5-ae1722115dbb",
+      "_from": "6c6beb1e-a26d-4968-a206-4eefb4363a2f",
+      "_to": "92299713-ebe0-4d2d-9cfb-681f2b03ee81",
+      "_collection": "leadsTo"
+    }
+  ]
+}

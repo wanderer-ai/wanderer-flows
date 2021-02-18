@@ -1,0 +1,129 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "87d50bb3-2c3c-4148-870f-5d5b5d9c97cf",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "If or",
+        "de": "Oder"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-17T19:30:56.520Z"
+    },
+    {
+      "question": {
+        "en": "Do you like dogs or cats?",
+        "de": "Magst du Hunde oder Katzen?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "ce566df7-d849-4d1d-9e78-064aef3c03cf",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -163,
+      "_y": 260
+    },
+    {
+      "suggestion": {
+        "de": "Katzen",
+        "en": "Cats"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "cf5b749e-e58f-42f1-b5cd-1432df8a640a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -418,
+      "_y": 383
+    },
+    {
+      "suggestion": {
+        "de": "Hunde",
+        "en": "Dogs"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "b88b377e-c3e7-4dea-902a-3c3d4ff593f7",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -155,
+      "_y": 472
+    },
+    {
+      "message": {
+        "en": "No matter! The main thing is that you like an animal!",
+        "de": "Ganz egal! Hauptsache du magst ein Tier!"
+      },
+      "forgetful": false,
+      "_id": "77949dc1-392b-4b44-8762-efe63a89d91b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -375,
+      "_y": 656
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "780e1f3c-7972-423c-a6fb-d36d1c931c3d",
+      "_from": "87d50bb3-2c3c-4148-870f-5d5b5d9c97cf",
+      "_to": "ce566df7-d849-4d1d-9e78-064aef3c03cf",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "026562b2-65e2-43f4-bfd6-70066ab6b33e",
+      "_from": "ce566df7-d849-4d1d-9e78-064aef3c03cf",
+      "_to": "cf5b749e-e58f-42f1-b5cd-1432df8a640a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "efdd37d9-7036-4d8e-b0a7-49fe71e83b35",
+      "_from": "ce566df7-d849-4d1d-9e78-064aef3c03cf",
+      "_to": "b88b377e-c3e7-4dea-902a-3c3d4ff593f7",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "0a40dec4-912b-4509-b899-dc0f9225f7b1",
+      "_from": "cf5b749e-e58f-42f1-b5cd-1432df8a640a",
+      "_to": "77949dc1-392b-4b44-8762-efe63a89d91b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "b79d4888-9c26-496e-8c05-ebad5d0879b1",
+      "_from": "b88b377e-c3e7-4dea-902a-3c3d4ff593f7",
+      "_to": "77949dc1-392b-4b44-8762-efe63a89d91b",
+      "_collection": "leadsTo"
+    }
+  ]
+}
