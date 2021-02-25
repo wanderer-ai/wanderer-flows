@@ -1,0 +1,142 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "5d574ab1-8146-4525-9090-401473969217",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Self repeating question",
+        "de": "Selbst wiederholende Frage"
+      },
+      "author": "Wanderer",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-25T15:14:09.150Z"
+    },
+    {
+      "_id": "c7da63ca-e20e-4560-b41d-736edb2aad8e",
+      "_collection": "void",
+      "_origin": false,
+      "_x": -367,
+      "_y": 194
+    },
+    {
+      "question": {
+        "en": "New question",
+        "de": "Neue Frage"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": true,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "8f041dd8-2b5f-45c0-93af-af7b0356e7b2",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -635,
+      "_y": 323
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Suggestion"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "0046df38-96a8-4935-8bf5-8b3b711cec2a",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -752,
+      "_y": 449
+    },
+    {
+      "suggestion": {
+        "de": "Antwortvorschlag",
+        "en": "Suggestion"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "498faaf3-3d68-4ef6-ad73-b213080d2250",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -578,
+      "_y": 504
+    },
+    {
+      "_id": "51a13eab-afff-4b18-b808-7d0542c92922",
+      "_collection": "void",
+      "_origin": false,
+      "_x": -728,
+      "_y": 92
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "2d0e860f-c5ac-4792-8f5b-04aa67ba5e54",
+      "_from": "5d574ab1-8146-4525-9090-401473969217",
+      "_to": "c7da63ca-e20e-4560-b41d-736edb2aad8e",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "a1497499-e745-4553-b81a-e034482f22d1",
+      "_from": "c7da63ca-e20e-4560-b41d-736edb2aad8e",
+      "_to": "8f041dd8-2b5f-45c0-93af-af7b0356e7b2",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "7c202896-f122-4794-b5d1-da085de13b92",
+      "_from": "8f041dd8-2b5f-45c0-93af-af7b0356e7b2",
+      "_to": "0046df38-96a8-4935-8bf5-8b3b711cec2a",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "79fe33f0-fc9d-4da3-bb21-afdf5fc38b82",
+      "_from": "8f041dd8-2b5f-45c0-93af-af7b0356e7b2",
+      "_to": "498faaf3-3d68-4ef6-ad73-b213080d2250",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "8a55ff4a-1709-412f-9d78-7821eeffb4f7",
+      "_from": "8f041dd8-2b5f-45c0-93af-af7b0356e7b2",
+      "_to": "51a13eab-afff-4b18-b808-7d0542c92922",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b3c8f0c1-162a-4065-be69-8698f6d4419c",
+      "_from": "51a13eab-afff-4b18-b808-7d0542c92922",
+      "_to": "c7da63ca-e20e-4560-b41d-736edb2aad8e",
+      "_collection": "leadsTo"
+    }
+  ]
+}

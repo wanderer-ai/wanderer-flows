@@ -1,0 +1,83 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "f0eae54c-ad1b-40d4-85f4-2270254fe1ae",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Self repeating message",
+        "de": "Selbst wiederholende Nachricht"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-25T15:17:52.548Z"
+    },
+    {
+      "conclusion": {
+        "en": "New conclusion",
+        "de": "Neue Schlussfolgerung"
+      },
+      "expression": "",
+      "_id": "f9450ded-ff4d-48b3-b57d-bfc14046b962",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -356,
+      "_y": 27
+    },
+    {
+      "message": {
+        "en": "New message",
+        "de": "Neue Nachricht"
+      },
+      "forgetful": true,
+      "_id": "5e3849db-642a-4389-bcfc-db2fbebbeadd",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -281,
+      "_y": 185
+    }
+  ],
+  "edges": [
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "1a296960-1360-4145-bfad-6e80312681b1",
+      "_from": "f0eae54c-ad1b-40d4-85f4-2270254fe1ae",
+      "_to": "f9450ded-ff4d-48b3-b57d-bfc14046b962",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "8df2d82e-1f00-4eff-8545-8a63f2c8fafd",
+      "_from": "f9450ded-ff4d-48b3-b57d-bfc14046b962",
+      "_to": "5e3849db-642a-4389-bcfc-db2fbebbeadd",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "eea8c5d1-12b4-44a8-8b85-58ca22b28adb",
+      "_from": "5e3849db-642a-4389-bcfc-db2fbebbeadd",
+      "_to": "f9450ded-ff4d-48b3-b57d-bfc14046b962",
+      "_collection": "leadsTo"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "c486ab97-228d-4d5d-b399-31fa0575ff49",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Gerade ungerade",
+        "de": "even odd"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-02-25T15:06:25.455Z"
+    },
+    {
+      "message": {
+        "en": "1",
+        "de": "1"
+      },
+      "forgetful": true,
+      "_id": "d1567fcb-f9b8-474f-810b-95b899609e95",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 146.88175922104003,
+      "_y": 597.25450614736
+    },
+    {
+      "message": {
+        "en": "2",
+        "de": "2"
+      },
+      "forgetful": true,
+      "_id": "803f85ed-f2e8-48f1-9543-7690a126db64",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -286.7141060452977,
+      "_y": 837.4846834012036
+    },
+    {
+      "message": {
+        "en": "3",
+        "de": "3"
+      },
+      "forgetful": true,
+      "_id": "97d10045-e370-483e-9beb-7e65aa1f30c1",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -629.0138662910688,
+      "_y": 732.1781157781896
+    },
+    {
+      "message": {
+        "en": "4",
+        "de": "4"
+      },
+      "forgetful": true,
+      "_id": "b2f4cfbe-c566-4bb7-b2ae-f4a9ff51482c",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -818.9094918031772,
+      "_y": 432.1362653683999
+    },
+    {
+      "message": {
+        "en": "5",
+        "de": "5"
+      },
+      "forgetful": true,
+      "_id": "f96874a5-f1a4-44f8-8b29-3f5377986743",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -782.045505634994,
+      "_y": 96.32774436449216
+    },
+    {
+      "message": {
+        "en": "6",
+        "de": "6"
+      },
+      "forgetful": true,
+      "_id": "48299dfd-3481-4014-b294-4ad6fdb8db66",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -470.1221475407475,
+      "_y": -40.23332940588165
+    },
+    {
+      "question": {
+        "en": "Do you prefer even or odd numbers?",
+        "de": "Magst du lieber gerade oder ungerade Zahlen?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "28652cf8-682c-4c55-af3b-4ea980b60804",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 235.89268585990825,
+      "_y": 240.65629262399975
+    },
+    {
+      "suggestion": {
+        "de": "Ungerade",
+        "en": "Odd"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "5a6baf34-3545-432a-8eb3-aa5b3e94064f",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 351.825387143516,
+      "_y": 455.4917845834612
+    },
+    {
+      "suggestion": {
+        "de": "Gerade",
+        "en": "Even"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "f61e7d1b-ce6d-4f01-abe0-fc06eb276431",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 62.13307417961609,
+      "_y": 392.65629262399983
+    }
+  ],
+  "edges": [
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "4b2bbbd7-98c6-4a9e-9015-a81825a67a28",
+      "_from": "d1567fcb-f9b8-474f-810b-95b899609e95",
+      "_to": "803f85ed-f2e8-48f1-9543-7690a126db64",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "fae0e4f7-bd9e-4bb3-a791-4fb00bc834ff",
+      "_from": "803f85ed-f2e8-48f1-9543-7690a126db64",
+      "_to": "97d10045-e370-483e-9beb-7e65aa1f30c1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "148ea3e5-42bf-4d14-a11a-e6135521dc67",
+      "_from": "97d10045-e370-483e-9beb-7e65aa1f30c1",
+      "_to": "b2f4cfbe-c566-4bb7-b2ae-f4a9ff51482c",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "4533d132-17eb-4751-821d-ea844dc58515",
+      "_from": "b2f4cfbe-c566-4bb7-b2ae-f4a9ff51482c",
+      "_to": "f96874a5-f1a4-44f8-8b29-3f5377986743",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "50c2f954-706d-4b38-89f9-dee379a455d0",
+      "_from": "f96874a5-f1a4-44f8-8b29-3f5377986743",
+      "_to": "48299dfd-3481-4014-b294-4ad6fdb8db66",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "757adf7e-6519-4d88-9e93-9747271fe683",
+      "_from": "c486ab97-228d-4d5d-b399-31fa0575ff49",
+      "_to": "28652cf8-682c-4c55-af3b-4ea980b60804",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "011468ce-88a5-4959-b5a9-480e8c99d541",
+      "_from": "28652cf8-682c-4c55-af3b-4ea980b60804",
+      "_to": "5a6baf34-3545-432a-8eb3-aa5b3e94064f",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "22e91708-d03b-4e34-8a32-b206581d4970",
+      "_from": "28652cf8-682c-4c55-af3b-4ea980b60804",
+      "_to": "f61e7d1b-ce6d-4f01-abe0-fc06eb276431",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "cba9aa00-8bed-427f-8e9d-edb73438cb38",
+      "_from": "f61e7d1b-ce6d-4f01-abe0-fc06eb276431",
+      "_to": "d1567fcb-f9b8-474f-810b-95b899609e95",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "5e209156-279c-4d3e-a4f6-c052978a903d",
+      "_from": "5a6baf34-3545-432a-8eb3-aa5b3e94064f",
+      "_to": "d1567fcb-f9b8-474f-810b-95b899609e95",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "bcbec398-9edd-480c-855d-df10e92d31c7",
+      "_from": "d1567fcb-f9b8-474f-810b-95b899609e95",
+      "_to": "803f85ed-f2e8-48f1-9543-7690a126db64",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "41576e39-6ba8-4520-9690-d30d90c8b909",
+      "_from": "803f85ed-f2e8-48f1-9543-7690a126db64",
+      "_to": "97d10045-e370-483e-9beb-7e65aa1f30c1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "8df06106-01a2-465e-9e99-db6704f9724a",
+      "_from": "97d10045-e370-483e-9beb-7e65aa1f30c1",
+      "_to": "b2f4cfbe-c566-4bb7-b2ae-f4a9ff51482c",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "inactive",
+      "_id": "c445b466-4cb7-48d8-8d8b-b911ceb92fd8",
+      "_from": "b2f4cfbe-c566-4bb7-b2ae-f4a9ff51482c",
+      "_to": "f96874a5-f1a4-44f8-8b29-3f5377986743",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "945bfcda-d0e1-4a21-a519-212dd0ae29c9",
+      "_from": "f96874a5-f1a4-44f8-8b29-3f5377986743",
+      "_to": "48299dfd-3481-4014-b294-4ad6fdb8db66",
+      "_collection": "leadsTo"
+    }
+  ]
+}
