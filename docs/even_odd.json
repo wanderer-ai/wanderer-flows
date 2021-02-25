@@ -11,8 +11,8 @@
         "de"
       ],
       "topic": {
-        "en": "Gerade ungerade",
-        "de": "even odd"
+        "en": "Even or odd?",
+        "de": "Gerade oder ungerade?"
       },
       "author": "Wanderer.ai",
       "license": "MIT",
