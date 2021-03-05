@@ -1,0 +1,499 @@
+{
+  "vertices": [
+    {
+      "_collection": "flow",
+      "_id": "6257b2d9-b655-4044-82ea-94786b753d4e",
+      "_origin": true,
+      "_x": 0,
+      "_y": 0,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "topic": {
+        "en": "Pool day",
+        "de": "Pool day"
+      },
+      "author": "Wanderer.ai",
+      "license": "MIT",
+      "builder": "wanderer.ai",
+      "target": "web",
+      "time": "2021-03-05T12:05:30.718Z"
+    },
+    {
+      "question": {
+        "en": "When should we go to the pool today?",
+        "de": "Wann sollen wir heute in den Pool gehen?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_collection": "question",
+      "_origin": false,
+      "_x": -867.2646986459929,
+      "_y": 733.8888958677935
+    },
+    {
+      "suggestion": {
+        "de": "Vormittags",
+        "en": "In the morning"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "6c1c2254-de84-4382-b039-aac32ba0a4dd",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -1009.1387288295653,
+      "_y": 897.0506370642514
+    },
+    {
+      "suggestion": {
+        "de": "Nachmittags",
+        "en": "In the afternoon"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "334191d7-c80d-4f54-bdc3-d07c0eecdd09",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -886.5461911000996,
+      "_y": 1017.0957362824498
+    },
+    {
+      "suggestion": {
+        "de": "Abends",
+        "en": "In the evening"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "2e56184d-7f93-4553-b234-2341f8df613b",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": -788.1931558859318,
+      "_y": 903.8888958677934
+    },
+    {
+      "message": {
+        "en": "I just see that the weather forecast is not looking so good.",
+        "de": "Ich sehe gerade, dass der Wetterbericht nicht so gut ausschaut."
+      },
+      "forgetful": false,
+      "_id": "ea9c0f98-e2d1-48eb-b175-5bfd7881938b",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1333.7754127079247,
+      "_y": 851.834496319128
+    },
+    {
+      "message": {
+        "en": "Let's do something else instead!",
+        "de": "Lass uns lieber was anderes machen!"
+      },
+      "forgetful": false,
+      "_id": "5b7971be-30a4-4236-9043-a0db58f17545",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 1289.0086188310675,
+      "_y": 1083.9845776891352
+    },
+    {
+      "question": {
+        "en": "Shall we go to the cinema?",
+        "de": "Sollen wir ins Kino gehen?"
+      },
+      "hideMessages": false,
+      "showInNavigation": false,
+      "forgetful": false,
+      "repeatable": true,
+      "showAlways": false,
+      "_id": "f0834440-a302-4bed-83b6-ba55e48f0d8f",
+      "_collection": "question",
+      "_origin": false,
+      "_x": 1237.4847898748449,
+      "_y": 1398.4040755041551
+    },
+    {
+      "suggestion": {
+        "de": "Gute Idee!",
+        "en": "Good idea!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "b832807e-f68c-4f64-a9c8-ac87c4a5ddb4",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 1004.4816806625888,
+      "_y": 1532.0055264698744
+    },
+    {
+      "suggestion": {
+        "de": "Nein! Lass uns trotzdem in den Pool gehen!",
+        "en": "No! Let's go to the pool anyway!"
+      },
+      "type": "button",
+      "name": "",
+      "priority": 50,
+      "required": true,
+      "_id": "79213fcd-f81d-47c0-94f6-043e3fb0d6d3",
+      "_collection": "suggestion",
+      "_origin": false,
+      "_x": 854.9031777699417,
+      "_y": 1307.7405878299746
+    },
+    {
+      "_id": "bf08736d-4d1f-42d8-8135-7bee3906b083",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 498.0905815235252,
+      "_y": -261.587940968444
+    },
+    {
+      "_id": "a6259718-f920-48bf-86e2-6cd3435f72b8",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 805.9598037141885,
+      "_y": -315.4730006171309
+    },
+    {
+      "_id": "1ceff031-65d7-488f-bb10-494e1dc403c0",
+      "_collection": "void",
+      "_origin": false,
+      "_x": 946.4166653825297,
+      "_y": -184.96622989600613
+    },
+    {
+      "seconds": 10000,
+      "forgetful": false,
+      "_id": "0221203c-f1cb-4c7f-992f-431fe88d09a5",
+      "_collection": "timer",
+      "_origin": false,
+      "_x": 931.0753203393239,
+      "_y": -14.456337240490669
+    },
+    {
+      "message": {
+        "en": "Good idea",
+        "de": "Gute Idee"
+      },
+      "forgetful": false,
+      "_id": "4ed54064-82e4-4572-b257-69b2999936c9",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -1238.74524364923,
+      "_y": 773.2839210207707
+    },
+    {
+      "message": {
+        "en": "Let's think about what we need to take with us.",
+        "de": "Lass uns überlegen, was wir alles mitnehmen müssen."
+      },
+      "forgetful": false,
+      "_id": "ecf3b296-e0a1-4dcb-a008-244d7fd55eb4",
+      "_collection": "message",
+      "_origin": false,
+      "_x": -1440.5306153690472,
+      "_y": 918.6493933524958
+    },
+    {
+      "conclusion": {
+        "en": "Bad weather reported!",
+        "de": "Schlechtes Wetter gemeldet!"
+      },
+      "expression": "",
+      "_id": "936ad6f9-16e5-462a-a45c-5624c8b68143",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 605.8023823324053,
+      "_y": 589.7511458039181
+    },
+    {
+      "conclusion": {
+        "en": "In the pool despite bad weather",
+        "de": "In den Pool trotz schlechtem Wetter"
+      },
+      "expression": "",
+      "_id": "4b945c8a-bad9-4d91-ba29-2e9a0418714f",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 217.0884169832422,
+      "_y": 778.2857009220771
+    },
+    {
+      "message": {
+        "en": "Perfect! Let's check out the latest trailers.",
+        "de": "Perfekt! Lass uns die neuesten Trailer ansehen."
+      },
+      "forgetful": false,
+      "_id": "e6b9d1f0-1c1d-444c-9104-f23d03bcb0b3",
+      "_collection": "message",
+      "_origin": false,
+      "_x": 674.277364665044,
+      "_y": 1625.781639166868
+    },
+    {
+      "conclusion": {
+        "en": "We want to go to the pool.",
+        "de": "Lass uns in den Pool gehen."
+      },
+      "expression": "",
+      "_id": "2cf76d62-9611-4a80-971c-fa3918622de1",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": -176.4469844320098,
+      "_y": 480.812801652498
+    },
+    {
+      "conclusion": {
+        "en": "I dont want to the pool if the weather is bad!",
+        "de": "Ich will nicht in den Pool, wenn das Wetter schlecht ist."
+      },
+      "expression": "",
+      "_id": "832df76c-d7b8-47d9-895d-604b454174af",
+      "_collection": "conclusion",
+      "_origin": false,
+      "_x": 238.96185801965402,
+      "_y": 527.6600663971949
+    }
+  ],
+  "edges": [
+    {
+      "_id": "f9802925-0f48-4950-ab89-0e49ba007759",
+      "_from": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_to": "6c1c2254-de84-4382-b039-aac32ba0a4dd",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "11b3d5c1-a10e-4691-a04c-25649a02f267",
+      "_from": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_to": "334191d7-c80d-4f54-bdc3-d07c0eecdd09",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "e0fe8e50-d09e-42d7-ae25-6ef3355b4285",
+      "_from": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_to": "2e56184d-7f93-4553-b234-2341f8df613b",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "711d14b2-455f-4c7e-b1d9-ec040c25738b",
+      "_from": "ea9c0f98-e2d1-48eb-b175-5bfd7881938b",
+      "_to": "5b7971be-30a4-4236-9043-a0db58f17545",
+      "_collection": "leadsTo"
+    },
+    {
+      "_id": "6485f3f5-9138-458c-968a-0d20f175ddf3",
+      "_from": "f0834440-a302-4bed-83b6-ba55e48f0d8f",
+      "_to": "b832807e-f68c-4f64-a9c8-ac87c4a5ddb4",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "_id": "fd81c8a8-3327-4cf2-bf2c-5d8549d6f467",
+      "_from": "f0834440-a302-4bed-83b6-ba55e48f0d8f",
+      "_to": "79213fcd-f81d-47c0-94f6-043e3fb0d6d3",
+      "_collection": "isAnswerableBy"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "6a05c005-d775-4232-a3fa-794edfc1be47",
+      "_from": "5b7971be-30a4-4236-9043-a0db58f17545",
+      "_to": "f0834440-a302-4bed-83b6-ba55e48f0d8f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "f30f8f34-29d8-453d-867a-707b89f7dc78",
+      "_from": "6257b2d9-b655-4044-82ea-94786b753d4e",
+      "_to": "bf08736d-4d1f-42d8-8135-7bee3906b083",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "d59a22a3-67b9-4365-9f8f-60dd550a1daf",
+      "_from": "bf08736d-4d1f-42d8-8135-7bee3906b083",
+      "_to": "a6259718-f920-48bf-86e2-6cd3435f72b8",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b505b5b4-bc93-45f5-abdc-69df8899836c",
+      "_from": "a6259718-f920-48bf-86e2-6cd3435f72b8",
+      "_to": "1ceff031-65d7-488f-bb10-494e1dc403c0",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "56c53ad9-1383-43a6-87ac-ccaffcc382aa",
+      "_from": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_to": "4ed54064-82e4-4572-b257-69b2999936c9",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "sent",
+      "_id": "ef632a10-717a-4ec3-88ce-eecfeada58b2",
+      "_from": "4ed54064-82e4-4572-b257-69b2999936c9",
+      "_to": "ecf3b296-e0a1-4dcb-a008-244d7fd55eb4",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "d1c0741f-6b50-4435-a795-a9644bae7f55",
+      "_from": "1ceff031-65d7-488f-bb10-494e1dc403c0",
+      "_to": "0221203c-f1cb-4c7f-992f-431fe88d09a5",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "expired",
+      "_id": "cfdf59d8-6dbb-4a7c-b729-b9e3514b3123",
+      "_from": "0221203c-f1cb-4c7f-992f-431fe88d09a5",
+      "_to": "936ad6f9-16e5-462a-a45c-5624c8b68143",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "63f2a365-682f-4f07-b1a9-a6c83f493659",
+      "_from": "936ad6f9-16e5-462a-a45c-5624c8b68143",
+      "_to": "ea9c0f98-e2d1-48eb-b175-5bfd7881938b",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "0cecf153-2be8-488a-ba6f-001564fb5c45",
+      "_from": "79213fcd-f81d-47c0-94f6-043e3fb0d6d3",
+      "_to": "4b945c8a-bad9-4d91-ba29-2e9a0418714f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "answered",
+      "_id": "bce86ed2-e40f-41eb-a7e5-fba16cfe295f",
+      "_from": "b832807e-f68c-4f64-a9c8-ac87c4a5ddb4",
+      "_to": "e6b9d1f0-1c1d-444c-9104-f23d03bcb0b3",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "and",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "94b354ea-1000-42ca-9c53-21fe30f05163",
+      "_from": "936ad6f9-16e5-462a-a45c-5624c8b68143",
+      "_to": "4b945c8a-bad9-4d91-ba29-2e9a0418714f",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "6dd9632d-0c0b-4ce9-a4fe-41c04fac2c1c",
+      "_from": "6257b2d9-b655-4044-82ea-94786b753d4e",
+      "_to": "2cf76d62-9611-4a80-971c-fa3918622de1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "102a825e-3e03-4f34-b2a6-a2c7fe71a2dd",
+      "_from": "2cf76d62-9611-4a80-971c-fa3918622de1",
+      "_to": "5714556b-906e-4068-8258-46676ce53a3d",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "or",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b619a1bd-44fd-4a5f-8862-cd4363a871fe",
+      "_from": "936ad6f9-16e5-462a-a45c-5624c8b68143",
+      "_to": "832df76c-d7b8-47d9-895d-604b454174af",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "a64a8258-c4b9-4eee-b653-9b0fe707db58",
+      "_from": "832df76c-d7b8-47d9-895d-604b454174af",
+      "_to": "2cf76d62-9611-4a80-971c-fa3918622de1",
+      "_collection": "leadsTo"
+    },
+    {
+      "type": "not",
+      "priority": 10,
+      "name": "",
+      "expose": "none",
+      "condition": "active",
+      "_id": "b8b68f33-3168-45ef-b741-636dc633cbab",
+      "_from": "4b945c8a-bad9-4d91-ba29-2e9a0418714f",
+      "_to": "832df76c-d7b8-47d9-895d-604b454174af",
+      "_collection": "leadsTo"
+    }
+  ]
+}
