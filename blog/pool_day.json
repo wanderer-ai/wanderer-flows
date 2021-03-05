@@ -18,7 +18,7 @@
       "license": "MIT",
       "builder": "wanderer.ai",
       "target": "web",
-      "time": "2021-03-05T15:33:42.561Z"
+      "time": "2021-03-05T16:08:58.956Z"
     },
     {
       "question": {
@@ -198,7 +198,7 @@
         "en": "Let's think about what we need to take with us.",
         "de": "Lass uns überlegen, was wir alles mitnehmen müssen."
       },
-      "forgetful": false,
+      "forgetful": true,
       "_id": "ecf3b296-e0a1-4dcb-a008-244d7fd55eb4",
       "_collection": "message",
       "_origin": false,
@@ -234,7 +234,7 @@
         "en": "Perfect! Let's check out the latest trailers.",
         "de": "Perfekt! Lass uns die neuesten Trailer ansehen."
       },
-      "forgetful": false,
+      "forgetful": true,
       "_id": "e6b9d1f0-1c1d-444c-9104-f23d03bcb0b3",
       "_collection": "message",
       "_origin": false,
