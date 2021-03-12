@@ -119,8 +119,8 @@
     },
     {
       "message": {
-        "en": "Hold down the CTRL key to select multiple nodes at the same time.",
-        "de": "Halte die STRG-Taste gedrückt, um mehrere Knoten gleichzeitig auszuwählen."
+        "en": "Click on nodes to select them. You can also choose multiple nodes. Click on the map to deselect them.",
+        "de": "Klicke auf Knoten, um diese auszuwählen. Du kannst so auch mehrere Knoten wählen. Klicke auf die Karte, um die Auswahl aufzuheben."
       },
       "_id": "b4763e79-3093-4b57-9799-308e907c8ec9",
       "_collection": "message",
@@ -130,8 +130,8 @@
     },
     {
       "message": {
-        "en": "Now you can easily drag them around together.",
-        "de": "Jetzt kannst du sie einfach zusammen an einen neuen Ort verschieben."
+        "en": "This way you can easily move one or more nodes.",
+        "de": "So kannst du ein oder mehrere Knoten auch ganz leicht verschieben."
       },
       "_id": "ef6d2728-5b4b-4ea5-a1bd-3e76baba5290",
       "_collection": "message",

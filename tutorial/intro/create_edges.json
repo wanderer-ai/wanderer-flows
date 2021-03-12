@@ -67,8 +67,8 @@
     },
     {
       "message": {
-        "en": "Select THIS message on the map. Then hold Ctrl and click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has appeared on the map.",
-        "de": "Wähle dafür DIESE Nachricht auf der Karte aus. Halte dann STRG gedrückt und klicke auch auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches auf der Karte erschienen ist."
+        "en": "Select THIS message on the map. Then click on the other message too. Now both nodes are selected. Now click on the link tool (yellow button), which has appeared on the map.",
+        "de": "Wähle dafür DIESE Nachricht auf der Karte aus und klicke danach auf die nächste. Nun sind beide Nodes ausgewählt. Klicke nun auf das Link-Tool (gelber Button), welches auf der Karte erschienen ist."
       },
       "_id": "6087053c-2f18-45f7-9402-ffba1c2658cd",
       "_collection": "message",
